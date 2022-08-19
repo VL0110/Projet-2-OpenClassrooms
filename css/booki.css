@@ -1,0 +1,559 @@
+
+/* 1)Eléments principaux de la page */
+
+body
+{
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+/* 2)Navigation */
+
+nav
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a
+{
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 10px 30px 10px 30px ;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    padding-top: 20px;
+    justify-content: space-between ;
+    margin: 10px 20px 10px 30px ;
+}
+
+header img
+{
+ width: 100px;
+ height: 60px;
+ object-fit: cover;
+ margin: 20px 5px 1px 30px ;
+}
+
+/* 3)Header */
+
+header h1
+{
+    font-size: 1.2em ;
+    margin: 20px 5px 0px 30px ;
+}
+
+header h3
+{
+    color : #737373 ;
+    font-size: 0.8em ;
+    font-weight: normal ;
+    margin: 5px 5px 10px 30px ;
+}
+
+/* 4)Barre de recherche */
+
+#recherche
+{
+   padding-left: 23px;
+}
+
+section i
+{
+    height: 20px;
+    border: 10px solid #F2F2F2;
+    border-bottom-left-radius: 10px ;
+    border-top-left-radius: 10px ;
+    background-color: #F2F2F2;
+    margin: 0px 0px 0px 30px ;  
+}
+section input
+{
+    height: 40px;
+    border: 1px solid #F2F2F2;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+}
+
+.bouton_bleu
+{
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    border: 10px solid #0065FC;
+    border-bottom-right-radius: 10px ;
+    border-top-right-radius: 10px ;
+    background-color: #0065FC;
+}
+
+/* 5)Filtres */
+
+span div
+{
+	display: flex;
+}
+
+span h1
+{
+    font-size: 1em ;
+    margin: 30px 15px 0px 30px ;
+}
+span h2
+{
+    font-size: 0.9em ;
+    height: 35px;
+    width: 120px ;
+    text-align: center;
+    margin: 5px 10px 0px 10px ; 
+}
+span h4
+{
+    font-size: 0.9em ;
+    height: 40px;
+    width: 150px ;
+}
+span div i
+{
+    border: 15px solid #DEEBFF;
+    font-size: 14px;
+    background-color: #DEEBFF;
+    text-align: center;
+    border-radius: 100px;
+    color: #0065FC;
+    padding-bottom: 10px;
+}
+#economique
+{
+    height: 40px;
+    width: 160px ;
+    border: 1px solid #DBDADA;
+    border-radius: 100px;
+    margin: 25px 10px 0px 10px ; 
+}
+#economique h2
+{
+    padding-top: 5px;
+}
+#famille
+{
+    height: 40px;
+    width: 140px ;
+    border: 1px solid #DBDADA;
+    border-radius: 100px;
+    margin: 25px 10px 0px 10px ; 
+}
+#famille h2
+{
+    padding-top: 5px;
+    padding-right: 10px;
+}
+#romantique
+{
+    height: 40px;
+    width: 170px ;
+    border: 1px solid #DBDADA;
+    border-radius: 100px;
+    margin: 25px 10px 0px 10px ; 
+}
+#romantique h2
+{
+    padding-top: 5px;
+    padding-right: 10px;
+}
+#animaux
+{
+    height: 40px;
+    width: 210px ;
+    border: 1px solid #DBDADA;
+    border-radius: 100px;
+    margin: 25px 10px 0px 10px ; 
+}
+#animaux h4
+{
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+aside
+{
+    display: flex;
+    color : #737373 ;
+    font-size: 0.6em ;
+    font-weight: normal ;  
+    margin: 5px 0px 30px 30px ; 
+}
+
+aside i
+{
+    height: 14px;
+    width: 14px ;
+    text-align: center;
+    padding-top: 2px;
+    background-color: #ffffff;
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 100px;
+    line-height: 20px;
+    margin: 5px 15px 30px 10px ; 
+    box-shadow: 0px 0px 2px #545454;
+}
+
+
+/* 6)Main */
+
+h2
+{
+
+    font-size: 1em ;
+    margin: 50px 300px 50px 5px ;
+}
+
+h4
+{
+    font-size: 0.8em ;
+    margin: 5px 5px 5px 5px ;
+}
+
+strong
+{
+    color : #181818;
+}
+
+h5
+{
+    font-size: 0.8em ;
+    margin: 5px 5px 30px 50px ;
+}
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* a)Hebergements */
+
+#hebergements 
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    position: relative;
+    left: 200px;
+    max-width: 620px;
+    border: 10px solid #f2f2f2;
+    border-radius: 30px;
+    background-color:#F2F2F2;    
+    margin: 5px 5px 0px 5px ;
+}
+
+#hebergements img
+{
+    width: 160px;
+    height: 80px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    margin: 0px 5px 0px 30px ;
+}
+
+#hebergements h2
+{
+    font-size: 1em ;
+    margin: 30px 300px 20px 5px ;
+}
+
+#hebergements h4
+{
+    font-size: 0.8em ;
+    border: 10px solid #FFFFFF;
+    background-color:#FFFFFF;   
+    margin: 0px 10px 0px 30px ;
+}
+
+#hebergements p
+{
+    color : #737373 ;
+    font-size: 0.6em ;
+    border: 10px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:#FFFFFF;   
+    margin: 0px 10px 30px 30px ;
+}
+
+
+#hebergements i
+{
+    color:#0065FC;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+    margin: 0px 0px 0px 0px ;
+}
+
+#hebergements span i
+{
+    color:#CFCCCC;
+    margin: 0px 0px 0px 0px ;
+}
+
+#heb
+{
+    font-size: 0.8em ;
+    margin: 5px 5px 20px 20px ;
+}
+
+#afficher
+{
+    font-size: 0.8em ;
+    margin: 5px 5px 20px 5px ;
+}
+
+/* b)Populaires */
+
+#populaires
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    position: relative;
+    left: 250px;
+    max-width: 500px;
+    border: 10px solid #f2f2f2;
+    border-radius: 30px;
+    background-color:#F2F2F2;   
+    margin: 0px 10px 0px 10px ; 
+}
+#populaires div
+{
+    display: flex;
+}
+
+#populaires img
+{
+    width: 70px;
+    height: 100px;
+    position: relative;
+    top: 5px;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+    margin: 5px 10px 5px 5px ;
+}
+
+#populaires h2 
+{
+    font-size: 1em ;
+    margin: 30px 20px 5px 5px ;
+}
+
+#populaires h4
+{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    right: 20px;
+    font-size: 0.8em ;
+    border-top-right-radius: 10px;
+    border: 10px solid #FFFFFF;
+    background-color:#FFFFFF;   
+    margin: 0px 10px 0px 10px ;
+}
+
+#populaires p
+{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    right: 210px;
+    color : #737373 ;
+    font-size: 0.6em ;
+    border: 10px solid #FFFFFF;
+    border-bottom-right-radius: 10px;
+    background-color:#FFFFFF;   
+    margin: 0px 0px 100px 10px ;
+}
+
+#populaires div i
+{
+    color:#0065FC;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+    margin: 0px 0px 0px 0px ;
+}
+
+#populaires span i
+{
+    color:#CFCCCC;
+    margin: 0px 0px 0px 0px ;
+}
+
+/* c)Activites */
+
+#activites
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1120px;
+    max-height: 500px ;
+    position: relative;
+    left: 110px;
+    border: 10px solid #FFFFFF;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+}
+
+#activites img
+{
+    width: 150px;
+    height: 100px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    margin: 5px 5px 5px 5px ;
+}
+
+#activites h2
+{
+    position: relative;
+    left: 100px;
+    font-size: 1em ;
+    margin: 30px 20px 5px 5px ;
+}
+#activites i
+{
+    color:#0065FC;
+    margin: 0px 0px 20px 0px ;
+}
+
+#activites span i
+{
+    color:#CFCCCC;
+    margin: 0px 0px 0px 0px ;
+}
+
+#vieux img
+{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    top: 70px;
+    right: 100px;
+}
+#vieux h4
+{
+    position: relative;
+    top: 70px;
+    right: 100px;
+}
+
+#pomegues img
+{
+    width: 300px;
+    height: 130px;
+    position: relative;
+    top: 70px;  
+    right: 70px;
+}
+#pomegues h4
+{
+    position: relative;
+    top: 70px;  
+    right: 70px;
+}
+
+#frioul img
+{
+    width: 300px;
+    height: 130px;
+    position: relative;
+    top: 270px;
+    right: 390px;
+}
+#frioul h4
+{
+    position: relative;
+    top: 270px;
+    right: 390px;
+}
+
+#calanques img
+{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    left: 690px;
+    bottom: 320px;
+}  
+#calanques h4
+{
+    position: relative;
+    left: 690px;
+    bottom: 320px;
+}
+
+#garde img
+{
+    width: 300px;
+    height: 130px;
+    position: relative;
+    left: 700px;
+    bottom: 320px;
+}
+#garde h4
+{
+    position: relative;
+    left: 700px;
+    bottom: 320px;
+}
+
+#longchamp img
+{
+    width: 300px;
+    height: 130px;
+    position: relative;
+    left: 400px;
+    bottom: 120px;
+}
+#longchamp h4
+{
+    position: relative;
+    left: 400px;
+    bottom: 120px;
+}
+
+/* 7)Footer */
+
+footer h1
+{
+    font-weight: normal;
+    font-size: 1.2em ;
+    margin: 20px 5px 7px 5px ;
+}
+
+footer h3
+{
+    color : #737373 ;
+    font-weight: normal;
+    font-size: 0.8em ;
+    margin: 5px 15px 5px 5px ;
+}
+
+footer
+{
+    height: 150px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px 0px 0px ;
+}
