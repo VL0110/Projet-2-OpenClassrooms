@@ -12,33 +12,33 @@ nav
 {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
-
-nav a
+nav ul
+{
+    display: flex;
+    list-style: none;
+}
+nav li
 {
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
     justify-content: space-between;
-    margin: 10px 30px 10px 30px ;
-}
+    margin: 30px 20px 0px 30px ;
 
-nav a:hover
+}
+nav li:hover
 {
     color: #0065FC;
-    border-top: 3px solid #0065FC;
-    padding-top: 20px;
-    justify-content: space-between ;
-    margin: 10px 20px 10px 30px ;
+    border-top: 2px solid #0065FC;
+    padding-top: 40px;
 }
-
-header img
+nav img
 {
  width: 100px;
  height: 60px;
  object-fit: cover;
- margin: 20px 5px 1px 30px ;
+ margin: 30px 0px 20px 20px ;
 }
 
 /* 3)Header */
@@ -48,40 +48,38 @@ header h1
     font-size: 1.2em ;
     margin: 20px 5px 0px 30px ;
 }
-
 header h3
 {
     color : #737373 ;
     font-size: 0.8em ;
     font-weight: normal ;
-    margin: 5px 5px 10px 30px ;
+    margin: 5px 5px 30px 30px ;
 }
 
 /* 4)Barre de recherche */
 
-#recherche
+span
 {
-   padding-left: 23px;
+    display: flex;
+	justify-content: flex-start;
+    margin: 0px 0px 20px 30px ;  
 }
-
-section i
+span i
 {
     height: 20px;
     border: 10px solid #F2F2F2;
     border-bottom-left-radius: 10px ;
     border-top-left-radius: 10px ;
     background-color: #F2F2F2;
-    margin: 0px 0px 0px 30px ;  
 }
-section input
+span input 
 {
     height: 40px;
     border: 1px solid #F2F2F2;
     border-radius: 0px;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; 
 }
-
-.bouton_bleu
+span a
 {
     height: 20px;
     text-decoration: none;
@@ -92,104 +90,89 @@ section input
     border-top-right-radius: 10px ;
     background-color: #0065FC;
 }
+span a:hover
+{
+    color: #181818;
+}
 
 /* 5)Filtres */
 
-span div
+#recherche div
 {
 	display: flex;
+    justify-content: flex-start;
+    position: relative;
 }
 
-span h1
+#recherche h2
 {
     font-size: 1em ;
-    margin: 30px 15px 0px 30px ;
+    margin: 5px 10px 10px 30px ;
 }
-span h2
+#recherche h3
 {
+    position: relative;
+    bottom: 8px;
     font-size: 0.9em ;
-    height: 35px;
-    width: 120px ;
-    text-align: center;
-    margin: 5px 10px 0px 10px ; 
+    height: 40px;
+    width: 100px ;
+    padding-left: 10px;
 }
-span h4
+#recherche h4
 {
     font-size: 0.9em ;
     height: 40px;
-    width: 150px ;
+    width: 140px ;
+    padding-left: 10px;
 }
-span div i
+#recherche div i
 {
-    border: 15px solid #DEEBFF;
-    font-size: 14px;
+    border: 10px solid #DEEBFF;
+    font-size: 12px;
     background-color: #DEEBFF;
-    text-align: center;
     border-radius: 100px;
     color: #0065FC;
-    padding-bottom: 10px;
 }
 #economique
 {
-    height: 40px;
-    width: 160px ;
+    height: 30px;
+    width: 145px ;
     border: 1px solid #DBDADA;
     border-radius: 100px;
-    margin: 25px 10px 0px 10px ; 
-}
-#economique h2
-{
-    padding-top: 5px;
+    margin: 0px 0px 0px 10px ;
 }
 #famille
 {
-    height: 40px;
-    width: 140px ;
+    height: 30px;
+    width: 105px ;
     border: 1px solid #DBDADA;
     border-radius: 100px;
-    margin: 25px 10px 0px 10px ; 
-}
-#famille h2
-{
-    padding-top: 5px;
-    padding-right: 10px;
+    margin: 0px 0px 0px 10px ;
 }
 #romantique
 {
-    height: 40px;
-    width: 170px ;
+    height: 30px;
+    width: 140px ;
     border: 1px solid #DBDADA;
     border-radius: 100px;
-    margin: 25px 10px 0px 10px ; 
-}
-#romantique h2
-{
-    padding-top: 5px;
-    padding-right: 10px;
+    margin: 0px 0px 0px 10px ;
 }
 #animaux
 {
-    height: 40px;
-    width: 210px ;
+    height: 30px;
+    width: 190px ;
     border: 1px solid #DBDADA;
-    border-radius: 100px;
-    margin: 25px 10px 0px 10px ; 
+    border-radius: 100px; 
+    margin: 0px 0px 0px 10px ;
 }
-#animaux h4
-{
-    padding-top: 5px;
-    padding-left: 15px;
-}
-
 aside
 {
     display: flex;
-    color : #737373 ;
+    color : #bdbdbd;
     font-size: 0.6em ;
     font-weight: normal ;  
     margin: 5px 0px 30px 30px ; 
 }
-
 aside i
 {
     height: 14px;
@@ -205,7 +188,6 @@ aside i
     box-shadow: 0px 0px 2px #545454;
 }
 
-
 /* 6)Main */
 
 h2
@@ -214,18 +196,15 @@ h2
     font-size: 1em ;
     margin: 50px 300px 50px 5px ;
 }
-
 h4
 {
     font-size: 0.8em ;
     margin: 5px 5px 5px 5px ;
 }
-
 strong
 {
     color : #181818;
 }
-
 h5
 {
     font-size: 0.8em ;
@@ -235,6 +214,8 @@ main
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: flex-start;
 }
 
 /* a)Hebergements */
@@ -243,77 +224,121 @@ main
 {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 10px;
-    position: relative;
-    left: 200px;
-    max-width: 620px;
+    justify-content:space-around;
+    align-items: flex-start;
+    width: 800px;
+    height: 600px;
     border: 10px solid #f2f2f2;
     border-radius: 30px;
     background-color:#F2F2F2;    
-    margin: 5px 5px 0px 5px ;
 }
-
+#hebergements h2
+{
+    font-size: 1em ;
+    margin: 20px 400px 0px 0px ;
+    position: relative;
+    right: 60px;
+}
+#hebergements h5
+{
+    font-size: 0.8em ;  
+    margin: 0px 0px 0px 500px ;
+    position: relative;
+    right: 570px;
+}
+#cannebiere
+{
+    border: 5px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    margin: 5px 5px 5px 5px ;
+    box-shadow: 0px 0px 5px #5a5959;
+}
+#port
+{
+    border: 5px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    margin: 5px 5px 5px 5px ;
+    box-shadow: 0px 0px 5px #5a5959;
+}
+#mouettes
+{
+    border: 5px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    margin: 5px 5px 5px 5px ;
+    box-shadow: 0px 0px 5px #5a5959;
+}
+#mer
+{
+    border: 5px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    margin: 5px 5px 5px 5px ;
+    box-shadow: 0px 0px 5px #5a5959;
+}
+#panier
+{
+    border: 5px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    margin: 5px 5px 5px 5px ;
+    box-shadow: 0px 0px 5px #5a5959;
+}
+#amina
+{
+    border: 5px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    margin: 5px 5px 5px 5px ;
+    box-shadow: 0px 0px 5px #5a5959;
+}
 #hebergements img
 {
-    width: 160px;
+    width: 200px;
     height: 80px;
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px;
     object-fit: cover;
-    margin: 0px 5px 0px 30px ;
-}
-
-#hebergements h2
-{
-    font-size: 1em ;
-    margin: 30px 300px 20px 5px ;
 }
 
 #hebergements h4
 {
     font-size: 0.8em ;
-    border: 10px solid #FFFFFF;
-    background-color:#FFFFFF;   
-    margin: 0px 10px 0px 30px ;
 }
 
 #hebergements p
 {
-    color : #737373 ;
-    font-size: 0.6em ;
-    border: 10px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color:#FFFFFF;   
-    margin: 0px 10px 30px 30px ;
+    color : #484848 ;
+    font-size: 0.6em ; 
+    margin: 5px 5px 15px 5px ;
 }
-
-
 #hebergements i
 {
     color:#0065FC;
     border: 0px solid #FFFFFF;
     border-radius: 0px;
     background-color:#FFFFFF;   
-    margin: 0px 0px 0px 0px ;
-}
-
-#hebergements span i
-{
-    color:#CFCCCC;
-    margin: 0px 0px 0px 0px ;
-}
-
-#heb
-{
-    font-size: 0.8em ;
-    margin: 5px 5px 20px 20px ;
-}
-
-#afficher
-{
-    font-size: 0.8em ;
-    margin: 5px 5px 20px 5px ;
+    margin: 5px 0px 5px 0px ;
 }
 
 /* b)Populaires */
@@ -321,98 +346,121 @@ main
 #populaires
 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    padding-left: 10px;
+    justify-content:space-between;
+    align-items: flex-start;
+    width: 400px;
+    height: 700px;
     position: relative;
-    left: 250px;
-    max-width: 500px;
     border: 10px solid #f2f2f2;
     border-radius: 30px;
     background-color:#F2F2F2;   
-    margin: 0px 10px 0px 10px ; 
+    margin: 5px 5px 5px 5px ;
 }
-#populaires div
+#populaires h2 
 {
     display: flex;
+    font-size: 1em ;
+    margin: 5px 15px 5px 5px ;
+    position: relative;
+    left: 20px;
+}
+#soleil
+{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    align-content: flex-start;
+    width: 300px;
+    height: 150px;
+    border: 5px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    box-shadow: 0px 0px 5px #5a5959;    
+    margin: 0px 5px 0px 5px ;
+}
+#eau
+{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    align-content: flex-start;
+    width: 300px;
+    height: 150px;
+    border: 5px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    box-shadow: 0px 0px 5px #5a5959;    
+    margin: 0px 5px 0px 5px ;
+}
+#bleu
+{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    align-content: flex-start;
+    width: 300px;
+    height: 150px;
+    border: 5px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    box-shadow: 0px 0px 5px #5a5959;    
+    margin: 0px 5px 0px 5px ;
 }
 
 #populaires img
 {
-    width: 70px;
-    height: 100px;
-    position: relative;
-    top: 5px;
+    width: 100px;
+    height: 150px;
     border-top-left-radius: 10px ;
     border-bottom-left-radius: 10px;
     object-fit: cover;
-    margin: 5px 10px 5px 5px ;
 }
-
-#populaires h2 
-{
-    font-size: 1em ;
-    margin: 30px 20px 5px 5px ;
-}
-
 #populaires h4
 {
-    width: 150px;
-    height: 40px;
-    position: relative;
-    top: 10px;
-    right: 20px;
     font-size: 0.8em ;
-    border-top-right-radius: 10px;
-    border: 10px solid #FFFFFF;
-    background-color:#FFFFFF;   
-    margin: 0px 10px 0px 10px ;
+    margin: 0px 50px 0px 10px ;
 }
-
 #populaires p
 {
-    width: 150px;
-    height: 40px;
-    position: relative;
-    top: 50px;
-    right: 210px;
     color : #737373 ;
-    font-size: 0.6em ;
-    border: 10px solid #FFFFFF;
-    border-bottom-right-radius: 10px;
-    background-color:#FFFFFF;   
-    margin: 0px 0px 100px 10px ;
+    font-size: 0.6em ; 
+    position: relative;
+    bottom: 50px;
+    margin: 0px 0px 0px 120px ;
 }
-
-#populaires div i
+#populaires i
 {
     color:#0065FC;
-    border: 0px solid #FFFFFF;
-    border-radius: 0px;
-    background-color:#FFFFFF;   
-    margin: 0px 0px 0px 0px ;
+}
+#etoile i
+{
+    color:#181818 ;
+    position: relative;
+    left: 350px;
+    bottom: 50px;
 }
 
-#populaires span i
-{
-    color:#CFCCCC;
-    margin: 0px 0px 0px 0px ;
-}
 
 /* c)Activites */
 
 #activites
 {
     display: flex;
+    justify-content: center;
+    align-content: space-around;
     flex-wrap: wrap;
-    max-width: 1120px;
-    max-height: 500px ;
-    position: relative;
-    left: 110px;
-    border: 10px solid #FFFFFF;
-    border-radius: 30px;
-    background-color:#FFFFFF;   
 }
-
 #activites img
 {
     width: 150px;
@@ -420,127 +468,61 @@ main
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px;
     object-fit: cover;
-    margin: 5px 5px 5px 5px ;
-}
-
-#activites h2
-{
-    position: relative;
-    left: 100px;
-    font-size: 1em ;
-    margin: 30px 20px 5px 5px ;
 }
 #activites i
 {
     color:#0065FC;
-    margin: 0px 0px 20px 0px ;
 }
-
 #activites span i
 {
     color:#CFCCCC;
-    margin: 0px 0px 0px 0px ;
 }
-
 #vieux img
 {
     width: 250px;
     height: 350px;
-    position: relative;
-    top: 70px;
-    right: 100px;
 }
-#vieux h4
-{
-    position: relative;
-    top: 70px;
-    right: 100px;
-}
-
 #pomegues img
 {
     width: 300px;
     height: 130px;
-    position: relative;
-    top: 70px;  
-    right: 70px;
 }
-#pomegues h4
-{
-    position: relative;
-    top: 70px;  
-    right: 70px;
-}
-
 #frioul img
 {
     width: 300px;
     height: 130px;
-    position: relative;
-    top: 270px;
-    right: 390px;
 }
-#frioul h4
-{
-    position: relative;
-    top: 270px;
-    right: 390px;
-}
-
 #calanques img
 {
     width: 250px;
     height: 350px;
-    position: relative;
-    left: 690px;
-    bottom: 320px;
 }  
-#calanques h4
-{
-    position: relative;
-    left: 690px;
-    bottom: 320px;
-}
-
 #garde img
 {
     width: 300px;
     height: 130px;
-    position: relative;
-    left: 700px;
-    bottom: 320px;
 }
-#garde h4
-{
-    position: relative;
-    left: 700px;
-    bottom: 320px;
-}
-
 #longchamp img
 {
     width: 300px;
     height: 130px;
-    position: relative;
-    left: 400px;
-    bottom: 120px;
-}
-#longchamp h4
-{
-    position: relative;
-    left: 400px;
-    bottom: 120px;
 }
 
 /* 7)Footer */
 
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    margin: 50px 0px 50px 0px ;
+}
 footer h1
 {
     font-weight: normal;
     font-size: 1.2em ;
     margin: 20px 5px 7px 5px ;
 }
-
 footer h3
 {
     color : #737373 ;
@@ -548,12 +530,11 @@ footer h3
     font-size: 0.8em ;
     margin: 5px 15px 5px 5px ;
 }
-
-footer
+footer h4
 {
-    height: 150px;
-    background-color: #f2f2f2;
-    display: flex;
-    justify-content: space-around;
-    margin: 50px 0px 0px 0px ;
+    color : #737373 ;
+    font-weight: normal;
+    font-size: 0.8em ;
+    margin: 5px 15px 20px 5px ;
 }
+

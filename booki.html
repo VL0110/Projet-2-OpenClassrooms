@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="css/booki.css" />
         <title>Booki</title>
-        <link href="https : //fonts.googleapis.com/css2?family= Raleway & display = swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/6d3825fa56.js" crossorigin="anonymous"></script>
 
     <!--Création site booki-->
@@ -17,8 +17,8 @@
                  <nav>
                     <img src="images/booki.png" alt="Logo de Booki" />
                         <ul>
-                            <a href="#"> Hébergements </a>
-                            <a href="#"> Activités </a>
+                            <li> Hébergements </li>
+                            <li> Activités </li>
                         </ul>
                     </nav>
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>    
@@ -28,32 +28,32 @@
 
 <!--2°)Recherche [titre(h) + barre de recherche () + filtres() + i()]-->
 
-    <span id="recherche" >
-      <section>
-        <i class="fa-solid fa-location-dot"></i>
+    <section id="recherche" >
+      <span>
+        <i class="fa-solid fa-location-dot" ></i>
         <input type="search" name="recherche" placeholder="Marseille, France">
         <a href="#" class="bouton_bleu">Recherche</a>
-      </section>
+      </span> 
           <div id="filtres">
-          <h1>Filtres</h1>  
+          <h2>Filtres</h2>  
             <div id="economique">
               <i class="fa-solid fa-money-bill-wave"></i>
-              <h2>Économique</h2> 
+              <h3>Économique</h3> 
             </div>   
               <div id="famille">
               <i class="fa-solid fa-child-reaching"></i>
-              <h2>Famille</h2>  
+              <h3>Famille</h3>  
             </div>
             <div id="romantique">  
               <i class="fa-solid fa-heart"></i>
-              <h2>Romantique</h2>  
+              <h3>Romantique</h3>  
             </div>
             <div id="animaux">
               <i class="fa-solid fa-dog"></i>  
               <h4>Animaux autorisés</h4> 
             </div>
         </div>
-    </span>   
+    </section>   
     <aside id="infos">
       <i class="fa-solid fa-info"></i>
       <h3>Plus de 500 logements sont disponibles dans cette ville</h3> 
@@ -63,8 +63,8 @@
 
     <main>
        <section id="hebergements">
-        <div id="heb"></div><h2>Hébergements à Marseille</h2></div>
-         <div id="cannebiere">
+       <h2>Hébergements à Marseille</h2>
+           <div id="cannebiere">
             <img src="images/hebergements/1cannebiere.jpg" alt="Image Auberge La Cannebière" />
                 <h4>Auberge La Cannebière</h4>
                 <p>Nuit à partir de <strong>25€</strong></br>
@@ -73,10 +73,10 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
-                <span><i class="fa-solid fa-star"></i></span></p>
-         </div>
+                <i class="fa-solid fa-star"></i></p>
+           </div>
          <div id="port">
-            <img src="images/hebergements/2port.jpg" alt="Image Hôtel du port" />
+          <img src="images/hebergements/2port.jpg" alt="Image Hôtel du port" />
                 <h4>Hôtel du port</h4>
                 <p>Nuit à partir de <strong>52€</strong></br>
                 </br>
@@ -84,7 +84,7 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i></p>
+                <i class="fa-solid fa-star"></i></p>
           </div>
           <div id="mouettes">
             <img src="images/hebergements/3mouettes.jpg" alt="Image Hôtel Les mouettes" />
@@ -95,7 +95,7 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
-                <span><i class="fa-solid fa-star"></i></span></p>
+                <i class="fa-solid fa-star"></i></p>
           </div>
           <div id="mer">
             <img src="images/hebergements/4mer.jpg" alt="Image Hôtel de la mer" />
@@ -105,8 +105,8 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
-                  <span><i class="fa-solid fa-star"></i></span>
-                <span><i class="fa-solid fa-star"></i></span></p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i></p>
           </div>
           <div id="panier">
             <img src="images/hebergements/5panier.jpg" alt="Image Auberge Le Panier" />
@@ -117,7 +117,7 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
-                <span><i class="fa-solid fa-star"></i></span></p>
+                <i class="fa-solid fa-star"></i></p>
            </div>
            <div id="amina">
              <img src="images/hebergements/6amina.jpg" alt="Image Hôtel chez Amina" />
@@ -129,14 +129,16 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i></p>
-            </div></br>
-            </br>
-            <div id="afficher"></div> <h5>Afficher plus</h5></div>
+            </div>
+            <h5>Afficher plus</h5>
        </section>
 
 
         <section id="populaires">
-         <h2>Les plus populaires<i class="fa-solid fa-star"></i></h2>
+         <h2>Les plus populaires</h2>
+         <div id="etoile">
+          <i class="fa-solid fa-star"></i>
+         </div>
             <div id="soleil">
               <img src="images/hebergements/7soleil.jpg" alt="Image Hôtel Le soleil du matin" />
                 <h4>Hôtel Le soleil du matin</h4>
@@ -157,18 +159,18 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
-                <span><i class="fa-solid fa-star"></i></span></p>
+                <i class="fa-solid fa-star"></i></p>
             </div>
             <div id="bleu">
               <img src="images/hebergements/9bleu.jpg" alt="Image Hôtel Tout bleu et Blanc" />
-                <h4>Hôtel Tout bleu et Blanc</h4>
+                <h4>Hôtel Tout bleu </br> et Blanc</h4>
                 <p>Nuit à partir de <strong>68€</strong></br>
                 </br>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
-                <span><i class="fa-solid fa-star"></i></span></p>
+                <i class="fa-solid fa-star"></i></p>
             </div>
         </section>
 
@@ -210,7 +212,7 @@
           <h1>A propos ?</h1>
             <h3>Fonctionnement du site</h3>
             <h3>Conditions générales de ventes</h3>
-            <h3>Données et confidentialité</h3>
+            <h4>Données et confidentialité</h4>
         </div>
 
         <div id="nos_hebergement">
