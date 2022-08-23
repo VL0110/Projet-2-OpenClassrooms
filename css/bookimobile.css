@@ -1,0 +1,45 @@
+
+/*Version mobile*/
+/* 1)Eléments principaux de la page */
+
+body
+{
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+/* 2)Navigation */
+
+nav
+{
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+nav ul
+{
+    display: flex;
+    list-style: none;
+}
+nav li
+{
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 30px 20px 0px 30px ;
+
+}
+nav li:hover
+{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 40px;
+}
+nav img
+{
+ width: 80px;
+ height: 50px;
+ object-fit: cover;
+ margin: 30px 0px 20px 20px ;
+}

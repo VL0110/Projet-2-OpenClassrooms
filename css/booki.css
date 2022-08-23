@@ -107,12 +107,12 @@ span a:hover
 #recherche h2
 {
     font-size: 1em ;
-    margin: 5px 10px 10px 30px ;
+    margin: 5px 10px 10px 35px ;
 }
 #recherche h3
 {
     position: relative;
-    bottom: 8px;
+    bottom: 6px;
     font-size: 0.9em ;
     height: 40px;
     width: 100px ;
@@ -123,46 +123,56 @@ span a:hover
     font-size: 0.9em ;
     height: 40px;
     width: 140px ;
-    padding-left: 10px;
+    position: relative;
+    top: 3px;
+    left: 7px;
 }
 #recherche div i
 {
     border: 10px solid #DEEBFF;
-    font-size: 12px;
+    font-size: 15px;
     background-color: #DEEBFF;
     border-radius: 100px;
     color: #0065FC;
 }
+#recherche div i:hover
+{
+    color: #ff9500;
+}
 #economique
 {
-    height: 30px;
+    height: 35px;
     width: 145px ;
     border: 1px solid #DBDADA;
     border-radius: 100px;
-    margin: 0px 0px 0px 10px ;
+    box-shadow: 0px 0px 1px #5a5959;    
+    margin: 0px 10px 0px 10px ;
 }
 #famille
 {
-    height: 30px;
-    width: 105px ;
+    height: 34px;
+    width: 106px ;
     border: 1px solid #DBDADA;
     border-radius: 100px;
-    margin: 0px 0px 0px 10px ;
+    box-shadow: 0px 0px 1px #5a5959;    
+    margin: 0px 10px 0px 10px ;
 }
 #romantique
 {
-    height: 30px;
+    height: 35px;
     width: 140px ;
     border: 1px solid #DBDADA;
     border-radius: 100px;
-    margin: 0px 0px 0px 10px ;
+    box-shadow: 0px 0px 1px #5a5959;    
+    margin: 0px 10px 0px 10px ;
 }
 #animaux
 {
-    height: 30px;
+    height: 35px;
     width: 190px ;
     border: 1px solid #DBDADA;
     border-radius: 100px; 
+    box-shadow: 0px 0px 1px #5a5959;    
     margin: 0px 0px 0px 10px ;
 }
 aside
@@ -186,6 +196,10 @@ aside i
     line-height: 20px;
     margin: 5px 15px 30px 10px ; 
     box-shadow: 0px 0px 2px #545454;
+}
+aside i:hover
+{
+    color: #ff9500;
 }
 
 /* 6)Main */
@@ -214,7 +228,6 @@ main
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
     align-items: flex-start;
 }
 
@@ -224,27 +237,36 @@ main
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
     align-items: flex-start;
-    width: 800px;
+    width: 750px;
     height: 600px;
     border: 10px solid #f2f2f2;
     border-radius: 30px;
-    background-color:#F2F2F2;    
+    background-color:#F2F2F2;  
+    margin: 5px 10px 10px 30px ;  
 }
 #hebergements h2
 {
     font-size: 1em ;
     margin: 20px 400px 0px 0px ;
     position: relative;
-    right: 60px;
+    left: 25px;
+    top: 5px;
+}
+#hebergements h2:hover
+{
+    color: #ff9500;
 }
 #hebergements h5
 {
     font-size: 0.8em ;  
     margin: 0px 0px 0px 500px ;
     position: relative;
-    right: 570px;
+    right: 470px;
+}
+#hebergements h5:hover
+{
+    color: #ff9500;
 }
 #cannebiere
 {
@@ -254,8 +276,12 @@ main
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px;
     background-color:#FFFFFF; 
-    margin: 5px 5px 5px 5px ;
-    box-shadow: 0px 0px 5px #5a5959;
+    margin: 5px 15px 5px 15px ;
+    box-shadow: 0px 0px 5px #808080;
+}
+#cannebiere:hover
+{
+    color: #ff9500;
 }
 #port
 {
@@ -265,8 +291,12 @@ main
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px;
     background-color:#FFFFFF; 
-    margin: 5px 5px 5px 5px ;
-    box-shadow: 0px 0px 5px #5a5959;
+    margin: 5px 15px 5px 15px ;
+    box-shadow: 0px 0px 5px #808080;
+}
+#port:hover
+{
+    color: #ff9500;
 }
 #mouettes
 {
@@ -276,8 +306,12 @@ main
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px;
     background-color:#FFFFFF; 
-    margin: 5px 5px 5px 5px ;
-    box-shadow: 0px 0px 5px #5a5959;
+    margin: 5px 15px 5px 15px ;
+    box-shadow: 0px 0px 5px #808080;
+}
+#mouettes:hover
+{
+    color: #ff9500;
 }
 #mer
 {
@@ -287,8 +321,12 @@ main
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px;
     background-color:#FFFFFF; 
-    margin: 5px 5px 5px 5px ;
-    box-shadow: 0px 0px 5px #5a5959;
+    margin: 5px 15px 5px 15px ;
+    box-shadow: 0px 0px 5px #808080;
+}
+#mer:hover
+{
+    color: #ff9500;
 }
 #panier
 {
@@ -298,8 +336,12 @@ main
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px;
     background-color:#FFFFFF; 
-    margin: 5px 5px 5px 5px ;
-    box-shadow: 0px 0px 5px #5a5959;
+    margin: 5px 15px 5px 15px ;
+    box-shadow: 0px 0px 5px #808080;
+}
+#panier:hover
+{
+    color: #ff9500;
 }
 #amina
 {
@@ -309,8 +351,12 @@ main
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px;
     background-color:#FFFFFF; 
-    margin: 5px 5px 5px 5px ;
-    box-shadow: 0px 0px 5px #5a5959;
+    margin: 5px 15px 5px 15px ;
+    box-shadow: 0px 0px 5px #808080;
+}
+#amina:hover
+{
+    color: #ff9500;
 }
 #hebergements img
 {
@@ -348,80 +394,121 @@ main
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content:space-between;
-    align-items: flex-start;
     width: 400px;
-    height: 700px;
+    height: 600px;
     position: relative;
     border: 10px solid #f2f2f2;
     border-radius: 30px;
     background-color:#F2F2F2;   
-    margin: 5px 5px 5px 5px ;
+    margin: 0px 10px 10px 30px ;  
 }
 #populaires h2 
 {
     display: flex;
     font-size: 1em ;
-    margin: 5px 15px 5px 5px ;
     position: relative;
-    left: 20px;
+    left: 25px;
+    top: 15px;
+    margin: 15px 20px 20px 0px ;
+}
+#populaires h2:hover
+{
+    color: #ff9500;
 }
 #soleil
 {
     display: flex;
     flex-wrap:wrap;
-    align-items: center;
-    align-content: flex-start;
     width: 300px;
-    height: 150px;
-    border: 5px solid #FFFFFF;
+    height: 120px;
+    border: 3px solid #FFFFFF;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px;
     background-color:#FFFFFF; 
-    box-shadow: 0px 0px 5px #5a5959;    
-    margin: 0px 5px 0px 5px ;
+    position: relative;
+    left: 25px;
+    box-shadow: 0px 0px 5px #808080;   
+    margin: 15px 5px 15px 5px ;
 }
+#soleil p
+{
+        color : #737373 ;
+        font-size: 0.6em ; 
+        position: relative;
+        left: 125px;
+        bottom: 85px;
+}
+#soleil:hover
+{
+    color: #ff9500;
+}
+
 #eau
 {
     display: flex;
     flex-wrap:wrap;
-    align-items: center;
-    align-content: flex-start;
     width: 300px;
-    height: 150px;
-    border: 5px solid #FFFFFF;
+    height: 120px;
+    border: 3px solid #FFFFFF;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px;
     background-color:#FFFFFF; 
-    box-shadow: 0px 0px 5px #5a5959;    
-    margin: 0px 5px 0px 5px ;
+    position: relative;
+    left: 25px;
+    box-shadow: 0px 0px 5px #808080; 
+    margin: 15px 5px 15px 5px ;
 }
+#eau p
+{
+        color : #737373 ;
+        font-size: 0.6em ; 
+        position: relative;
+        left: 125px;
+        bottom: 70px;
+}
+#eau:hover
+{
+        color: #ff9500;
+}
+
 #bleu
 {
     display: flex;
     flex-wrap:wrap;
-    align-items: center;
-    align-content: flex-start;
     width: 300px;
-    height: 150px;
-    border: 5px solid #FFFFFF;
+    height: 120px;
+    border: 3px solid #FFFFFF;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px;
     background-color:#FFFFFF; 
-    box-shadow: 0px 0px 5px #5a5959;    
-    margin: 0px 5px 0px 5px ;
+    position: relative;
+    left: 25px;
+    box-shadow: 0px 0px 5px #808080;  
+    margin: 15px 5px 5px 5px ;
+}
+#bleu p
+{
+        color : #737373 ;
+        font-size: 0.6em ; 
+        position: relative;
+        left: 125px;
+        bottom: 70px;
+}
+#bleu:hover
+{
+    color: #ff9500;
 }
 
 #populaires img
 {
     width: 100px;
-    height: 150px;
+    height: 120px;
     border-top-left-radius: 10px ;
     border-bottom-left-radius: 10px;
     object-fit: cover;
@@ -430,82 +517,192 @@ main
 {
     font-size: 0.8em ;
     margin: 0px 50px 0px 10px ;
-}
-#populaires p
-{
-    color : #737373 ;
-    font-size: 0.6em ; 
     position: relative;
-    bottom: 50px;
-    margin: 0px 0px 0px 120px ;
+    left: 15px;
+    top: 25px;
 }
 #populaires i
 {
     color:#0065FC;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+    margin: 5px 0px 5px 0px ;
 }
 #etoile i
 {
     color:#181818 ;
     position: relative;
     left: 350px;
-    bottom: 50px;
+    bottom: 30px;
 }
-
 
 /* c)Activites */
 
 #activites
 {
     display: flex;
-    justify-content: center;
-    align-content: space-around;
     flex-wrap: wrap;
+    align-items: flex-start;
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    border: 10px solid #FFFFFF;
+    border-radius: 30px;
+    background-color:#ffffff;
+    margin: 5px 10px 0px 30px ;  
 }
 #activites img
 {
-    width: 150px;
-    height: 100px;
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px;
     object-fit: cover;
 }
-#activites i
+#activites h2
 {
-    color:#0065FC;
+    font-size: 1em ;
+    margin: 20px 1000px 30px 30px ;
 }
-#activites span i
+#activites h2:hover
 {
-    color:#CFCCCC;
+    color: #ff9500;
+}
+
+#vieux
+{
+    border: 0px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    box-shadow: 0px 0px 5px #808080;
+    margin: 5px 15px 5px 15px ;
 }
 #vieux img
 {
     width: 250px;
-    height: 350px;
+    height: 340px;
+}
+#vieux:hover
+{
+    color: #ff9500;
+}
+
+#pomegues
+{
+    border: 0px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    box-shadow: 0px 0px 5px #808080;
+    margin: 5px 15px 5px 15px ;
 }
 #pomegues img
 {
-    width: 300px;
+    width: 250px;
     height: 130px;
+}
+#pomegues:hover
+{
+    color: #ff9500;
+}
+
+#frioul
+{
+    border: 0px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    position: relative;
+    top: 200px;
+    right: 280px;
+    box-shadow: 0px 0px 5px #808080;
+    margin: 5px 15px 5px 15px ;
 }
 #frioul img
 {
-    width: 300px;
+    width: 250px;
     height: 130px;
+}
+#frioul:hover
+{
+    color: #ff9500;
+}
+
+#calanques
+{
+    border: 0px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    position: relative;
+    right: 280px;
+    box-shadow: 0px 0px 5px #808080;
+    margin: 5px 15px 5px 15px ;
 }
 #calanques img
 {
     width: 250px;
-    height: 350px;
+    height: 340px;
 }  
+#calanques:hover
+{
+    color: #ff9500;
+}
+
+#garde
+{
+    border: 0px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    position: relative;
+    bottom: 380px;
+    left: 840px;
+    box-shadow: 0px 0px 5px #808080;
+    margin: 5px 15px 5px 15px ;
+}
 #garde img
 {
-    width: 300px;
+    width: 250px;
     height: 130px;
+}
+#garde:hover
+{
+    color: #ff9500;
+}
+
+#longchamp
+{
+    border: 0px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color:#FFFFFF; 
+    position: relative;
+    bottom: 180px;
+    left: 560px;
+    box-shadow: 0px 0px 5px #808080;
+    margin: 5px 15px 5px 15px ;
 }
 #longchamp img
 {
-    width: 300px;
+    width: 250px;
     height: 130px;
+}
+#longchamp:hover
+{
+    color: #ff9500;
 }
 
 /* 7)Footer */
@@ -537,4 +734,3 @@ footer h4
     font-size: 0.8em ;
     margin: 5px 15px 20px 5px ;
 }
-
