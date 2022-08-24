@@ -97,37 +97,38 @@ span a:hover
 
 /* 5)Filtres */
 
-#recherche div
+#filtres 
 {
 	display: flex;
     justify-content: flex-start;
     position: relative;
 }
 
-#recherche h2
+#filtres h2
 {
     font-size: 1em ;
     margin: 5px 10px 10px 35px ;
 }
-#recherche h3
+#filtres h3
 {
     position: relative;
-    bottom: 6px;
+    bottom: 40px;
+    left: 30px;
     font-size: 0.9em ;
     height: 40px;
-    width: 100px ;
+    width: 130px ;
     padding-left: 10px;
 }
-#recherche h4
+#filtres h4
 {
     font-size: 0.9em ;
     height: 40px;
-    width: 140px ;
+    width: 170px ;
     position: relative;
-    top: 3px;
-    left: 7px;
+    bottom: 30px;
+    left: 35px;
 }
-#recherche div i
+#filtres div i
 {
     border: 10px solid #DEEBFF;
     font-size: 15px;
@@ -135,7 +136,7 @@ span a:hover
     border-radius: 100px;
     color: #0065FC;
 }
-#recherche div i:hover
+#filtres div i:hover
 {
     color: #ff9500;
 }

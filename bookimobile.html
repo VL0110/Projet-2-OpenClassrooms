@@ -2,12 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="css/booki.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/6d3825fa56.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/bookimobile.css" />
         <title>Booki</title>
+        <link href="https : //fonts.googleapis.com/css2?family= Raleway :wght@800 & display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6d3825fa56.js" crossorigin="anonymous"></script>
 
-    <!--Création site booki-->
+    <!--Création site booki mobile -->
 
 <!--1°)HEADER + NAV : logo(div/id/img) + menu(nav/ul/il) -->
 
@@ -32,7 +32,7 @@
       <span>
         <i class="fa-solid fa-location-dot" ></i>
         <input type="search" name="recherche" placeholder="Où allez-vous ?">
-        <a href="#" class="bouton_bleu">Rechercher</a>
+        <div><i class="fa-solid fa-magnifying-glass"></i></div>
       </span> 
           <div id="filtres">
           <h2>Filtres</h2>  
@@ -62,6 +62,46 @@
 <!--3°)BODY : Hébergements(section/h/div/img/span) + Populaires (section/h/div/img/span/bouton) + Activités(section/h/div/img) -->
 
     <main>
+        <section href="#" id="populaires">
+            <h2>Les plus populaires</h2>
+            <div id="etoile">
+             <i class="fa-solid fa-star"></i>
+            </div>
+               <div href="#" id="soleil">
+                 <img src="images/hebergements/7soleil.jpg" alt="Image Hôtel Le soleil du matin" />
+                   <h4>Hôtel Le soleil du matin</h4>
+                   <p>Nuit à partir de <strong>128€</strong></br>
+                   </br>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i></p>
+               </div>
+               <div href="#" id="eau">
+                 <img src="images/hebergements/8eau.jpg" alt="Image Au coeur de l'eau Chambres d'hôtes" />
+                   <h4>Au coeur de l'eau </br> Chambres d'hôtes</h4>
+                   <p>Nuit à partir de <strong>71€</strong></br>
+                   </br>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i></p>
+               </div>
+               <div href="#" id="bleu">
+                 <img src="images/hebergements/9bleu.jpg" alt="Image Hôtel Tout bleu et Blanc" />
+                   <h4>Hôtel Tout bleu </br> et Blanc</h4>
+                   <p>Nuit à partir de <strong>68€</strong></br>
+                   </br>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i></p>
+               </div>
+           </section>
+           
        <section href="#" id="hebergements">
        <h2>Hébergements à Marseille</h2>
            <div href="#" id="cannebiere">
@@ -132,48 +172,6 @@
             </div>
             <h5>Afficher plus</h5>
        </section>
-
-
-        <section href="#" id="populaires">
-         <h2>Les plus populaires</h2>
-         <div id="etoile">
-          <i class="fa-solid fa-star"></i>
-         </div>
-            <div href="#" id="soleil">
-              <img src="images/hebergements/7soleil.jpg" alt="Image Hôtel Le soleil du matin" />
-                <h4>Hôtel Le soleil du matin</h4>
-                <p>Nuit à partir de <strong>128€</strong></br>
-                </br>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i></p>
-            </div>
-            <div href="#" id="eau">
-              <img src="images/hebergements/8eau.jpg" alt="Image Au coeur de l'eau Chambres d'hôtes" />
-                <h4>Au coeur de l'eau </br> Chambres d'hôtes</h4>
-                <p>Nuit à partir de <strong>71€</strong></br>
-                </br>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i></p>
-            </div>
-            <div href="#" id="bleu">
-              <img src="images/hebergements/9bleu.jpg" alt="Image Hôtel Tout bleu et Blanc" />
-                <h4>Hôtel Tout bleu </br> et Blanc</h4>
-                <p>Nuit à partir de <strong>68€</strong></br>
-                </br>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i></p>
-            </div>
-        </section>
-
 
         <section href="#" id="activites">
          <h2>Activités à Marseille</h2>
