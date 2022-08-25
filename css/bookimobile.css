@@ -1,5 +1,5 @@
 
-/*Version mobile*/
+/*Version mobile 391px maquette*/
 /* 1)Eléments principaux de la page */
 
 body
@@ -56,12 +56,12 @@ nav li:hover
 
 header h1
 {
-    font-size: 1.8em ;
+    font-size: 1.7em ;
     margin: 20px 0px 0px 15px ;
 }
 header h3
 {
-    font-size: 1.3em ;
+    font-size: 1.2em ;
     font-weight: normal ;
     margin: 5px 5px 30px 15px ;
 }
@@ -76,10 +76,11 @@ span
 }
 span i
 {
-    height: 40px;
-    width: 40px;
-    font-size: 1.6em;
+    height: 35px;
+    width: 50px;
+    font-size: 1.8em;
     text-align: center;
+    padding-top: 5px;
     border: 10px solid #F2F2F2;
     border-bottom-left-radius: 20px ;
     border-top-left-radius: 20px ;
@@ -88,8 +89,8 @@ span i
 span input 
 {
     height: 60px;
-    width: 365px;
-    font-size: 1.2em;
+    width: 265px;
+    font-size: 1.4em;
     border: 1px solid #F2F2F2;
     border-radius: 0px;
     background-color: #FFFFFF; 
@@ -98,11 +99,12 @@ span input
 
 #recherche span div i
 {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 50px;
     text-decoration: none;
-    font-size: 1.6em;
+    font-size: 1.8em;
     text-align: center;
+    padding-top: 5px;
     color: #FFFFFF;
     border: 10px solid #0065FC;
     border-bottom-right-radius: 20px ;
@@ -129,7 +131,7 @@ span input
 {
     font-size: 1.6em ;
     margin: 5px 10px 10px 35px ;
-    margin: 5px 405px 30px 5px ;
+    margin: 5px 405px 30px 15px ;
 }
 #filtres h3
 {
@@ -209,7 +211,7 @@ aside
 aside h3
 {
     color : #181818;
-    font-size: 1.4em ;
+    font-size: 1.2em ;
     font-weight: normal ; 
     margin: 5px 5px 5px 5px ; 
 }
@@ -254,34 +256,27 @@ h5
     font-size: 0.8em ;
     margin: 5px 5px 30px 50px ;
 }
-main
-{
-    display: flex;
-    flex-direction: column;
-}
+
 
 /* a)Populaires */
 
 #populaires
 {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    width: 400px;
-    height: 700px;
+    justify-items: flex-start;
+    align-content: flex-start;
+    width: 450px;
+    height: 730px;
     position: relative;
     border: 10px solid #f2f2f2;
-    border-radius: 30px;
+    border-radius: 0px;
     background-color:#F2F2F2;   
-    margin: 0px 10px 10px 10px ;  
 }
 #populaires h2 
 {
     display: flex;
-    font-size: 1.6em ;
-    position: relative;
-    left: 25px;
-    top: 15px;
+    font-size: 1.7em ;
     margin: 15px 20px 0px 0px ;
 }
 #populaires h2:hover
@@ -289,132 +284,177 @@ main
     color: #ff9500;
 }
 
-#populaires img
-{
-    width: 120px;
-    height: 140px;
-    border-top-left-radius: 10px ;
-    border-bottom-left-radius: 10px;
-    object-fit: cover;
-}
-#populaires h4
-{
-    font-size: 1em ;
-    margin: 0px 50px 0px 10px ;
-    position: relative;
-    left: 15px;
-    top: 25px;
-}
-#populaires i
-{
-    color:#0065FC;
-    border: 0px solid #FFFFFF;
-    border-radius: 0px;
-    background-color:#FFFFFF;   
-    margin: 5px 0px 5px 0px ;
-}
-
 #soleil
 {
     display: flex;
     flex-wrap:wrap;
-    width: 350px;
-    height: 140px;
-    border: 0px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
-    background-color:#FFFFFF; 
     position: relative;
-    left: 20px;
+    width: 410px;
+    height: 165px;
+    border: 6px solid #FFFFFF;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px ;
+    border-top-right-radius: 25px;
+    background-color:#FFFFFF; 
     box-shadow: 0px 2px 3px #d8d8d8; 
-    margin: 15px 5px 15px 5px ;
+    margin: 5px 5px 15px 5px ;
+}
+#soleil img
+{
+    width: 155px;
+    height: 165px;
+    object-fit: cover;
+    color:#0065FC;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+    border-top-left-radius: 25px ;
+    border-bottom-left-radius: 25px;
+}
+#soleil h4
+{
+    font-size: 1.2em ;
+    margin: 45px 5px 0px 15px ;
 }
 #soleil p
 {
         color : #737373 ;
-        font-size: 0.8em ; 
+        font-size: 1em ; 
         position: relative;
-        left: 145px;
-        bottom: 85px;
+        bottom: 105px;
+        left: 170px;
 }
 #soleil:hover
 {
     color: #ff9500;
 }
-
+#soleil i
+{
+    color:#0065FC;
+    font-size: 0.8em ; 
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
 #eau
 {
     display: flex;
     flex-wrap:wrap;
-    width: 350px;
-    height: 140px;
-    border: 0px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
-    background-color:#FFFFFF; 
     position: relative;
-    left: 20px;
+    width: 410px;
+    height: 165px;
+    border: 5px solid #FFFFFF;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px ;
+    border-top-right-radius: 25px;
+    background-color:#FFFFFF; 
     box-shadow: 0px 2px 3px #d8d8d8; 
-    margin: 15px 5px 15px 5px ;
+    margin: 5px 5px 15px 5px ;
+}
+#eau img
+{
+    width: 155px;
+    height: 165px;
+    object-fit: cover;
+    color:#0065FC;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+    border-top-left-radius: 25px ;
+    border-bottom-left-radius: 25px;
+}
+#eau h4
+{
+    font-size: 1.2em ;
+    margin: 30px 5px 0px 15px ;
 }
 #eau p
 {
-        color : #737373 ;
-        font-size: 0.8em ; 
-        position: relative;
-        left: 145px;
-        bottom: 80px;
+    color : #737373 ;
+    font-size: 1em ; 
+    position: relative;
+    bottom: 95px;
+    left: 170px;
 }
 #eau:hover
 {
-        color: #ff9500;
+    color: #ff9500;
 }
-
+#eau i
+{
+    color:#0065FC;
+    font-size: 0.8em ; 
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
 #bleu
 {
     display: flex;
     flex-wrap:wrap;
-    width: 350px;
-    height: 140px;
-    border: 0px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
-    background-color:#FFFFFF; 
     position: relative;
-    left: 20px;
+    width: 410px;
+    height: 165px;
+    border: 5px solid #FFFFFF;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px ;
+    border-top-right-radius: 25px;
+    background-color:#FFFFFF; 
     box-shadow: 0px 2px 3px #d8d8d8; 
-    margin: 15px 5px 5px 5px ;
+    margin: 5px 5px 5px 5px ;
+}
+#bleu img
+{
+    width: 155px;
+    height: 165px;
+    object-fit: cover;
+    color:#0065FC;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+    border-top-left-radius: 25px ;
+    border-bottom-left-radius: 25px;
+}
+#bleu h4
+{
+    font-size: 1.2em ;
+    margin: 30px 5px 0px 15px ;
 }
 #bleu p
 {
-        color : #737373 ;
-        font-size: 0.8em ; 
-        position: relative;
-        left: 145px;
-        bottom: 80px;
+    color : #737373 ;
+    font-size: 1em ; 
+    position: relative;
+    bottom: 95px;
+    left: 170px;
 }
 #bleu:hover
 {
     color: #ff9500;
 }
+#bleu i
+{
+    color:#0065FC;
+    font-size: 0.8em ; 
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
+
 #etoile i
 {
     color:#181818 ;
-    font-size: 1.8em ;
+    font-size: 1.5em ;
     position: relative;
-    left: 325px;
+    left: 380px;
     bottom: 40px;
     border: 10px solid #f2f2f2;
     border-radius: 30px;
     background-color:#F2F2F2;   
 }
-
 
 /* b)Hebergements */
 
@@ -428,16 +468,16 @@ main
     border: 10px solid #ffffff;
     border-radius: 30px;
     background-color:#ffffff;  
-    margin: 0px 10px 10px 10px ;  
+    margin: 0px 0px 10px 10px ;  
 }
 #hebergements h2
 {
     display: flex;
-    font-size: 1.6em ;
+    font-size: 1.7em ;
     position: relative;
     left: 25px;
     top: 15px;
-    margin: 15px 20px 50px 0px ;
+    margin: 5px 20px 25px 0px ;
 }
 #hebergements h2:hover
 {
@@ -445,7 +485,7 @@ main
 }
 #hebergements h5
 {
-    font-size: 1.2em ;
+    font-size: 1.4em ;
     position: relative;
     right: 20px;
     top: 15px;
@@ -456,42 +496,48 @@ main
 }
 #hebergements img
 {
-    width: 360px;
+    width: 400px;
     height: 130px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
     object-fit: cover;
 }
 
 #hebergements h4
 {
-    font-size: 1em ;
-    margin: 5px 25px 0px 5px ;
+    font-size: 1.2em ;
+    position: relative;
+    left: 15px;
 }
 
 #hebergements p
 {
     color : #484848 ;
-    font-size: 0.8em ; 
-    margin: 5px 25px 5px 5px ;
+    font-size: 1em ; 
+    position: relative;
+    bottom: 10px;
+    left: 15px;
 }
 #hebergements i
 {
     color:#0065FC;
+    font-size: 0.8em ; 
     border: 0px solid #FFFFFF;
     border-radius: 0px;
     background-color:#FFFFFF;   
+    position: relative;
+    bottom: 10px;
 }
 
 #cannebiere
 {
-    width: 360px;
-    height: 220px;
+    width: 400px;
+    height: 235px;
     border: 0px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
     background-color:#FFFFFF; 
     margin: 5px 15px 5px 15px ;
     box-shadow: 0px 2px 3px #d8d8d8; 
@@ -503,13 +549,13 @@ main
 }
 #port
 {
-    width: 360px;
-    height: 220px;
+    width: 400px;
+    height: 235px;
     border: 0px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
     background-color:#FFFFFF; 
     margin: 5px 15px 5px 15px ;
     box-shadow: 0px 2px 3px #d8d8d8; 
@@ -521,13 +567,13 @@ main
 }
 #mouettes
 {
-    width: 360px;
-    height: 220px;
+    width: 400px;
+    height: 235px;
     border: 0px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
     background-color:#FFFFFF; 
     margin: 5px 15px 5px 15px ;
     box-shadow: 0px 2px 3px #d8d8d8; 
@@ -539,13 +585,13 @@ main
 }
 #mer
 {
-    width: 360px;
-    height: 220px;
+    width: 400px;
+    height: 235px;
     border: 0px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
     background-color:#FFFFFF; 
     margin: 5px 15px 5px 15px ;
     box-shadow: 0px 2px 3px #d8d8d8; 
@@ -557,13 +603,13 @@ main
 }
 #panier
 {
-    width: 360px;
-    height: 220px;
+    width: 400px;
+    height: 235px;
     border: 0px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
     background-color:#FFFFFF; 
     margin: 5px 15px 5px 15px ;
     box-shadow: 0px 2px 3px #d8d8d8; 
@@ -575,13 +621,13 @@ main
 }
 #amina
 {
-    width: 360px;
-    height: 220px;
+    width: 400px;
+    height: 235px;
     border: 0px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
     background-color:#FFFFFF; 
     margin: 5px 15px 5px 15px ;
     box-shadow: 0px 2px 3px #d8d8d8; 
@@ -608,20 +654,20 @@ main
 }
 #activites img
 {
-    width: 360px;
+    width: 400px;
     height: 130px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
     object-fit: cover;
 }
 #activites h2
 {
     display: flex;
-    font-size: 1.6em ;
+    font-size: 1.7em ;
     position: relative;
     left: 25px;
     top: 15px;
-    margin: 15px 20px 50px 0px ;
+    margin: 15px 20px 25px 0px ;
 }
 #activites h2:hover
 {
@@ -629,21 +675,21 @@ main
 }
 #activites h4
 {
-    font-size: 1em ;
-    margin: 5px 25px 0px 5px ;
+    font-size: 1.2em ;
+    margin: 5px 25px 5px 5px ;
     padding-left: 10px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 #vieux
 {
-    width: 360px;
-    height: 180px;
+    width: 400px;
+    height: 190px;
     border: 0px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
     background-color:#FFFFFF; 
     box-shadow: 0px 2px 3px #d8d8d8; 
     margin: 15px 15px 15px 15px ;
@@ -656,13 +702,13 @@ main
 
 #pomegues
 {
-    width: 360px;
-    height: 180px;
+    width: 400px;
+    height: 190px;
     border: 0px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
     background-color:#FFFFFF; 
     box-shadow: 0px 2px 3px #d8d8d8; 
     margin: 15px 15px 15px 15px ;
@@ -675,13 +721,13 @@ main
 
 #frioul
 {
-    width: 360px;
-    height: 180px;
+    width: 400px;
+    height: 190px;
     border: 0px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
     background-color:#FFFFFF; 
     box-shadow: 0px 2px 3px #d8d8d8; 
     margin: 15px 15px 15px 15px ;
@@ -694,13 +740,13 @@ main
 
 #calanques
 {
-    width: 360px;
-    height: 180px;
+    width: 400px;
+    height: 190px;
     border: 0px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
     background-color:#FFFFFF; 
     box-shadow: 0px 2px 3px #d8d8d8; 
     margin: 15px 15px 15px 15px ;
@@ -713,8 +759,8 @@ main
 
 #garde
 {
-    width: 360px;
-    height: 180px;
+    width: 400px;
+    height: 190px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -732,13 +778,13 @@ main
 
 #longchamp
 {
-    width: 360px;
-    height: 180px;
+    width: 400px;
+    height: 190px;
     border: 0px solid #FFFFFF;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
     background-color:#FFFFFF; 
     box-shadow: 0px 2px 3px #d8d8d8; 
     margin: 15px 15px 15px 15px ;
@@ -756,27 +802,23 @@ footer
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: #f2f2f2;
-    margin: 50px 0px 50px 0px ;
+    margin: 20px 0px 50px 0px ;
 }
 footer h1
 {
-    font-weight: normal;
     font-size: 1.2em ;
-    margin: 20px 5px 7px 5px ;
+    margin: 20px 5px 15px 25px ;
 }
 footer h3
 {
-    color : #737373 ;
     font-weight: normal;
-    font-size: 0.8em ;
-    margin: 5px 15px 5px 5px ;
+    font-size: 1em ;
+    margin: 15px 15px 10px 25px ;
 }
 footer h4
 {
-    color : #737373 ;
     font-weight: normal;
-    font-size: 0.8em ;
-    margin: 5px 15px 20px 5px ;
+    font-size: 1em ;
+    margin: 15px 15px 25px 25px ;
 }
