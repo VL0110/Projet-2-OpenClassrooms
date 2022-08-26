@@ -139,7 +139,7 @@ span a:hover
 }
 #filtres div i:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #economique
 {
@@ -201,7 +201,7 @@ aside i
 }
 aside i:hover
 {
-    color: #ff9500;
+    color: #FFAD05;
 }
 
 /* 6)Main */
@@ -257,7 +257,7 @@ main
 }
 #hebergements h2:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #hebergements h5
 {
@@ -268,7 +268,7 @@ main
 }
 #hebergements h5:hover
 {
-    color: #ff9500;
+    color: #FFAD05;
 }
 #cannebiere
 {
@@ -283,7 +283,7 @@ main
 }
 #cannebiere:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #port
 {
@@ -298,7 +298,7 @@ main
 }
 #port:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #mouettes
 {
@@ -313,7 +313,7 @@ main
 }
 #mouettes:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #mer
 {
@@ -328,7 +328,7 @@ main
 }
 #mer:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #panier
 {
@@ -343,7 +343,7 @@ main
 }
 #panier:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #amina
 {
@@ -358,7 +358,7 @@ main
 }
 #amina:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #hebergements img
 {
@@ -415,7 +415,7 @@ main
 }
 #populaires h2:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #soleil
 {
@@ -444,7 +444,7 @@ main
 }
 #soleil:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 #eau
@@ -474,7 +474,7 @@ main
 }
 #eau:hover
 {
-        color: #ff9500;
+        color: #0065FC;
 }
 
 #bleu
@@ -504,7 +504,7 @@ main
 }
 #bleu:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 #populaires img
@@ -567,7 +567,7 @@ main
 }
 #activites h2:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 #vieux
@@ -588,7 +588,7 @@ main
 }
 #vieux:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 #pomegues
@@ -609,7 +609,7 @@ main
 }
 #pomegues:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 #frioul
@@ -633,7 +633,7 @@ main
 }
 #frioul:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 #calanques
@@ -656,7 +656,7 @@ main
 }  
 #calanques:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 #garde
@@ -680,7 +680,7 @@ main
 }
 #garde:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 #longchamp
@@ -704,7 +704,7 @@ main
 }
 #longchamp:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 /* 7)Footer */
@@ -722,6 +722,10 @@ footer h1
     font-size: 1.2em ;
     margin: 20px 5px 7px 5px ;
 }
+footer h1:hover
+{
+    color: #FFAD05;
+}
 footer h3
 {
     color : #737373 ;
@@ -729,10 +733,18 @@ footer h3
     font-size: 0.8em ;
     margin: 5px 15px 5px 5px ;
 }
+footer h3:hover
+{
+    color: #0065FC;
+}
 footer h4
 {
     color : #737373 ;
     font-weight: normal;
     font-size: 0.8em ;
     margin: 5px 15px 20px 5px ;
+}
+footer h4:hover
+{
+    color: #0065FC;
 }

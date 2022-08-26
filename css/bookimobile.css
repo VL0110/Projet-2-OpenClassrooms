@@ -113,7 +113,7 @@ span input
 }
 #recherche span div i:hover
 {
-    color: #ff9500;
+    color: #FFAD05;
 }
 
 /* 5)Filtres */
@@ -131,78 +131,132 @@ span input
 {
     font-size: 1.6em ;
     margin: 5px 10px 10px 35px ;
-    margin: 5px 405px 30px 15px ;
 }
 #filtres h3
 {
-    position: relative;
-    bottom: 40px;
-    left: 30px;
     font-size: 1.2em ;
     height: 40px;
     width: 130px ;
-    padding-left: 10px;
-}
-#filtres h4
-{
-    font-size: 1.2em ;
-    height: 40px;
-    width: 180px ;
-    position: relative;
-    bottom: 45px;
-    left: 40px;
-}
-#filtres div i
-{
-    height: 45px;
-    width: 50px;
-    border: 10px solid #DEEBFF;
-    font-size: 25px;
-    text-align: center;
-    background-color: #DEEBFF;
-    border-radius: 100px;
-    color: #0065FC;
-}
-#filtres div i:hover
-{
-    color: #ff9500;
 }
 #economique 
 {
-    height: 60px;
-    width: 200px ;
+    height: 40px;
+    width: 160px ;
+    position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
     box-shadow: 0px 0px 1px #5a5959;    
-    margin: 0px 10px 0px 10px ;
 }
-#famille
+#economique h3
 {
-    height: 60px;
-    width: 165px ;
+    font-size: 1.2em ;
+    position: absolute;
+    top: -8px;
+    right: 15px;
+}
+#economique h3:hover
+{
+    color: #0065FC;
+}
+#economique i
+{
+    font-size: 1.3em ;
+   color: #0065FC;
+   border: 10px solid #DEEBFF;
+   border-radius: 100px;
+   background-color: #DEEBFF;
+}
+#famille 
+{
+    height: 40px;
+    width: 110px ;
+    position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
     box-shadow: 0px 0px 1px #5a5959;    
-    margin: 0px 10px 0px 10px ;
+    margin: 0px 10px 0px 10px ;   
+}
+#famille h3 
+{
+    font-size: 1.3em ;
+    position: absolute;
+    top: -8px;
+    right: 15px;
+}
+#famille h3:hover
+{
+    color: #0065FC;
+}
+#famille i
+{
+    font-size: 1.3em ;
+   color: #0065FC;
+   border: 10px solid #DEEBFF;
+   border-radius: 100px;
+   background-color: #DEEBFF;
 }
 #romantique
 {
-    height: 60px;
-    width: 145px ;
+    height: 40px;
+    width: 160px ;
+    position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
     box-shadow: 0px 0px 1px #5a5959;    
     margin: 0px 10px 0px 10px ;
 }
+#romantique h3
+{
+    font-size: 1.3em ;
+    position: absolute;
+    top: -8px;
+    right: 15px;
+}
+#romantique h3:hover
+{
+    color: #0065FC;
+}
+#romantique i
+{
+    font-size: 1.3em ;
+    color: #0065FC;
+    border: 10px solid #DEEBFF;
+    border-radius: 100px;
+    background-color: #DEEBFF;
+}
 #animaux
 {
-    height: 60px;
-    width: 190px ;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 40px;
+    width: 200px ;
+    position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px; 
     box-shadow: 0px 0px 1px #5a5959;    
     margin: 0px 0px 15px 10px ;
 }
+#animaux h3
+{
+    font-size: 1.3em ;
+    position: absolute;
+    top: -8px;
+    right: 15px;
+}
+#animaux h3:hover
+{
+    color: #0065FC;
+}
+#animaux i
+{
+    font-size: 1.3em ;
+    color: #0065FC;
+    border: 10px solid #DEEBFF;
+    border-radius: 100px;
+    background-color: #DEEBFF;
+}
+
 aside
 {
     display: flex;
@@ -232,7 +286,7 @@ aside i
 }
 aside i:hover
 {
-    color: #ff9500;
+    color: #FFAD05;
 }
 /* 6)Main */
 
@@ -281,7 +335,7 @@ h5
 }
 #populaires h2:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 #soleil
@@ -327,7 +381,7 @@ h5
 }
 #soleil:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #soleil i
 {
@@ -380,7 +434,7 @@ h5
 }
 #eau:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #eau i
 {
@@ -433,7 +487,7 @@ h5
 }
 #bleu:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #bleu i
 {
@@ -481,7 +535,7 @@ h5
 }
 #hebergements h2:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #hebergements h5
 {
@@ -492,7 +546,7 @@ h5
 }
 #hebergements h5:hover
 {
-    color: #ff9500;
+    color: #FFAD05;
 }
 #hebergements img
 {
@@ -545,7 +599,7 @@ h5
 }
 #cannebiere:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #port
 {
@@ -563,7 +617,7 @@ h5
 }
 #port:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #mouettes
 {
@@ -581,7 +635,7 @@ h5
 }
 #mouettes:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #mer
 {
@@ -599,7 +653,7 @@ h5
 }
 #mer:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #panier
 {
@@ -617,7 +671,7 @@ h5
 }
 #panier:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #amina
 {
@@ -635,7 +689,7 @@ h5
 }
 #amina:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 /* c)Activites */
@@ -671,7 +725,7 @@ h5
 }
 #activites h2:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 #activites h4
 {
@@ -697,7 +751,7 @@ h5
 
 #vieux:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 #pomegues
@@ -716,7 +770,7 @@ h5
 
 #pomegues:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 #frioul
@@ -735,7 +789,7 @@ h5
 
 #frioul:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 #calanques
@@ -754,7 +808,7 @@ h5
  
 #calanques:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 #garde
@@ -773,7 +827,7 @@ h5
 
 #garde:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 #longchamp
@@ -792,7 +846,7 @@ h5
 
 #longchamp:hover
 {
-    color: #ff9500;
+    color: #0065FC;
 }
 
 /* 7)Footer */
@@ -810,15 +864,27 @@ footer h1
     font-size: 1.2em ;
     margin: 20px 5px 15px 25px ;
 }
+footer h1:hover
+{
+    color: #FFAD05;
+}
 footer h3
 {
     font-weight: normal;
     font-size: 1em ;
     margin: 15px 15px 10px 25px ;
 }
+footer h3:hover
+{
+    color: #0065FC;
+}
 footer h4
 {
     font-weight: normal;
     font-size: 1em ;
     margin: 15px 15px 25px 25px ;
+}
+footer h4:hover
+{
+    color: #0065FC;
 }
