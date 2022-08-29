@@ -1,4 +1,5 @@
 
+/*Version desktop first +992px specifications*/
 /* 1)Eléments principaux de la page */
 
 body
@@ -72,7 +73,7 @@ span
 {
     display: flex;
 	justify-content: flex-start;
-    margin: 0px 0px 20px 35px ;  
+    margin: 0px 0px 30px 35px ;  
 }
 span i
 {
@@ -89,7 +90,7 @@ span i:hover
 span input 
 {
     width: 250px;
-    height: 40px;
+    height: 38px;
     font-size: 1em;
     border: 1px solid #F2F2F2;
     border-radius: 0px;
@@ -119,7 +120,7 @@ span a:hover
 	display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    height: 50px;
+    align-items: flex-start;
     width: 1000px ;
     background-color: #ffffff;
 }
@@ -132,12 +133,12 @@ span a:hover
 
 #economique 
 {
-    height: 35px;
     width: 160px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
     box-shadow: 0px 0px 1px #5a5959;    
+    margin: 0px 0px 0px 10px ;   
 }
 #economique h3
 {
@@ -159,13 +160,12 @@ span a:hover
 }
 #famille 
 {
-    height: 35px;
     width: 110px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
     box-shadow: 0px 0px 1px #5a5959;    
-    margin: 0px 10px 0px 10px ;   
+    margin: 0px 0px 0px 10px ;   
 }
 #famille h3 
 {
@@ -187,13 +187,12 @@ span a:hover
 }
 #romantique
 {
-    height: 35px;
     width: 160px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
     box-shadow: 0px 0px 1px #5a5959;    
-    margin: 0px 10px 0px 10px ;
+    margin: 0px 0px 0px 10px ;   
 }
 #romantique h3
 {
@@ -218,13 +217,12 @@ span a:hover
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    height: 35px;
     width: 200px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px; 
     box-shadow: 0px 0px 1px #5a5959;    
-    margin: 0px 0px 15px 10px ;
+    margin: 0px 0px 0px 10px ;   
 }
 #animaux h3
 {
@@ -278,21 +276,19 @@ h2
 {
 
     font-size: 1em ;
-    margin: 50px 300px 50px 5px ;
+    font-weight: bold;
 }
 h4
 {
     font-size: 0.8em ;
-    margin: 5px 5px 5px 5px ;
-}
-strong
-{
-    color : #181818;
 }
 h5
 {
     font-size: 0.8em ;
-    margin: 5px 5px 30px 50px ;
+}
+strong
+{
+    color : #181818;
 }
 main
 {
@@ -325,19 +321,7 @@ main
     background-color:#F2F2F2;  
     margin: 20px 400px 0px 30px ;
 }
-#hebergements h2:hover
-{
-    color: #0065FC;
-}
-#hebergements h5
-{
-    font-size: 0.8em ;  
-    margin: 0px 0px 0px 30px ;
-}
-#hebergements h5:hover
-{
-    color: #FFAD05;
-}
+
 #cannebiere
 {
     width: 210px;
@@ -440,6 +424,7 @@ main
 {
     color: #0065FC;
 }
+
 #hebergements img
 {
     width: 210px;
@@ -448,7 +433,6 @@ main
     border-top-right-radius: 15px;
     object-fit: cover;
 }
-
 #hebergements h4
 {
     font-size: 0.8em ;
@@ -467,8 +451,20 @@ main
     border: 0px solid #FFFFFF;
     border-radius: 0px;
     background-color:#FFFFFF;   
-    margin: 0px 0px 5px 0px ;
 }
+#hebergements span i
+{
+    color:#737373;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
+#hebergements h5
+{
+    font-size: 0.8em ;  
+    margin: 0px 0px 0px 30px ;
+}
+
 
 /* b)Populaires */
 
@@ -494,10 +490,6 @@ main
     left: 25px;
     top: 15px;
     margin: 15px 20px 20px 0px ;
-}
-#populaires h2:hover
-{
-    color: #0065FC;
 }
 #populaires img
 {
@@ -545,8 +537,6 @@ main
         left: 135px;
         bottom: 65px;
 }
-
-
 #eau
 {
     display: flex;
@@ -571,8 +561,6 @@ main
         left: 135px;
         bottom: 60px;
 }
-
-
 #bleu
 {
     display: flex;
@@ -598,7 +586,6 @@ main
         bottom: 60px;
 }
 
-
 #populaires i
 {
     color:#0065FC;
@@ -622,31 +609,28 @@ main
     height: 500px;
     display: flex;
     flex-wrap: wrap;
+    align-content: space-around;
     align-items: flex-start;
     position: relative;
     border: 10px solid #FFFFFF;
     border-radius: 30px;
     background-color:#FFFFFF;
+    margin: 5px 5px 10px 100px ; 
 }
 #activites h2
 {
     font-size: 1em ;
-    margin: 5px 1000px 10px 50px ; 
+    margin: 5px 800px 10px 60px ; 
 }
-#activites h2:hover
+#activites h4
 {
-    color: #0065FC;
+    margin: 5px 5px 10px 15px ; 
 }
 #activites img
 {
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px;
     object-fit: cover;
-}
-#activites h4
-{
-position: relative;
-left: 15px;
 }
 
 #vieux
@@ -660,8 +644,6 @@ left: 15px;
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #808080;
-    position: relative;
-    left: 30px;
     margin: 15px 15px 15px 15px ;
 }
 #vieux img
@@ -685,8 +667,6 @@ left: 15px;
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #808080;
-    position: relative;
-    left: 30px;
     margin: 15px 15px 15px 15px ;
 }
 #pomegues img
@@ -698,7 +678,6 @@ left: 15px;
 {
     color: #0065FC;
 }
-
 #frioul
 {
     width: 250px;
@@ -710,9 +689,9 @@ left: 15px;
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #808080;
-    position: relative;
-    top: 200px;
-    right: 250px;
+    position: absolute;
+    left: 280px;
+    top: 280px;
     margin: 15px 15px 15px 15px ;
 }
 #frioul img
@@ -724,7 +703,6 @@ left: 15px;
 {
     color: #0065FC;
 }
-
 #calanques
 {
     width: 250px;
@@ -736,8 +714,6 @@ left: 15px;
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #808080;
-    position: relative;
-    right: 240px;
     margin: 15px 15px 15px 15px ;
 }
 #calanques img
@@ -749,7 +725,6 @@ left: 15px;
 {
     color: #0065FC;
 }
-
 #garde
 {
     width: 250px;
@@ -761,9 +736,6 @@ left: 15px;
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #808080;
-    position: relative;
-    bottom: 400px;
-    left: 880px;
     margin: 15px 15px 15px 15px ;
 }
 #garde img
@@ -775,7 +747,6 @@ left: 15px;
 {
     color: #0065FC;
 }
-
 #longchamp
 {
     width: 250px;
@@ -787,9 +758,9 @@ left: 15px;
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #808080;
-    position: relative;
-    bottom: 200px;
-    left: 600px;
+    position: absolute;
+    left: 840px;
+    top: 280px;
     margin: 15px 15px 15px 15px ;
 }
 #longchamp img
@@ -820,7 +791,7 @@ footer h1
 }
 footer h1:hover
 {
-    color:#FFAD05;
+    color:#0065FC;
 }
 footer h3
 {
@@ -830,7 +801,7 @@ footer h3
 }
 footer h3:hover
 {
-    color: #0065FC;
+    color: #FFAD05;
 }
 footer h4
 {
@@ -840,5 +811,5 @@ footer h4
 }
 footer h4:hover
 {
-    color: #0065FC;
+    color: #FFAD05;
 }
