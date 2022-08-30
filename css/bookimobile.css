@@ -7,5 +7,313 @@
 body
 {
     font-family: 'Raleway', Arial, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    max-width: 768px;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    background-color:#ffffff;
+}
+
+/* 1)Eléments principaux de la page */
+
+
+/* 2)Navigation */
+nav
+{
+    justify-content: center;
+}
+nav img
+{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    margin: 25px 150px 25px 150px;
+}
+nav ul
+{
+    list-style: none;
+}
+nav li
+{
+    color: #181818;
+    border-bottom: 4px solid #F2F2F2;
+    font-size: 1.4em;
+    text-decoration: none;
+    padding-bottom: 30px;
+    padding-right: 85px;
+    padding-left: 85px;
+    margin: 0%;
+}
+nav li:hover
+{
+    color: #0065FC;
+    border-bottom: 4px solid #0065FC;
+    border-top: none;
+}
+
+/* 3)Header */
+
+header h1
+{
+    font-size: 1.9em ;
+    margin: 20px 0px 0px 10px ;
+}
+header h3
+{
+    font-size: 1.3em ;
+    font-weight: normal ;
+    margin: 5px 5px 30px 15px ;
+}
+
+/* 4)Barre de recherche */
+
+span
+{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 0px 20px 15px ;  
+}
+span i
+{
+    height: 35px;
+    width: 45px;
+    font-size: 1.7em;
+    padding-top: 5px;
+    text-align: center;
+    border: 10px solid #F2F2F2;
+    border-bottom-left-radius: 20px ;
+    border-top-left-radius: 20px ;
+    background-color: #F2F2F2;
+
+}
+span input 
+{
+    height: 60px;
+    width: 265px;
+    font-size: 1.3em;
+    border: 1px solid #F2F2F2;
+    border-radius: 0px;
+    background-color: #FFFFFF; 
+    padding-left: 10px;
+}
+span a
+{
+    height: 35px;
+    width: 135px;
+    font-size: 1.4em;
+    text-align: center;
+    padding-top: 5px;
+    color: #FFFFFF;
+    border: 10px solid #0065FC;
+    border-bottom-right-radius: 20px ;
+    border-top-right-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+    border-top-left-radius: 20px ;
+    background-color: #0065FC;
+}
+span a:hover
+{
+    color: #181818;
+}
+
+/* 5)Filtres */
+
+#filtres 
+{
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    background-color:#ffffff;
+}
+#filtres h2
+{
+    font-size: 1.7em ;
+    font-weight: bold;
+}
+#economique 
+{
+    width: 220px ;
+    position: relative;
+    border: 1px solid #DBDADA;
+    border-radius: 100px;
+    box-shadow: 0px 0px 1px #5a5959;    
+    margin: 10px 10px 10px 10px ;    
+}
+#economique h3
+{
+    font-size: 1.4em ;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    right: 25px;
+}
+
+#economique i
+{
+   font-size: 1.4em ;
+   color: #0065FC;
+   border: 10px solid #DEEBFF;
+   border-radius: 100px;
+   background-color: #DEEBFF;
+}
+#famille 
+{
+    width: 155px ;
+    position: relative;
+    border: 1px solid #DBDADA;
+    border-radius: 100px;
+    box-shadow: 0px 0px 1px #5a5959;    
+    margin: 10px 10px 10px 10px ;    
+}
+#famille h3 
+{
+    font-size: 1.4em ;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    right: 25px;
+}
+#famille i
+{
+   font-size: 1.4em ;
+   color: #0065FC;
+   border: 10px solid #DEEBFF;
+   border-radius: 100px;
+   background-color: #DEEBFF;
+}
+#romantique
+{
+    width: 210px ;
+    position: relative;
+    border: 1px solid #DBDADA;
+    border-radius: 100px;
+    box-shadow: 0px 0px 1px #5a5959;    
+    margin: 10px 10px 10px 10px ;      
+}
+#romantique h3
+{
+    font-size: 1.4em ;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    right: 25px;
+}
+#romantique i
+{
+    font-size: 1.4em ;
+    color: #0065FC;
+    border: 10px solid #DEEBFF;
+    border-radius: 100px;
+    background-color: #DEEBFF;
+}
+#animaux
+{
+    width: 280px ;
+    position: relative;
+    border: 1px solid #DBDADA;
+    border-radius: 100px; 
+    box-shadow: 0px 0px 1px #5a5959;    
+    margin: 10px 10px 10px 10px ;    
+}
+#animaux h3
+{
+    font-size: 1.4em ;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    right: 25px;
+}
+#animaux i
+{
+    font-size: 1.4em ;
+    color: #0065FC;
+    border: 10px solid #DEEBFF;
+    border-radius: 100px;
+    background-color: #DEEBFF;
+}
+aside h3
+{
+    color : #181818;
+    font-size: 1.8em ;
+    font-weight: normal ; 
+    margin: 5px 5px 5px 5px ; 
+}
+aside i
+{
+    height: 20px;
+    width: 20px ;
+    text-align: center;
+    font-size: 1.6em ;
+    padding-top: 2px;
+    background-color: #ffffff;
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 100px;
+    line-height: 20px;
+    margin: 5px 15px 0px 10px ; 
+    box-shadow: 0px 0px 2px #545454;
+}
+aside i:hover
+{
+    color: #FFAD05;
+}
+
+
+/* 6)Main */
+/* a)Populaires */
+#populaires
+{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #f2f2f2;
+    border-radius: 30px;
+    background-color:#F2F2F2;   
+    margin: 20px 5px 10px 5px ;  
+}
+
+/* b)Hebergements */
+#hebergements
+{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #f2f2f2;
+    border-radius: 30px;
+    background-color:#F2F2F2;   
+    margin: 20px 20px 10px 25px ;  
+}
+#hebergements h2
+{
+    font-size: 1.6em;
+    font-weight: bold; 
+    margin: 0px 30px 0px 30px;
+}
+
+/* c)Activites */
+#activites
+{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #f2f2f2;
+    border-radius: 30px;
+    background-color:#F2F2F2;   
+    margin: 20px 20px 10px 25px ;  
+}
+/* 7)Footer */
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 768;
 }
 }

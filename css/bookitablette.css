@@ -1,6 +1,6 @@
 
 /*Version tablette 768px à 992px specifications*/
-/* 1)Eléments principaux de la page */
+
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
@@ -8,5 +8,24 @@ body
 {
     font-family: 'Raleway', Arial, sans-serif;
 }
+
+/* 1)Eléments principaux de la page */
+
+/* 2)Navigation */
+
+/* 3)Header */
+
+/* 4)Barre de recherche */
+
+/* 5)Filtres */
+
+/* 6)Main */
+/* a)Hebergements */
+
+/* b)Populaires */
+
+/* c)Activites */
+
+/* 7)Footer */
 
 }
