@@ -43,8 +43,8 @@ nav li:hover
 }
 nav img
 {
- width: 130px;
- height: 80px;
+ width: 100px;
+ height: 60px;
  object-fit: cover;
  margin: 30px 0px 20px 20px ;
 }
@@ -64,6 +64,7 @@ header h1
 }
 header h3
 {
+    color : #737373 ;
     font-size: 0.8em ;
     font-weight: normal ;
     margin: 5px 5px 30px 35px ;
@@ -74,7 +75,7 @@ header h3
 span
 {
     display: flex;
-	justify-content: flex-start;
+    justify-content: flex-start;
     margin: 0px 0px 30px 35px ;  
 }
 span i
@@ -124,12 +125,14 @@ span a:hover
     align-content: flex-start;
     background-color:#ffffff;
 }
+
 #filtres h2
 {
     font-size: 1.2em ;
     font-weight: bold;
     margin: 15px 10px 10px 35px ;
 }
+
 #economique 
 {
     width: 160px ;
@@ -272,7 +275,6 @@ aside i:hover
 
 /* 6)Main */
 
-
 strong
 {
     color : #181818;
@@ -292,14 +294,13 @@ main
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    border: 3px solid #f2f2f2;
-    border-radius: 20px;
+    border: 0px solid #f2f2f2;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color:#F2F2F2;  
-    margin: 20px 0px 10px 25px ;  
+    margin: 20px 0px 10px 0px ;  
 }
 #hebergements h2
 {
@@ -322,13 +323,49 @@ main
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
-    margin: 25px 10px 20px 15px ;
+    margin: 25px 20px 20px 28px ;
     box-shadow: 0px 0px 5px #808080;
 }
 #cannebiere:hover
 {
     color: #0065FC;
 }
+#cannebiere img
+{
+    width: 200px;
+    height: 90px;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+#cannebiere h4
+{
+    font-size: 0.9em ;
+    margin: 5px 5px 5px 15px ;
+}
+#cannebiere p
+{
+    font-size: 0.7em ; 
+    margin: 5px 5px 0px 15px ;
+}
+#cannebiere i
+{
+    color:#0065FC;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
+#cannebiere span i
+{
+    position: absolute;
+    top: 150px;
+    left: 77px;
+    color:#c1c1c1;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
+
 #port
 {
     width: 200px;
@@ -340,13 +377,49 @@ main
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
-    margin: 25px 10px 20px 15px ;
+    margin: 25px 20px 20px 15px ;
     box-shadow: 0px 0px 5px #808080;
 }
 #port:hover
 {
     color: #0065FC;
 }
+#port img
+{
+    width: 200px;
+    height: 90px;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+#port h4
+{
+    font-size: 0.9em ;
+    margin: 5px 5px 5px 15px ;
+}
+#port p
+{
+    font-size: 0.7em ; 
+    margin: 5px 5px 0px 15px ;
+}
+#port i
+{
+    color:#0065FC;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
+#port span i
+{
+    position: absolute;
+    top: 150px;
+    left: 77px;
+    color:#c1c1c1;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
+
 #mouettes
 {
     width: 200px;
@@ -358,13 +431,49 @@ main
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
-    margin: 25px 10px 20px 15px ;
+    margin: 25px 20px 20px 15px ;
     box-shadow: 0px 0px 5px #808080;
 }
 #mouettes:hover
 {
     color: #0065FC;
 }
+#mouettes img
+{
+    width: 200px;
+    height: 90px;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+#mouettes h4
+{
+    font-size: 0.9em ;
+    margin: 5px 5px 5px 15px ;
+}
+#mouettes p
+{
+    font-size: 0.7em ; 
+    margin: 5px 5px 0px 15px ;
+}
+#mouettes i
+{
+    color:#0065FC;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
+#mouettes span i
+{
+    position: absolute;
+    top: 150px;
+    left: 77px;
+    color:#c1c1c1;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
+
 #mer
 {
     width: 200px;
@@ -376,13 +485,49 @@ main
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
-    margin: 25px 10px 20px 15px ;
+    margin: 25px 20px 20px 28px ;
     box-shadow: 0px 0px 5px #808080;
 }
 #mer:hover
 {
     color: #0065FC;
 }
+#mer img
+{
+    width: 200px;
+    height: 90px;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+#mer h4
+{
+    font-size: 0.9em ;
+    margin: 5px 5px 5px 15px ;
+}
+#mer p
+{
+    font-size: 0.7em ; 
+    margin: 5px 5px 0px 15px ;
+}
+#mer i
+{
+    color:#0065FC;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
+#mer span i
+{
+    position: absolute;
+    top: 150px;
+    left: 77px;
+    color:#c1c1c1;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
+
 #panier
 {
     width: 200px;
@@ -394,13 +539,49 @@ main
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
-    margin: 25px 10px 20px 15px ;
+    margin: 25px 20px 20px 15px ;
     box-shadow: 0px 0px 5px #808080;
 }
 #panier:hover
 {
     color: #0065FC;
 }
+#panier img
+{
+    width: 200px;
+    height: 90px;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+#panier h4
+{
+    font-size: 0.9em ;
+    margin: 5px 5px 5px 15px ;
+}
+#panier p
+{
+    font-size: 0.7em ; 
+    margin: 5px 5px 0px 15px ;
+}
+#panier i
+{
+    color:#0065FC;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
+#panier span i
+{
+    position: absolute;
+    top: 150px;
+    left: 77px;
+    color:#c1c1c1;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
+
 #amina
 {
     width: 200px;
@@ -412,15 +593,14 @@ main
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
-    margin: 25px 10px 20px 15px ;
+    margin: 25px 20px 20px 15px ;
     box-shadow: 0px 0px 5px #808080;
 }
 #amina:hover
 {
     color: #0065FC;
 }
-
-#hebergements img
+#amina img
 {
     width: 200px;
     height: 90px;
@@ -428,40 +608,39 @@ main
     border-top-right-radius: 15px;
     object-fit: cover;
 }
-#hebergements h4
+#amina h4
 {
     font-size: 0.9em ;
     margin: 5px 5px 5px 15px ;
 }
-
-#hebergements p
+#amina p
 {
     font-size: 0.7em ; 
     margin: 5px 5px 0px 15px ;
 }
-#hebergements i
+#amina i
 {
     color:#0065FC;
     border: 0px solid #FFFFFF;
     border-radius: 0px;
     background-color:#FFFFFF;   
 }
-#hebergements span i
+#amina span i
 {
     position: absolute;
-    top: 131px;
-    left: 68px;
-    color:#737373;
+    top: 150px;
+    left: 77px;
+    color:#c1c1c1;
     border: 0px solid #FFFFFF;
     border-radius: 0px;
     background-color:#FFFFFF;   
 }
+
 #hebergements h5
 {
     font-size: 1em ;  
-    margin: 5px 10px 25px 50px ;  
+    margin: 5px 10px 25px 40px ;  
 }
-
 
 /* b)Populaires */
 
@@ -470,7 +649,6 @@ main
     display: flex;
     flex-direction: column;
     width: 420px;
-    position: relative;
     border: 10px solid #f2f2f2;
     border-radius: 30px;
     background-color:#F2F2F2;   
@@ -514,7 +692,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #808080;   
-    margin: 15px 0px 15px 0px ;
+    margin: 15px 20px 15px 28px ;
 }
 #soleil p
 {
@@ -541,7 +719,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #808080; 
-    margin: 15px 5px 15px 5px ;
+    margin: 15px 20px 15px 28px ;
 }
 #eau p
 {
@@ -568,7 +746,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #808080;  
-    margin: 15px 5px 15px 5px ;
+    margin: 15px 20px 15px 28px ;
 }
 #bleu p
 {
@@ -585,6 +763,16 @@ main
 #populaires i
 {
     color:#0065FC;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
+#populaires span i
+{
+    position: absolute;
+    top: 29px;
+    left: 62px;
+    color:#c1c1c1;
     border: 0px solid #FFFFFF;
     border-radius: 0px;
     background-color:#FFFFFF;   
@@ -764,7 +952,10 @@ main
 {
     color: #0065FC;
 }
-
+article
+{
+    flex-direction: column;
+}
 /* 7)Footer */
 
 footer

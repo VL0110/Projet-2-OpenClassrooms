@@ -7,12 +7,12 @@
 body
 {
     font-family: 'Raleway', Arial, sans-serif;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: flex-start;
-    max-width: 768px;
     border: 1px solid #ffffff;
     border-radius: 0px;
     background-color:#ffffff;
@@ -24,6 +24,7 @@ body
 /* 2)Navigation */
 nav
 {
+    display: flex;
     justify-content: center;
 }
 nav img
@@ -59,6 +60,7 @@ nav li:hover
 
 header h1
 {
+
     font-size: 1.9em ;
     margin: 20px 0px 0px 10px ;
 }
@@ -93,7 +95,7 @@ span i
 span input 
 {
     height: 60px;
-    width: 265px;
+    width: 220px;
     font-size: 1.3em;
     border: 1px solid #F2F2F2;
     border-radius: 0px;
@@ -270,50 +272,345 @@ aside i:hover
 /* a)Populaires */
 #populaires
 {
-    width: 600px;
-    display: flex;
+    width: 760px;
     flex-direction: column;
+    position: relative;
     border: 10px solid #f2f2f2;
+    border-radius: 0px;
+    background-color:#F2F2F2;    
+}
+#populaires h2
+{
+    font-size: 1.6em;
+    font-weight: bold; 
+    border: 10px solid #F2F2F2;  
     border-radius: 30px;
-    background-color:#F2F2F2;   
-    margin: 20px 5px 10px 5px ;  
+    background-color:#F2F2F2;  
+    margin: 10px 30px 10px 30px;
+}
+#populaires img
+{
+    width: 150px;
+    height: 150px;
+    border: 0px solid #ffffff;
+    border-radius: 0px;
+    border-top-left-radius: 30px ;
+    border-bottom-left-radius: 30px;
+    background-color:#FFFFFF;  
 }
 
+#soleil
+{
+    width: 430px;
+    height: 150px;
+    position: relative;
+    border: 4px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+#soleil h4
+{
+    font-size: 1.2em ;
+    font-weight: bold;
+    position: absolute;
+    left: 160px;
+    top: 25px;
+}
+#soleil p
+{
+    font-size: 0.9em ; 
+    position: absolute;
+    top: 50px;
+    left: 170px;
+}
+#eau
+{
+    width: 430px;
+    height: 150px;
+    position: relative;
+    border: 4px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+#eau h4
+{
+    font-size: 1.2em ;
+    font-weight: bold;
+    margin: 0px 50px 0px 10px ;
+    position: absolute;
+    left: 160px;
+    top: 25px;
+}
+#eau p
+{
+    font-size: 0.9em ; 
+    position: absolute;
+    top: 73px;
+    left: 170px;
+}
+#bleu
+{
+    width: 430px;
+    height: 150px;
+    position: relative;
+    border: 4px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+#bleu h4
+{
+    font-size: 1.2em ;
+    font-weight: bold;
+    margin: 0px 50px 0px 10px ;
+    position: absolute;
+    left: 160px;
+    top: 25px;
+}
+#bleu  p
+{
+    font-size: 0.9em ; 
+    position: absolute;
+    top: 73px;
+    left: 170px;
+}
+#etoile i
+{
+    font-size: 1.5em ; 
+    color:#181818 ;
+    border: 0px solid #F2F2F2;
+    border-radius: 0px;
+    background-color: #F2F2F2;  
+    position: absolute;
+    top: 20px;
+    left: 430px;
+}
 /* b)Hebergements */
+
 #hebergements
 {
-    width: 600px;
-    display: flex;
+    width: 760px;
     flex-direction: column;
-    border: 10px solid #f2f2f2;
+    position: relative;
+    border: 10px solid #ffffff;
     border-radius: 30px;
-    background-color:#F2F2F2;   
+    background-color:#FFFFFF;   
     margin: 20px 20px 10px 25px ;  
 }
 #hebergements h2
 {
     font-size: 1.6em;
     font-weight: bold; 
-    margin: 0px 30px 0px 30px;
+    border: 10px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
 }
-
+#hebergements  h4
+{
+    font-size: 1.2em ;
+}
+#hebergements p
+{
+    font-size: 0.9em ;
+}
+#hebergements img
+{
+    width: 350px;
+    height: 110px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
+}
+#cannebiere
+{
+    width: 350px;
+    height: 220px;
+    position: relative;
+    border: 0px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}    
+#port
+{
+    width: 350px;
+    height: 220px;
+    position: relative;
+    border: 0px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+#mouettes
+{
+    width: 350px;
+    height: 220px;
+    position: relative;
+    border: 0px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+#mer
+{
+    width: 350px;
+    height: 220px;
+    position: relative;
+    border: 0px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+#panier
+{
+    width: 350px;
+    height: 220px;
+    position: relative;
+    border: 0px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+#amina
+{
+    width: 350px;
+    height: 220px;
+    position: relative;
+    border: 0px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+#hebergements h5
+{
+    font-size: 1.4em ;  
+    margin: 10px 30px 10px 50px ;  
+}
 /* c)Activites */
+
+
 #activites
 {
-    width: 600px;
-    display: flex;
+    width: 760px;
     flex-direction: column;
-    border: 10px solid #f2f2f2;
+    position: relative;
+    border: 10px solid #FFFFFF;  
     border-radius: 30px;
-    background-color:#F2F2F2;   
-    margin: 20px 20px 10px 25px ;  
+    background-color:#FFFFFF;    
 }
+#activites h2
+{
+    font-size: 1.6em;
+    font-weight: bold; 
+    border: 10px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+#activites h4
+{
+    font-size: 1.2em ;
+    font-weight: bold;
+}
+#activites img
+{
+
+    width: 350px;
+    height: 160px;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
+
+}
+#vieux
+{
+    width: 350px;
+    height: 210px;
+    position: relative;
+    border: 0px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+#pomegues
+{
+    width: 350px;
+    height: 210px;
+    position: relative;
+    border: 0px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+#frioul
+{
+    width: 350px;
+    height: 210px;
+    position: relative;
+    border: 0px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+#calanques
+{
+    width: 350px;
+    height: 210px;
+    position: relative;
+    border: 0px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+#garde
+{
+    width: 350px;
+    height: 210px;
+    position: relative;
+    border: 0px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+#longchamp
+{
+    width: 350px;
+    height: 210px;
+    position: relative;
+    border: 0px solid #ffffff;
+    border-radius: 30px;
+    background-color:#FFFFFF;   
+    margin: 10px 30px 10px 30px;
+}
+
 /* 7)Footer */
 
 footer
 {
-    display: flex;
+    width: 760px;
     flex-direction: column;
-    max-width: 768;
+    background-color: #f2f2f2;
 }
+footer h1
+{
+    font-size: 1.4em ;
+    font-weight: bold;
+    margin: 10px 30px 10px 30px;
+}
+
+footer h3
+{
+    font-weight: normal;
+    font-size: 1em ;
+    margin: 10px 30px 10px 30px;
+}
+
+footer h4
+{
+    font-weight: normal;
+    font-size: 1em ;
+    margin: 10px 300px 10px 30px;
+}
+
 }
