@@ -21,6 +21,7 @@ nav
 nav ul
 {
     display: flex;
+    flex-direction: row-reverse;
     list-style: none;
 }
 nav li
@@ -649,6 +650,7 @@ main
     display: flex;
     flex-direction: column;
     width: 420px;
+    position: relative;
     border: 10px solid #f2f2f2;
     border-radius: 30px;
     background-color:#F2F2F2;   

@@ -6,13 +6,15 @@
     
 body
 {
+    max-width: 768px;
+    width: 100%;
     font-family: 'Raleway', Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     flex-wrap: wrap;
-    align-content: flex-start;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
     border: 1px solid #ffffff;
     border-radius: 0px;
     background-color:#ffffff;
@@ -22,17 +24,13 @@ body
 
 
 /* 2)Navigation */
-nav
-{
-    display: flex;
-    justify-content: center;
-}
+
 nav img
 {
     width: 150px;
     height: 100px;
     object-fit: cover;
-    margin: 25px 150px 25px 150px;
+    margin: 20px 0px 10px 310px ;
 }
 nav ul
 {
@@ -41,13 +39,12 @@ nav ul
 nav li
 {
     color: #181818;
-    border-bottom: 4px solid #F2F2F2;
     font-size: 1.4em;
+    border-bottom: 4px solid #F2F2F2;
     text-decoration: none;
-    padding-bottom: 30px;
-    padding-right: 85px;
-    padding-left: 85px;
-    margin: 0%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin: 20px 0px 10px 0px ;
 }
 nav li:hover
 {
@@ -60,15 +57,15 @@ nav li:hover
 
 header h1
 {
-
     font-size: 1.9em ;
-    margin: 20px 0px 0px 10px ;
+    padding-left: 10px;
 }
 header h3
 {
+    color: #181818;
     font-size: 1.3em ;
     font-weight: normal ;
-    margin: 5px 5px 30px 15px ;
+    padding-left: 10px;
 }
 
 /* 4)Barre de recherche */
@@ -77,7 +74,7 @@ span
 {
     display: flex;
     justify-content: flex-start;
-    margin: 0px 0px 20px 15px ;  
+    margin: 10px 200px 0px 0px ;  
 }
 span i
 {
@@ -85,7 +82,6 @@ span i
     width: 45px;
     font-size: 1.7em;
     padding-top: 5px;
-    text-align: center;
     border: 10px solid #F2F2F2;
     border-bottom-left-radius: 20px ;
     border-top-left-radius: 20px ;
@@ -100,14 +96,12 @@ span input
     border: 1px solid #F2F2F2;
     border-radius: 0px;
     background-color: #FFFFFF; 
-    padding-left: 10px;
 }
 span a
 {
     height: 35px;
     width: 135px;
     font-size: 1.4em;
-    text-align: center;
     padding-top: 5px;
     color: #FFFFFF;
     border: 10px solid #0065FC;
@@ -126,18 +120,19 @@ span a:hover
 
 #filtres 
 {
-    width: 768px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
+    padding-left: 0px;
     border: 1px solid #ffffff;
     border-radius: 0px;
     background-color:#ffffff;
+    margin: 10px 10px 10px 30px ; 
 }
 #filtres h2
-{
+{    
     font-size: 1.7em ;
     font-weight: bold;
+    padding-right: 400px;
+    padding-left: 0px;
+    margin: 10px 10px 10px 20px ; 
 }
 #economique 
 {
@@ -146,7 +141,6 @@ span a:hover
     border: 1px solid #DBDADA;
     border-radius: 100px;
     box-shadow: 0px 0px 1px #5a5959;    
-    margin: 10px 10px 10px 10px ;    
 }
 #economique h3
 {
@@ -172,7 +166,6 @@ span a:hover
     border: 1px solid #DBDADA;
     border-radius: 100px;
     box-shadow: 0px 0px 1px #5a5959;    
-    margin: 10px 10px 10px 10px ;    
 }
 #famille h3 
 {
@@ -197,7 +190,6 @@ span a:hover
     border: 1px solid #DBDADA;
     border-radius: 100px;
     box-shadow: 0px 0px 1px #5a5959;    
-    margin: 10px 10px 10px 10px ;      
 }
 #romantique h3
 {
@@ -222,7 +214,6 @@ span a:hover
     border: 1px solid #DBDADA;
     border-radius: 100px; 
     box-shadow: 0px 0px 1px #5a5959;    
-    margin: 10px 10px 10px 10px ;    
 }
 #animaux h3
 {
@@ -240,6 +231,14 @@ span a:hover
     border-radius: 100px;
     background-color: #DEEBFF;
 }
+aside 
+{
+    padding-left: 0px;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    background-color:#ffffff;
+    margin: 0px 150px 0px 0px ;   
+}
 aside h3
 {
     color : #181818;
@@ -251,7 +250,6 @@ aside i
 {
     height: 20px;
     width: 20px ;
-    text-align: center;
     font-size: 1.6em ;
     padding-top: 2px;
     background-color: #ffffff;
@@ -259,7 +257,7 @@ aside i
     border: 1px solid #F2F2F2;
     border-radius: 100px;
     line-height: 20px;
-    margin: 5px 15px 0px 10px ; 
+    margin: 5px 5px 5px 5px ; 
     box-shadow: 0px 0px 2px #545454;
 }
 aside i:hover
@@ -270,9 +268,13 @@ aside i:hover
 
 /* 6)Main */
 /* a)Populaires */
+
 #populaires
 {
-    width: 760px;
+    width: 768px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     position: relative;
     border: 10px solid #f2f2f2;
@@ -286,12 +288,12 @@ aside i:hover
     border: 10px solid #F2F2F2;  
     border-radius: 30px;
     background-color:#F2F2F2;  
-    margin: 10px 30px 10px 30px;
+    margin: 15px 0px 15px 0px;
 }
 #populaires img
 {
     width: 150px;
-    height: 150px;
+    height: 160px;
     border: 0px solid #ffffff;
     border-radius: 0px;
     border-top-left-radius: 30px ;
@@ -302,7 +304,7 @@ aside i:hover
 #soleil
 {
     width: 430px;
-    height: 150px;
+    height: 160px;
     position: relative;
     border: 4px solid #ffffff;
     border-radius: 30px;
@@ -327,7 +329,7 @@ aside i:hover
 #eau
 {
     width: 430px;
-    height: 150px;
+    height: 160px;
     position: relative;
     border: 4px solid #ffffff;
     border-radius: 30px;
@@ -353,12 +355,12 @@ aside i:hover
 #bleu
 {
     width: 430px;
-    height: 150px;
+    height: 160px;
     position: relative;
     border: 4px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 10px 30px 10px 30px;
+    margin: 10px 30px 30px 30px;
 }
 #bleu h4
 {
@@ -376,6 +378,24 @@ aside i:hover
     top: 73px;
     left: 170px;
 }
+#populaires i
+{
+    color:#0065FC;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
+#populaires span i
+{
+    position: absolute;
+    font-size: 0.9em ; 
+    top: 32px;
+    left: 78px;
+    color:#c1c1c1;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
+}
 #etoile i
 {
     font-size: 1.5em ; 
@@ -385,13 +405,17 @@ aside i:hover
     background-color: #F2F2F2;  
     position: absolute;
     top: 20px;
-    left: 430px;
+    left: 560px;
 }
+
 /* b)Hebergements */
 
 #hebergements
 {
     width: 760px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     position: relative;
     border: 10px solid #ffffff;
@@ -415,6 +439,17 @@ aside i:hover
 #hebergements p
 {
     font-size: 0.9em ;
+}
+#hebergements span i
+{
+    position: absolute;
+    font-size: 0.9em ; 
+    top: 178px;
+    left: 88px;
+    color:#c1c1c1;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    background-color:#FFFFFF;   
 }
 #hebergements img
 {
@@ -490,12 +525,13 @@ aside i:hover
 }
 /* c)Activites */
 
-
 #activites
 {
     width: 760px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    position: relative;
     border: 10px solid #FFFFFF;  
     border-radius: 30px;
     background-color:#FFFFFF;    
@@ -527,90 +563,92 @@ aside i:hover
 {
     width: 350px;
     height: 210px;
-    position: relative;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 10px 30px 10px 30px;
+    margin: 10px 30px 20px 30px;
 }
 #pomegues
 {
     width: 350px;
     height: 210px;
-    position: relative;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 10px 30px 10px 30px;
+    margin: 10px 30px 20px 30px;
 }
 #frioul
 {
     width: 350px;
     height: 210px;
-    position: relative;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 10px 30px 10px 30px;
+    margin: 10px 30px 20px 30px;
 }
 #calanques
 {
     width: 350px;
     height: 210px;
-    position: relative;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 10px 30px 10px 30px;
+    margin: 10px 30px 20px 30px;
 }
 #garde
 {
     width: 350px;
     height: 210px;
-    position: relative;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 10px 30px 10px 30px;
+    margin: 10px 30px 25px 30px;
 }
 #longchamp
 {
     width: 350px;
     height: 210px;
-    position: relative;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 10px 30px 10px 30px;
+    margin: 10px 30px 20px 30px;
 }
 
 /* 7)Footer */
 
 footer
 {
-    width: 760px;
+    width: 768px;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #f2f2f2;
 }
 footer h1
 {
+    display: flex;
+    justify-content: center;
     font-size: 1.4em ;
     font-weight: bold;
-    margin: 10px 30px 10px 30px;
+    margin: 20px 0px 10px 0px;
 }
 
 footer h3
 {
-    font-weight: normal;
+    display: flex;
+    justify-content: center;
     font-size: 1em ;
-    margin: 10px 30px 10px 30px;
+    font-weight: normal;
+    margin: 5px 0px 5px 0px;
 }
 
 footer h4
 {
-    font-weight: normal;
+    display: flex;
+    justify-content: center;
     font-size: 1em ;
-    margin: 10px 300px 10px 30px;
+    font-weight: normal;
+    margin: 5px 0px 20px 0px;
 }
 
 }
