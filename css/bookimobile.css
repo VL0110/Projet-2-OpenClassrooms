@@ -4,17 +4,15 @@
 
 @media screen and (max-width: 768px) {
     
-body
+#content
 {
     max-width: 768px;
-    width: 100%;
+    max-width: 100%;
     font-family: 'Raleway', Arial, sans-serif;
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     border: 1px solid #ffffff;
     border-radius: 0px;
     background-color:#ffffff;
@@ -30,7 +28,7 @@ nav img
     width: 150px;
     height: 100px;
     object-fit: cover;
-    margin: 20px 0px 10px 310px ;
+    margin: 20px 0px 10px 250px ;
 }
 nav ul
 {
@@ -40,11 +38,10 @@ nav li
 {
     color: #181818;
     font-size: 1.4em;
+    padding-left: 70px;
+    padding-right: 101px;
     border-bottom: 4px solid #F2F2F2;
     text-decoration: none;
-    padding-right: 100px;
-    padding-left: 100px;
-    margin: 20px 0px 10px 0px ;
 }
 nav li:hover
 {
@@ -55,27 +52,37 @@ nav li:hover
 
 /* 3)Header */
 
+header
+{
+    flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: flex-start;
+   border: 1px solid #ffffff;
+   border-radius: 0px;
+   background-color:#ffffff;
+}
 header h1
 {
+    align-items: flex-start;
     font-size: 1.9em ;
-    padding-left: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    background-color:#ffffff;
 }
 header h3
 {
     color: #181818;
     font-size: 1.3em ;
     font-weight: normal ;
-    padding-left: 10px;
 }
 
 /* 4)Barre de recherche */
 
 span
 {
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px 200px 0px 0px ;  
+    margin: 10px 10px 10px 30px ; 
 }
+
 span i
 {
     height: 35px;
@@ -231,14 +238,7 @@ span a:hover
     border-radius: 100px;
     background-color: #DEEBFF;
 }
-aside 
-{
-    padding-left: 0px;
-    border: 1px solid #ffffff;
-    border-radius: 0px;
-    background-color:#ffffff;
-    margin: 0px 150px 0px 0px ;   
-}
+
 aside h3
 {
     color : #181818;
@@ -272,9 +272,6 @@ aside i:hover
 #populaires
 {
     width: 768px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     position: relative;
     border: 10px solid #f2f2f2;
@@ -288,7 +285,7 @@ aside i:hover
     border: 10px solid #F2F2F2;  
     border-radius: 30px;
     background-color:#F2F2F2;  
-    margin: 15px 0px 15px 0px;
+    margin: 15px 0px 15px 50px;
 }
 #populaires img
 {
@@ -405,7 +402,7 @@ aside i:hover
     background-color: #F2F2F2;  
     position: absolute;
     top: 20px;
-    left: 560px;
+    left: 430px;
 }
 
 /* b)Hebergements */
@@ -414,8 +411,6 @@ aside i:hover
 {
     width: 760px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     position: relative;
     border: 10px solid #ffffff;
@@ -529,8 +524,6 @@ aside i:hover
 {
     width: 760px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     border: 10px solid #FFFFFF;  
     border-radius: 30px;
@@ -618,16 +611,15 @@ aside i:hover
 
 footer
 {
-    width: 768px;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-color: #f2f2f2;
+    position: relative;
+    border: 10px solid #f2f2f2;
+    border-radius: 0px;
+    background-color:#F2F2F2;    
 }
 footer h1
 {
     display: flex;
-    justify-content: center;
     font-size: 1.4em ;
     font-weight: bold;
     margin: 20px 0px 10px 0px;
@@ -636,7 +628,6 @@ footer h1
 footer h3
 {
     display: flex;
-    justify-content: center;
     font-size: 1em ;
     font-weight: normal;
     margin: 5px 0px 5px 0px;
@@ -645,7 +636,6 @@ footer h3
 footer h4
 {
     display: flex;
-    justify-content: center;
     font-size: 1em ;
     font-weight: normal;
     margin: 5px 0px 20px 0px;
