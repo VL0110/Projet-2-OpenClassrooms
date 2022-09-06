@@ -11,7 +11,7 @@
     font-family: 'Raleway', Arial, sans-serif;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     border: 1px solid #ffffff;
     border-radius: 0px;
@@ -19,14 +19,23 @@
 }
 
 /* 1)Eléments principaux de la page */
-
+body
+{
+    align-items: flex-start ;
+    margin: 0px 0px 0px 0px ;
+}
+header
+{
+    align-items: flex-start ;
+    margin: 0px 0px 0px 0px ;
+}
 
 /* 2)Navigation */
 
 nav img
 {
-    width: 150px;
-    height: 100px;
+    width: 120px;
+    height: 80px;
     object-fit: cover;
     margin: 20px 0px 10px 250px ;
 }
@@ -38,7 +47,7 @@ nav li
 {
     color: #181818;
     font-size: 1.4em;
-    padding-left: 70px;
+    padding-left: 80px;
     padding-right: 101px;
     border-bottom: 4px solid #F2F2F2;
     text-decoration: none;
@@ -71,7 +80,7 @@ header h1
 header h3
 {
     color: #181818;
-    font-size: 1.3em ;
+    font-size: 1.4em ;
     font-weight: normal ;
 }
 
@@ -81,12 +90,12 @@ span
 {
     margin: 10px 10px 10px 30px ; 
 }
-
-span i
+#map i
 {
     height: 35px;
     width: 45px;
     font-size: 1.7em;
+    text-align: center;
     padding-top: 5px;
     border: 10px solid #F2F2F2;
     border-bottom-left-radius: 20px ;
@@ -97,29 +106,47 @@ span i
 span input 
 {
     height: 60px;
-    width: 220px;
+    width: 250px;
     font-size: 1.3em;
     border: 1px solid #F2F2F2;
     border-radius: 0px;
     background-color: #FFFFFF; 
 }
-span a
+span section #search1 a
 {
     height: 35px;
     width: 135px;
     font-size: 1.4em;
     padding-top: 5px;
     color: #FFFFFF;
-    border: 10px solid #0065FC;
+    border: 10px solid #ffffff;
     border-bottom-right-radius: 20px ;
     border-top-right-radius: 20px ;
     border-bottom-left-radius: 20px ;
     border-top-left-radius: 20px ;
+    background-color: #ffffff;
+}
+span section #search1 a:hover
+{
+    color: #ffffff;
+}
+span section #search2 a
+{
+    height: 35px;
+    width: 45px;
+    font-size: 1.7em;
+    text-decoration: none;
+    padding-top: 10px;
+    color: #FFFFFF;
+    border: 10px solid #0065FC;
+    border-radius: 20px ;
     background-color: #0065FC;
 }
-span a:hover
+span section
 {
-    color: #181818;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 /* 5)Filtres */
@@ -271,12 +298,13 @@ aside :hover
 {
     width: 767px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
     position: relative;
     border: 10px solid #f2f2f2;
     border-radius: 0px;
     background-color:#F2F2F2;    
+    margin: 20px 0px 20px 0px ;  
 }
 #populaires h2
 {
@@ -300,7 +328,7 @@ aside :hover
 
 #soleil
 {
-    width: 550px;
+    width: 540px;
     height: 200px;
     position: relative;
     border: 4px solid #ffffff;
@@ -325,7 +353,7 @@ aside :hover
 }
 #eau
 {
-    width: 550px;
+    width: 540px;
     height: 200px;
     position: relative;
     border: 4px solid #ffffff;
@@ -351,7 +379,7 @@ aside :hover
 }
 #bleu
 {
-    width: 550px;
+    width: 540px;
     height: 200px;
     position: relative;
     border: 4px solid #ffffff;
@@ -412,12 +440,12 @@ aside :hover
     width: 760px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     position: relative;
     border: 10px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 20px 0px 10px 0px ;  
+    margin: 20px 0px 20px 0px ;  
 }
 #hebergements h2
 {
@@ -441,14 +469,14 @@ aside :hover
 
 #hebergements img
 {
-    width: 550px;
+    width: 540px;
     height: 170px;
     border-top-left-radius: 30px ;
     border-top-right-radius: 30px;
 }
 #cannebiere
 {
-    width: 550px;
+    width: 540px;
     height: 290px;
     position: relative;
     border: 0px solid #ffffff;
@@ -458,7 +486,7 @@ aside :hover
 }    
 #port
 {
-    width: 550px;
+    width: 540px;
     height: 290px;
     position: relative;
     border: 0px solid #ffffff;
@@ -468,7 +496,7 @@ aside :hover
 }
 #mouettes
 {
-    width: 550px;
+    width: 540px;
     height: 290px;
     position: relative;
     border: 0px solid #ffffff;
@@ -478,7 +506,7 @@ aside :hover
 }
 #mer
 {
-    width: 550px;
+    width: 540px;
     height: 290px;
     position: relative;
     border: 0px solid #ffffff;
@@ -488,7 +516,7 @@ aside :hover
 }
 #panier
 {
-    width: 550px;
+    width: 540px;
     height: 290px;
     position: relative;
     border: 0px solid #ffffff;
@@ -498,7 +526,7 @@ aside :hover
 }
 #amina
 {
-    width: 550px;
+    width: 540px;
     height: 290px;
     position: relative;
     border: 0px solid #ffffff;
@@ -517,7 +545,7 @@ aside :hover
 {
     width: 760px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
     border: 10px solid #FFFFFF;  
     border-radius: 30px;
@@ -531,7 +559,7 @@ aside :hover
     border: 10px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 10px 0px 10px 20px;
+    margin: 10px 0px 20px 0px;
 }
 #activites h4
 {
@@ -541,58 +569,64 @@ aside :hover
 }
 #activites img
 {
-    width: 550px;
+    width: 540px;
     height: 230px;
     border-top-left-radius: 30px ;
     border-top-right-radius: 30px;
 }
 #vieux
 {
-    width: 550px;
+    width: 540px;
     height: 290px;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
+    margin: 10px 0px 20px 0px;
 }
 #pomegues
 {
-    width: 550px;
+    width: 540px;
     height: 290px;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
+    margin: 10px 0px 20px 0px;
 }
 #frioul
 {
-    width: 550px;
+    width: 540px;
     height: 290px;
     border: 0px solid #ffffff;
     border-radius: 30px;
-    background-color:#FFFFFF;   
+    background-color:#FFFFFF;  
+    margin: 10px 0px 20px 0px; 
 }
 #calanques
 {
-    width: 550px;
+    width: 540px;
     height: 290px;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
+    margin: 10px 0px 20px 0px;
 }
 #garde
 {
-    width: 550px;
+    width: 540px;
     height: 290px;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
+    margin: 10px 0px 20px 0px;
 }
 #longchamp
 {
-    width: 550px;
+    width: 540px;
     height: 290px;
     border: 0px solid #ffffff;
     border-radius: 30px;
-    background-color:#FFFFFF;   
+    background-color:#FFFFFF;  
+    margin: 10px 0px 20px 0px; 
 }
 
 /* 7)Footer */

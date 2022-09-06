@@ -28,64 +28,57 @@ nav
 
 /* 6)Main */
 /* a)Hebergements */
-
-
+#hebergements 
+{
+    width: 750px;  
+    align-items: center;
+    margin: 20px 20px 10px 10px ;  
+}
+#hebergements h2
+{ 
+    margin: 25px 300px 10px 30px ;  
+}
 #cannebiere
 {
     margin: 25px 10px 15px 30px ;
 }
 #port
 {
-    margin: 25px 10px 20px 10px ;
+    margin: 25px 10px 20px 20px ;
 }
 #mouettes
 {
-    margin: 25px 10px 15px 10px ;
+    margin: 25px 10px 15px 30px ;
 }
 #mer
 {
-    margin: 25px 10px 20px 30px ;
+    margin: 25px 10px 20px 20px ;
 }
 #panier
 {
-    margin: 25px 10px 15px 10px ;
+    margin: 25px 10px 15px 30px ;
 }
 #amina
 {
-    margin: 25px 10px 20px 10px ;
+    margin: 25px 10px 20px 20px ;
 }
 
 /* b)Populaires */
-#populaires
-{
-    width: 400px;
-}
-#soleil
-{
-    width: 320px;
-}
-#eau
-{
-    width: 320px;
-}
-#bleu
-{
-    width: 320px;
-}
 
 /* c)Activites */
 
 #activites
 {
-    min-width: 1600px;
-    width: 600px;
+    width: 900px;
+    margin: 20px 10px 10px 10px ;  
 }
 #activites h2
 {
-    font-size: 1.2em ;
+    font-size: 1.4em ;
     font-weight: bold;
     margin: 10px 140px 10px 0px ; 
     padding-right: 180px;
+    margin: 25px 300px 10px 30px ; 
 }
 
 /* 7)Footer */
