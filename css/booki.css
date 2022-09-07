@@ -27,14 +27,14 @@ nav ul
 nav li 
 {
     color: #181818;
-    font-size: 1.2em;
+    font-size: 1em;
     padding-bottom: 3px;
     text-decoration: none;
     text-align: center;
     justify-content: space-between;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 15px;
-    padding-right: 40px;
+    padding-right: 25px;
     padding-left: 15px;
 }
 nav a
@@ -48,10 +48,16 @@ nav a:hover
     border-top: 2px solid #0065FC;
     padding-top: 40px;
 }
+nav li:hover
+{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 40px;
+}
 nav img
 {
- width: 110px;
- height: 70px;
+ width: 100px;
+ height: 60px;
  object-fit: cover;
  margin: 30px 0px 20px 40px ;
 }
@@ -65,14 +71,14 @@ nav img:hover
 
 header h1
 {
-    font-size: 1.6em ;
+    font-size: 1.4em ;
     font-weight: bold;
     margin: 20px 5px 0px 40px ;
 }
 header h3
 {
     color : #606060 ;
-    font-size: 1.2em ;
+    font-size: 1em ;
     font-weight: normal ;
     margin: 5px 5px 30px 40px ;
 }
@@ -84,16 +90,18 @@ span
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 50px 0px 15px 40px ;  
+    margin: 10px 0px 10px 40px ;  
 }
 #map i
 {
-    font-size: 1.2em;
-    padding-top: 5px;
-    height: 28px;
+    font-size: 1.1em;
+    padding-top: 7px;
+    padding-left: 5px;
+    height: 26px;
+    width: 20px;
     border: 10px solid #F2F2F2;
-    border-bottom-left-radius: 10px ;
-    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 12px ;
+    border-top-left-radius: 12px ;
     background-color: #F2F2F2;
 }
 #map i:hover
@@ -104,7 +112,7 @@ span input
 {
     width: 250px;
     height: 50px;
-    font-size: 1.2em;
+    font-size: 1em;
     border: 1px solid #F2F2F2;
     border-radius: 0px;
     background-color: #FFFFFF; 
@@ -112,19 +120,23 @@ span input
 }
 span section #search1 a
 {
-    font-size: 1.3em;
+    font-size: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-decoration: none;
     text-align: center;
     font-weight: bold;
-    color: #FFFFFF;
+    color: #f2f2f2;
     border: 10px solid #0065FC;
-    border-bottom-right-radius: 10px ;
-    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 12px ;
+    border-top-right-radius: 12px ;
     background-color: #0065FC;
 }
 span section #search1 a:hover
 {
-    color: #181818;
+    color: #FFFFFF;
 }
 span section #search2 a
 {
@@ -152,26 +164,28 @@ span section
 
 #filtres h2
 {
-    font-size: 1.5em ;
+    font-size: 1.2em ;
     font-weight: bold;
-    margin: 15px 10px 10px 40px ;
+    padding-top: 10px;
+    margin: 10px 10px 10px 40px ;
 }
 
 #economique 
 {
+    height: 40px;
     width: 180px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
-    box-shadow: 0px 0px 1px #5a5959;    
+    box-shadow: 0px 0px 1px #c4c4c4; 
     margin: 10px 0px 10px 20px ;     
 }
 #economique h3
 {
-    font-size: 1.2em ;
+    font-size: 1.1em ;
     font-weight: bold;
     position: absolute;
-    top: -11px;
+    top: -8px;
     right: 17px;
 }
 #economique h3:hover
@@ -180,28 +194,31 @@ span section
 }
 #economique i
 {
-   font-size: 1.2em ;
+   font-size: 17px ;
    color: #0065FC;
-   border: 10px solid #DEEBFF;
+   border: 13px solid #DEEBFF;
    border-radius: 100px;
+   position: absolute;
+   top: -2px;
    background-color: #DEEBFF;
 }
 #famille 
 {
-    width: 130px ;
+    height: 40px;
+    width: 145px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
-    box-shadow: 0px 0px 1px #5a5959;    
+    box-shadow: 0px 0px 1px #c4c4c4;   
     margin: 10px 0px 10px 20px ;      
 }
 #famille h3 
 {
-    font-size: 1.2em ;
+    font-size: 1.1em ;
     font-weight: bold;
     position: absolute;
-    top: -11px;
-    right: 17px;
+    top: -8px;
+    right: 25px;
 }
 #famille h3:hover
 {
@@ -209,28 +226,33 @@ span section
 }
 #famille i
 {
-   font-size: 1.2em ;
+   font-size: 17px ;
    color: #0065FC;
-   border: 10px solid #DEEBFF;
+   border: 13px solid #DEEBFF;
    border-radius: 100px;
+   padding-right: 4px;
+   padding-left: 2px;
+   position: absolute;
+   top: -2px;
    background-color: #DEEBFF;
 }
 #romantique
 {
+    height: 40px;
     width: 180px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
-    box-shadow: 0px 0px 1px #5a5959;    
+    box-shadow: 0px 0px 1px #c4c4c4;  
     margin: 10px 0px 10px 20px ;      
 }
 #romantique h3
 {
-    font-size: 1.2em ;
+    font-size: 1.1em ;
     font-weight: bold;
     position: absolute;
-    top: -11px;
-    right: 17px;
+    top: -8px;
+    right: 20px;
 }
 #romantique h3:hover
 {
@@ -238,28 +260,31 @@ span section
 }
 #romantique i
 {
-    font-size: 1.2em ;
+    font-size: 17px ;
     color: #0065FC;
-    border: 10px solid #DEEBFF;
+    border: 13px solid #DEEBFF;
     border-radius: 100px;
+    position: absolute;
+    top: -2px;
     background-color: #DEEBFF;
 }
 #animaux
 {
+    height: 40px;
     width: 230px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px; 
-    box-shadow: 0px 0px 1px #5a5959;    
+    box-shadow: 0px 0px 1px #c4c4c4;  
     margin: 10px 0px 10px 20px ;    
 }
 #animaux h3
 {
-    font-size: 1.2em ;
+    font-size: 1.1em ;
     font-weight: bold;
     position: absolute;
-    top: -11px;
-    right: 17px;
+    top: -8px;
+    right: 18px;
 }
 #animaux h3:hover
 {
@@ -267,10 +292,12 @@ span section
 }
 #animaux i
 {
-    font-size: 1.2em ;
+    font-size: 17px ;
     color: #0065FC;
-    border: 10px solid #DEEBFF;
+    border: 13px solid #DEEBFF;
     border-radius: 100px;
+    position: absolute;
+    top: -2px;
     background-color: #DEEBFF;
 }
 
@@ -278,24 +305,24 @@ aside
 {
     display: flex;
     color : #707070;
-    font-size: 0.8em ;
+    font-size: 0.7em ;
     font-weight: normal ;  
     margin: 5px 0px 0px 30px ; 
 }
 aside i
 {
-    height: 20px;
-    width: 20px ;
-    font-size: 1em ;
+    height: 15px;
+    width: 15px ;
+    font-size: 0.9em ;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 2px;
     background-color: #ffffff;
     color: #0065FC;
     border: 1px solid #F2F2F2;
     border-radius: 100px;
     line-height: 20px;
-    margin: 5px 15px 0px 10px ; 
-    box-shadow: 0px 0px 2px #545454;
+    margin: 5px 10px 13px 10px ; 
+    box-shadow: 0px 0px 2px #c4c4c4;
 }
 aside :hover
 {
@@ -324,17 +351,17 @@ main
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    border: 0px solid #f2f2f2;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border: 1px solid #f2f2f2;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     background-color:#F2F2F2;  
     margin: 20px 20px 10px 50px ;  
 }
 #hebergements h2
 {
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: bold;
     border: 3px solid #f2f2f2;
     border-radius: 20px;
@@ -620,7 +647,7 @@ main
 }
 #populaires h2 
 {
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: bold;
     margin: 25px 50px 25px 30px ;  
 }
@@ -758,7 +785,7 @@ main
 }
 #activites h2
 {
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: bold;
     margin: 10px 1100px 10px 10px ; 
 }
@@ -926,7 +953,7 @@ footer
 footer h1
 {
     font-weight: normal;
-    font-size: 1.4em ;
+    font-size: 1em ;
     font-weight: bold;
     margin: 25px 0px 15px 0px ;
 }
@@ -937,7 +964,7 @@ footer h1:hover
 footer h3
 {
     font-weight: normal;
-    font-size: 1em ;
+    font-size: 0.8em ;
     margin: 10px 0px 10px 0px ;
 }
 footer h3:hover
@@ -947,7 +974,7 @@ footer h3:hover
 footer h4
 {
     font-weight: normal;
-    font-size: 1em ;
+    font-size: 0.8em ;
     margin: 10px 0px 30px 0px ;
 }
 footer h4:hover

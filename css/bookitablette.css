@@ -30,57 +30,141 @@ nav
 /* a)Hebergements */
 #hebergements 
 {
-    width: 750px;  
+    width: 850px;  
+    justify-content: flex-start;
     align-items: center;
-    margin: 20px 20px 10px 10px ;  
+    justify-content: center;
+    margin: 20px 0px 10px 0px ;  
 }
 #hebergements h2
 { 
-    margin: 25px 300px 10px 30px ;  
+    padding-right: 100px;
+    margin: 35px 300px 10px 30px ;  
 }
 #cannebiere
 {
-    margin: 25px 10px 15px 30px ;
+    margin: 25px 20px 15px 20px ;
 }
 #port
 {
-    margin: 25px 10px 20px 20px ;
+    margin: 25px 20px 20px 20px ;
 }
 #mouettes
 {
-    margin: 25px 10px 15px 30px ;
+    margin: 25px 20px 15px 20px ;
 }
 #mer
 {
-    margin: 25px 10px 20px 20px ;
+    margin: 25px 20px 20px 20px ;
 }
 #panier
 {
-    margin: 25px 10px 15px 30px ;
+    margin: 25px 20px 15px 20px ;
 }
 #amina
 {
-    margin: 25px 10px 20px 20px ;
+    margin: 25px 20px 20px 20px ;
 }
-
+#hebergements h5
+{
+    padding-right: 500px;
+    margin: 30px 10px 40px 60px ;  
+}
 /* b)Populaires */
+#populaires
+{
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 10px 0px ;  
+}
+#populaires h2 
+{
+    padding-right: 180px;
+    margin: 25px 50px 25px 30px ;  
+}
 
 /* c)Activites */
 
 #activites
 {
-    width: 900px;
-    margin: 20px 10px 10px 10px ;  
+    width: 800px;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 10px 0px ;  
 }
 #activites h2
 {
-    font-size: 1.4em ;
-    font-weight: bold;
-    margin: 10px 140px 10px 0px ; 
-    padding-right: 180px;
-    margin: 25px 300px 10px 30px ; 
+    padding-right: 300px;
+    margin: 25px 250px 10px 30px ; 
 }
-
+#vieux
+{
+    width: 350px;
+    height: 520px;
+    margin: 25px 10px 20px 10px ;
+}
+#vieux img
+{
+    width: 350px;
+    height: 470px;
+}
+#pomegues
+{
+    width: 350px;
+    height: 240px;
+    margin: 25px 20px 40px 20px ;
+}
+#pomegues img
+{
+    width: 350px;
+    height: 190px;
+}
+#frioul
+{
+    width: 350px;
+    height: 240px;
+    margin: 25px 20px 20px 20px ;
+}
+#frioul img
+{
+    width: 350px;
+    height: 190px;
+}
+#calanques
+{
+    width: 350px;
+    height: 520px;
+    margin: 25px 10px 20px 10px ;
+}
+#calanques img
+{
+    width: 350px;
+    height: 470px;
+}  
+#garde
+{
+    width: 350px;
+    height: 240px;
+    margin: 25px 20px 40px 20px ;
+}
+#garde img
+{
+    width: 350px;
+    height: 190px;
+} 
+#longchamp
+{
+    width: 350px;
+    height: 240px;
+    margin: 25px 20px 20px 20px ;
+}
+#longchamp img
+{
+    width: 350px;
+    height: 190px;
+}
 /* 7)Footer */
 
 }
