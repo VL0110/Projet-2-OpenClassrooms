@@ -11,57 +11,45 @@ body
 
 /* 2)Navigation */
 
-nav
+nav 
 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
-nav ul
+nav a
 {
     display: flex;
-    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
     list-style: none;
-}
-nav li 
-{
     color: #181818;
     font-size: 1em;
     padding-bottom: 3px;
     text-decoration: none;
     text-align: center;
-    justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-right: 25px;
     padding-left: 15px;
+    margin: 30px 0px 0px 40px ;
 }
-nav a
-{
-    color: #181818;
-    text-decoration: none;
-}
+
 nav a:hover
 {
     color: #0065FC;
     border-top: 2px solid #0065FC;
     padding-top: 40px;
 }
-nav li:hover
-{
-    color: #0065FC;
-    border-top: 2px solid #0065FC;
-    padding-top: 40px;
-}
-nav img
+
+#logobooki img
 {
  width: 100px;
  height: 60px;
  object-fit: cover;
- margin: 30px 0px 20px 40px ;
+ margin: 30px 0px 0px 40px ;
 }
-nav img:hover
+#logobooki img:hover
 {
     border: 5px solid #ffffff;
     border-radius: 15px;
@@ -92,7 +80,7 @@ span
     align-items: center;
     margin: 10px 0px 10px 40px ;  
 }
-#map i
+span i
 {
     font-size: 1.1em;
     padding-top: 7px;
@@ -104,7 +92,7 @@ span
     border-top-left-radius: 12px ;
     background-color: #F2F2F2;
 }
-#map i:hover
+span i:hover
 {
     color:#FFAD05
 }
@@ -118,7 +106,7 @@ span input
     background-color: #FFFFFF; 
     padding-left: 10px;
 }
-span section #search1 a
+span div #search1 a
 {
     font-size: 1em;
     padding-top: 5px;
@@ -134,11 +122,11 @@ span section #search1 a
     border-top-right-radius: 12px ;
     background-color: #0065FC;
 }
-span section #search1 a:hover
+span div #search1 a:hover
 {
     color: #FFFFFF;
 }
-span section #search2 a
+span div #search2 a
 {
     text-align: center;
     border: 10px solid #ffffff;
@@ -146,7 +134,7 @@ span section #search2 a
     border-top-left-radius: 10px ;
     background-color: #ffffff;
 }
-span section
+span div 
 {
     display: flex;
     flex-direction: row;
@@ -185,7 +173,7 @@ span section
     font-size: 1.1em ;
     font-weight: bold;
     position: absolute;
-    top: -8px;
+    top: -9px;
     right: 17px;
 }
 #economique h3:hover
@@ -217,7 +205,7 @@ span section
     font-size: 1.1em ;
     font-weight: bold;
     position: absolute;
-    top: -8px;
+    top: -9px;
     right: 25px;
 }
 #famille h3:hover
@@ -251,7 +239,7 @@ span section
     font-size: 1.1em ;
     font-weight: bold;
     position: absolute;
-    top: -8px;
+    top: -9px;
     right: 20px;
 }
 #romantique h3:hover
@@ -283,7 +271,7 @@ span section
     font-size: 1.1em ;
     font-weight: bold;
     position: absolute;
-    top: -8px;
+    top: -9px;
     right: 18px;
 }
 #animaux h3:hover
