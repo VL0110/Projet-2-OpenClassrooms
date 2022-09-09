@@ -32,7 +32,7 @@ nav a
     padding-bottom: 0px;
     padding-right: 25px;
     padding-left: 15px;
-    margin: 30px 0px 0px 40px ;
+    margin: -50px 0px 0px 40px ;
 }
 
 nav a:hover
@@ -60,7 +60,6 @@ nav a:hover
 header h1
 {
     font-size: 1.4em ;
-    font-weight: bold;
     margin: 20px 5px 0px 40px ;
 }
 header h3
@@ -103,7 +102,6 @@ span input
     font-size: 1em;
     border: 1px solid #F2F2F2;
     border-radius: 0px;
-    background-color: #FFFFFF; 
     padding-left: 10px;
 }
 span div #search1 a
@@ -147,7 +145,6 @@ span div
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    background-color:#ffffff;
 }
 
 #filtres h2
@@ -309,7 +306,7 @@ aside i
     border: 1px solid #F2F2F2;
     border-radius: 100px;
     line-height: 20px;
-    margin: 5px 10px 13px 10px ; 
+    margin: 10px 10px 13px 10px ; 
     box-shadow: 0px 0px 2px #c4c4c4;
 }
 aside :hover
@@ -354,7 +351,7 @@ main
     border: 3px solid #f2f2f2;
     border-radius: 20px;
     background-color:#F2F2F2;  
-    margin: 25px 700px 10px 60px ;  
+    margin: 25px 500px 10px 60px ;  
 }
 
 #cannebiere
@@ -769,13 +766,13 @@ main
     border: 10px solid #FFFFFF;
     border-radius: 30px;
     background-color:#FFFFFF;
-    margin: 20px 20px 10px 70px ;  
+    margin: 20px 20px 10px 20px ;  
 }
 #activites h2
 {
     font-size: 1.3em;
     font-weight: bold;
-    margin: 10px 1100px 10px 10px ; 
+    margin: 10px 1050px 10px 30px ; 
 }
 #activites h4
 {
@@ -933,15 +930,30 @@ footer
 {
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     background-color: #f2f2f2;
     margin: 20px 0px 50px 0px ;
+}
+#a_propos
+{
+    border: 10px solid #f2f2f2;
+    margin: 0px 0px 0px 70px ;
+}
+#nos_hebergements
+{
+    border: 10px solid #f2f2f2;
+    margin: 0px 0px 0px 0px ;
+}
+#assistance
+{
+    border: 10px solid #f2f2f2;
+    margin: 0px 100px 0px 0px ;
 }
 footer h1
 {
     font-weight: normal;
-    font-size: 1em ;
+    font-size: 1.1em ;
     font-weight: bold;
     margin: 25px 0px 15px 0px ;
 }
@@ -952,7 +964,7 @@ footer h1:hover
 footer h3
 {
     font-weight: normal;
-    font-size: 0.8em ;
+    font-size: 0.9em ;
     margin: 10px 0px 10px 0px ;
 }
 footer h3:hover
@@ -962,7 +974,7 @@ footer h3:hover
 footer h4
 {
     font-weight: normal;
-    font-size: 0.8em ;
+    font-size: 0.9em ;
     margin: 10px 0px 30px 0px ;
 }
 footer h4:hover
