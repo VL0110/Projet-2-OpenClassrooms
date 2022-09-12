@@ -7,7 +7,7 @@
 #content
 {
     max-width: 768px;
-    max-width: 100%;
+    width: 100%;
     font-family: 'Raleway', Arial, sans-serif;
     flex-direction: column;
     flex-wrap: wrap;
@@ -50,23 +50,20 @@ header
 #logobooki img
 {
     display: flex;
-    width: 110px;
+    justify-content: center;
+    width: 30%;
     height: 70px;
     object-fit: cover;
-    margin: 20px 0px 10px 250px ;
+    margin: 20px 0px 10px 150px ;
 }
 
 nav a
 {
-    display: flex;
     list-style: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
     color: #181818;
-    font-size: 1.3em;
-    padding-top: 10px;
-    padding-right: 100px;
-    padding-left: 100px;
-    border-bottom: 4px solid #F2F2F2;
-    padding-bottom: 10px;
     text-decoration: none;
     margin: 30px 0px 30px 0px ; 
 }
@@ -92,7 +89,7 @@ header
 header h1
 {
     align-items: flex-start;
-    font-size: 1.7em ;
+    font-size: 160% ;
     border: 1px solid #ffffff;
     border-radius: 0px;
     background-color:#ffffff;
@@ -100,7 +97,7 @@ header h1
 header h3
 {
     color: #181818;
-    font-size: 1.4em ;
+    font-size: 130% ;
     font-weight: normal ;
 }
 
@@ -112,11 +109,10 @@ span
 }
 span i
 {
-    height: 35px;
+    height: 34px;
     width: 40px;
-    font-size: 1.7em;
+    font-size: 130%;
     text-align: center;
-    padding-top: 5px;
     border: 10px solid #F2F2F2;
     border-bottom-left-radius: 20px ;
     border-top-left-radius: 20px ;
@@ -126,8 +122,9 @@ span i
 span input 
 {
     height: 60px;
-    width: 250px;
+    width: 240px;
     font-size: 1.2em;
+    padding-right: 0px;
     border: 1px solid #F2F2F2;
     border-radius: 0px;
     background-color: #FFFFFF; 
@@ -366,7 +363,7 @@ main
 
 #populaires
 {
-    width: 700px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -388,7 +385,7 @@ main
 }
 #populaires img
 {
-    width: 240px;
+    width: 210px;
     height: 190px;
     border: 0px solid #ffffff;
     border-radius: 0px;
@@ -399,7 +396,7 @@ main
 
 #soleil
 {
-    width: 530px;
+    width: 85%;
     height: 190px;
     position: relative;
     border: 4px solid #ffffff;
@@ -412,19 +409,19 @@ main
     font-size: 1.2em ;
     font-weight: bold;
     position: absolute;
-    left: 260px;
-    top: 25px;
+    left: 225px;
+    top: 30px;
 }
 #soleil p
 {
     font-size: 0.9em ; 
     position: absolute;
-    top: 50px;
-    left: 270px;
+    top: 95px;
+    left: 235px;
 }
 #eau
 {
-    width: 530px;
+    width: 85%;
     height: 190px;
     position: relative;
     border: 4px solid #ffffff;
@@ -436,21 +433,20 @@ main
 {
     font-size: 1.2em ;
     font-weight: bold;
-    margin: 0px 50px 0px 10px ;
     position: absolute;
-    left: 260px;
+    left: 225px;
     top: 25px;
 }
 #eau p
 {
     font-size: 0.9em ; 
     position: absolute;
-    top: 73px;
-    left: 270px;
+    top: 105px;
+    left: 235px;
 }
 #bleu
 {
-    width: 530px;
+    width: 85%;
     height: 190px;
     position: relative;
     border: 4px solid #ffffff;
@@ -462,17 +458,16 @@ main
 {
     font-size: 1.2em ;
     font-weight: bold;
-    margin: 0px 50px 0px 10px ;
     position: absolute;
-    left: 260px;
+    left: 225px;
     top: 25px;
 }
 #bleu  p
 {
     font-size: 0.9em ; 
     position: absolute;
-    top: 73px;
-    left: 270px;
+    top: 105px;
+    left: 235px;
 }
 #populaires i
 {
@@ -496,7 +491,6 @@ main
 {
     font-size: 1.6em ; 
     color:#181818 ;
-    padding-left: 110px;
     border: 0px solid #F2F2F2;
     border-radius: 0px;
     background-color: #F2F2F2;  

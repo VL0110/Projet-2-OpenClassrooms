@@ -4,6 +4,7 @@
 
 body
 {
+    width: 100%;
     font-family: 'Raleway', Arial, sans-serif;
     display: flex;
     flex-direction: column;
@@ -24,7 +25,7 @@ nav a
     align-items: flex-start;
     list-style: none;
     color: #181818;
-    font-size: 1em;
+    font-size: 90%;
     padding-bottom: 3px;
     text-decoration: none;
     text-align: center;
@@ -32,22 +33,18 @@ nav a
     padding-bottom: 0px;
     padding-right: 25px;
     padding-left: 15px;
-    margin: -50px 0px 0px 40px ;
+    margin: -60px 0px 0px 40px ;
 }
-
 nav a:hover
 {
     color: #0065FC;
-    border-top: 2px solid #0065FC;
-    padding-top: 40px;
 }
-
 #logobooki img
 {
- width: 100px;
- height: 60px;
- object-fit: cover;
- margin: 30px 0px 0px 40px ;
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+    margin: 30px 0px 0px 20px ;
 }
 #logobooki img:hover
 {
@@ -59,15 +56,15 @@ nav a:hover
 
 header h1
 {
-    font-size: 1.4em ;
-    margin: 20px 5px 0px 40px ;
+    font-size: 125% ;
+    margin: 20px 5px 0px 25px ;
 }
 header h3
 {
     color : #606060 ;
-    font-size: 1em ;
+    font-size: 100% ;
     font-weight: normal ;
-    margin: 5px 5px 30px 40px ;
+    margin: 5px 5px 30px 30px ;
 }
 
 /* 4)Barre de recherche */
@@ -77,15 +74,15 @@ span
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 10px 0px 10px 40px ;  
+    margin: 10px 0px 10px 20px ;  
 }
 span i
 {
-    font-size: 1.1em;
-    padding-top: 7px;
-    padding-left: 5px;
-    height: 26px;
-    width: 20px;
+    font-size: 100%;
+    padding-top: 2px;
+    text-align: center;
+    height: 18px;
+    width: 15px;
     border: 10px solid #F2F2F2;
     border-bottom-left-radius: 12px ;
     border-top-left-radius: 12px ;
@@ -98,7 +95,7 @@ span i:hover
 span input 
 {
     width: 250px;
-    height: 50px;
+    height: 40px;
     font-size: 1em;
     border: 1px solid #F2F2F2;
     border-radius: 0px;
@@ -106,15 +103,14 @@ span input
 }
 span div #search1 a
 {
-    font-size: 1em;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    width: 90px;
+    height: 15px;
+    font-size: 90%;
+    padding-bottom: 3px;
     text-decoration: none;
     text-align: center;
     font-weight: bold;
-    color: #f2f2f2;
+    color: #ffffff;
     border: 10px solid #0065FC;
     border-bottom-right-radius: 12px ;
     border-top-right-radius: 12px ;
@@ -122,7 +118,7 @@ span div #search1 a
 }
 span div #search1 a:hover
 {
-    color: #FFFFFF;
+    color: #FFAD05;
 }
 span div #search2 a
 {
@@ -149,14 +145,14 @@ span div
 
 #filtres h2
 {
-    font-size: 1.2em ;
+    font-size: 120% ;
     font-weight: bold;
     padding-top: 10px;
     margin: 10px 10px 10px 40px ;
 }
 #filtres :hover
 {
-    color: #FFAD05;
+    color: #0065FC;
 }
 #filtres i :hover
 {
@@ -166,7 +162,7 @@ span div
 #economique 
 {
     height: 40px;
-    width: 180px ;
+    width: 170px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
@@ -175,27 +171,26 @@ span div
 }
 #economique h3
 {
-    font-size: 1.1em ;
+    font-size: 100%;
     font-weight: bold;
+    text-align: center;
     position: absolute;
-    top: -9px;
-    right: 17px;
+    bottom: -5px;
+    right: 20px;
 }
 #economique i
 {
-   font-size: 17px ;
+   font-size: 100%;
    color: #0065FC;
    border: 13px solid #DEEBFF;
    border-radius: 100px;
-   position: absolute;
-   top: -2px;
    background-color: #DEEBFF;
 }
 
 #famille 
 {
     height: 40px;
-    width: 145px ;
+    width: 130px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
@@ -204,28 +199,26 @@ span div
 }
 #famille h3 
 {
-    font-size: 1.1em ;
+    font-size: 100%;
     font-weight: bold;
     position: absolute;
-    top: -9px;
-    right: 25px;
+    bottom: -5px;
+    right: 20px;
 }
 #famille i
 {
-   font-size: 17px ;
+   font-size: 100%;
    color: #0065FC;
    border: 13px solid #DEEBFF;
    border-radius: 100px;
-   padding-right: 4px;
+   padding-right: 3px;
    padding-left: 2px;
-   position: absolute;
-   top: -2px;
    background-color: #DEEBFF;
 }
 #romantique
 {
     height: 40px;
-    width: 180px ;
+    width: 170px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
@@ -234,26 +227,24 @@ span div
 }
 #romantique h3
 {
-    font-size: 1.1em ;
+    font-size: 100%;
     font-weight: bold;
     position: absolute;
-    top: -9px;
-    right: 20px;
+    bottom: -5px;
+    right: 25px;
 }
 #romantique i
 {
-    font-size: 17px ;
+    font-size: 100%;
     color: #0065FC;
     border: 13px solid #DEEBFF;
     border-radius: 100px;
-    position: absolute;
-    top: -2px;
     background-color: #DEEBFF;
 }
 #animaux
 {
     height: 40px;
-    width: 230px ;
+    width: 220px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px; 
@@ -262,15 +253,15 @@ span div
 }
 #animaux h3
 {
-    font-size: 1.1em ;
+    font-size: 100%;
     font-weight: bold;
     position: absolute;
-    top: -9px;
-    right: 18px;
+    bottom: -5px;
+    right: 28px;
 }
 #animaux i
 {
-    font-size: 17px ;
+    font-size: 100%;
     color: #0065FC;
     border: 13px solid #DEEBFF;
     border-radius: 100px;
@@ -283,7 +274,7 @@ aside
 {
     display: flex;
     color : #707070;
-    font-size: 0.7em ;
+    font-size: 65%;
     font-weight: normal ;  
     margin: 5px 0px 0px 30px ; 
 }
@@ -291,7 +282,7 @@ aside i
 {
     height: 15px;
     width: 15px ;
-    font-size: 0.9em ;
+    font-size: 100%;
     text-align: center;
     padding-top: 2px;
     background-color: #ffffff;
@@ -318,14 +309,14 @@ main
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin: 10px 10px 10px 30px;
+    margin: 10px 10px 10px 10px;
 }
 
 /* a)Hebergements */
 
 #hebergements 
 {
-    width: 1150px;
+    width: 920px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -335,22 +326,22 @@ main
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     background-color:#F2F2F2;  
-    margin: 20px 20px 10px 50px ;  
+    margin: 20px 20px 20px 20px ;  
 }
 #hebergements h2
 {
-    font-size: 1.3em;
+    font-size: 120%;
     font-weight: bold;
     border: 3px solid #f2f2f2;
     border-radius: 20px;
     background-color:#F2F2F2;  
-    margin: 25px 500px 10px 60px ;  
+    margin: 25px 600px 10px 45px ;  
 }
 
 #cannebiere
 {
-    width: 300px;
-    height: 240px;
+    width: 28%;
+    height: 220px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -358,36 +349,43 @@ main
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
-    margin: 25px 20px 20px 60px ;
+    margin: 20px 10px 20px 30px ;
     box-shadow: 0px 0px 5px #c4c4c4;
 }
-#cannebiere:hover
+#cannebiere :hover
 {
     color: #0065FC;
 }
+
 #cannebiere img
 {
-    width: 300px;
-    height: 130px;
+    width: 100%;
+    height: 125px;
     border-top-left-radius: 25px ;
     border-top-right-radius: 25px;
     object-fit: cover;
 }
 #cannebiere h4
 {
-    font-size: 1.1em ;
+    font-size: 100%;
+    list-style: none;
+    color: #181818;
+    text-decoration: none;
     margin: 5px 5px 5px 15px ;
 }
 #cannebiere p
 {
-    font-size: 0.9em ; 
+    font-size: 80%;
+    list-style: none;
+    color: #181818;
+    text-decoration: none;
     margin: 5px 5px 0px 15px ;
 }
 
 #port
 {
-    width: 300px;
-    height: 240px;
+    width: 28%;
+    height: 220px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -395,43 +393,37 @@ main
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
-    margin: 25px 20px 20px 30px ;
+    margin: 20px 10px 20px 20px ;
     box-shadow: 0px 0px 5px #c4c4c4;
 }
 #port:hover
 {
     color: #0065FC;
+    background-color: #DEEBFF;
 }
 #port img
 {
-    width: 300px;
-    height: 130px;
+    width: 100%;
+    height: 125px;
     border-top-left-radius: 25px ;
     border-top-right-radius: 25px;
     object-fit: cover;
 }
 #port h4
 {
-    font-size: 1.1em ;
+    font-size: 100%;
     margin: 5px 5px 5px 15px ;
 }
 #port p
 {
-    font-size: 0.9em ; 
+    font-size: 80%;
     margin: 5px 5px 0px 15px ;
-}
-#port i
-{
-    color:#0065FC;
-    border: 0px solid #FFFFFF;
-    border-radius: 0px;
-    background-color:#FFFFFF;   
 }
 
 #mouettes
 {
-    width: 300px;
-    height: 240px;
+    width: 28%;
+    height: 220px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -439,7 +431,7 @@ main
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
-    margin: 25px 20px 20px 25px ;
+    margin: 20px 10px 20px 20px ;
     box-shadow: 0px 0px 5px #c4c4c4;
 }
 #mouettes:hover
@@ -448,34 +440,27 @@ main
 }
 #mouettes img
 {
-    width: 300px;
-    height: 130px;
+    width: 100%;
+    height: 125px;
     border-top-left-radius: 25px ;
     border-top-right-radius: 25px;
     object-fit: cover;
 }
 #mouettes h4
 {
-    font-size: 1.1em ;
+    font-size: 100%;
     margin: 5px 5px 5px 15px ;
 }
 #mouettes p
 {
-    font-size: 0.9em ; 
+    font-size: 80%; 
     margin: 5px 5px 0px 15px ;
-}
-#mouettes i
-{
-    color:#0065FC;
-    border: 0px solid #FFFFFF;
-    border-radius: 0px;
-    background-color:#FFFFFF;   
 }
 
 #mer
 {
-    width: 300px;
-    height: 240px;
+    width: 28%;
+    height: 220px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -483,7 +468,7 @@ main
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
-    margin: 25px 20px 20px 60px ;
+    margin: 20px 10px 20px 30px; 
     box-shadow: 0px 0px 5px #c4c4c4;
 }
 #mer:hover
@@ -492,34 +477,27 @@ main
 }
 #mer img
 {
-    width: 300px;
-    height: 130px;
+    width: 100%;
+    height: 125px;
     border-top-left-radius: 25px ;
     border-top-right-radius: 25px;
     object-fit: cover;
 }
 #mer h4
 {
-    font-size: 1.1em ;
+    font-size: 100%;
     margin: 5px 5px 5px 15px ;
 }
 #mer p
 {
-    font-size: 0.9em ; 
+    font-size: 80%; 
     margin: 5px 5px 0px 15px ;
-}
-#mer i
-{
-    color:#0065FC;
-    border: 0px solid #FFFFFF;
-    border-radius: 0px;
-    background-color:#FFFFFF;   
 }
 
 #panier
 {
-    width: 300px;
-    height: 240px;
+    width: 28%;
+    height: 220px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -527,7 +505,7 @@ main
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
-    margin: 25px 20px 20px 30px ;
+    margin: 20px 10px 20px 20px ;
     box-shadow: 0px 0px 5px #c4c4c4;
 }
 #panier:hover
@@ -536,34 +514,27 @@ main
 }
 #panier img
 {
-    width: 300px;
-    height: 130px;
+    width: 100%;
+    height: 125px;
     border-top-left-radius: 25px ;
     border-top-right-radius: 25px;
     object-fit: cover;
 }
 #panier h4
 {
-    font-size: 1.1em ;
+    font-size: 100%;
     margin: 5px 5px 5px 15px ;
 }
 #panier p
 {
-    font-size: 0.9em ; 
+    font-size: 80%;
     margin: 5px 5px 0px 15px ;
-}
-#panier i
-{
-    color:#0065FC;
-    border: 0px solid #FFFFFF;
-    border-radius: 0px;
-    background-color:#FFFFFF;   
 }
 
 #amina
 {
-    width: 300px;
-    height: 230px;
+    width: 28%;
+    height: 220px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -571,7 +542,7 @@ main
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
-    margin: 25px 40px 20px 30px ;
+    margin: 20px 20px 20px 20px ;
     box-shadow: 0px 0px 5px #c4c4c4;
 }
 #amina:hover
@@ -580,34 +551,27 @@ main
 }
 #amina img
 {
-    width: 300px;
-    height: 130px;
+    width: 100%;
+    height: 125px;
     border-top-left-radius: 25px ;
     border-top-right-radius: 25px;
     object-fit: cover;
 }
 #amina h4
 {
-    font-size: 1.1em ;
+    font-size: 100%;
     margin: 5px 5px 5px 15px ;
 }
 #amina p
 {
-    font-size: 0.9em ; 
+    font-size: 80%;
     margin: 5px 5px 0px 15px ;
-}
-#amina i
-{
-    color:#0065FC;
-    border: 0px solid #FFFFFF;
-    border-radius: 0px;
-    background-color:#FFFFFF;   
 }
 
 #hebergements h5
 {
-    font-size: 1.2em ;  
-    margin: 30px 10px 40px 60px ;  
+    font-size: 110%; 
+    margin: 20px 10px 40px 50px ;  
 }
 
 /* b)Populaires */
@@ -616,22 +580,22 @@ main
 {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 450px;
     position: relative;
     border: 10px solid #f2f2f2;
     border-radius: 30px;
     background-color:#F2F2F2;   
-    margin: 20px 20px 10px 25px ;  
+    margin: 20px 20px 20px 20px ;  
 }
 #populaires h2 
 {
-    font-size: 1.3em;
+    font-size: 120%;
     font-weight: bold;
     margin: 25px 50px 25px 30px ;  
 }
 #populaires img
 {
-    width: 170px;
+    width: 40%;
     height: 160px;
     border-top-left-radius: 25px ;
     border-bottom-left-radius: 25px;
@@ -639,7 +603,7 @@ main
 }
 #populaires h4
 {
-    font-size: 1.1em ;
+    font-size: 100%;
     font-weight: bold;
     margin: 0px 50px 0px 10px ;
     position: absolute;
@@ -649,9 +613,7 @@ main
 
 #soleil
 {
-    display: flex;
-    flex-wrap:wrap;
-    width: 430px;
+    width: 90%;
     height: 160px;
     position: relative;
     border: 3px solid #FFFFFF;
@@ -661,11 +623,11 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 15px 20px 20px 28px ;
+    margin: 20px 10px 20px 15px ;
 }
 #soleil p
 {
-    font-size: 0.9em ; 
+    font-size: 80%;
     position: absolute;
     top: 60px;
     left: 190px;
@@ -676,9 +638,7 @@ main
 }
 #eau
 {
-    display: flex;
-    flex-wrap:wrap;
-    width: 430px;
+    width: 90%;
     height: 160px;
     position: relative;
     border: 3px solid #FFFFFF;
@@ -688,11 +648,11 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 15px 20px 20px 28px ;
+    margin: 20px 10px 20px 15px ;
 }
 #eau p
 {
-    font-size: 0.9em ; 
+    font-size:  80%;
     position: absolute;
     top: 60px;
     left: 190px;
@@ -703,9 +663,7 @@ main
 }
 #bleu
 {
-    display: flex;
-    flex-wrap:wrap;
-    width: 430px;
+    width: 90%;
     height: 160px;
     position: relative;
     border: 3px solid #FFFFFF;
@@ -715,11 +673,11 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 15px 20px 25px 28px ;
+    margin: 20px 10px 40px 15px ;
 }
 #bleu p
 {
-    font-size: 0.9em ; 
+    font-size:  80%;
     position: absolute;
     top: 60px;
     left: 190px;
@@ -739,14 +697,14 @@ main
 
 #etoile i
 {
-    font-size: 1.4em ; 
+    font-size: 120%;
     color:#181818 ;
     border: 0px solid #F2F2F2;
     border-radius: 0px;
     background-color: #F2F2F2;  
     position: absolute;
     top: 25px;
-    left: 420px;
+    left: 380px;
 }
 
 /* c)Activites */
@@ -755,22 +713,19 @@ main
 {
     display: flex;
     flex-wrap: wrap;
-    width: 1650px;
-    border: 10px solid #FFFFFF;
-    border-radius: 30px;
-    background-color:#FFFFFF;
-    margin: 20px 20px 10px 20px ;  
+    background-color:#FFFFFF; 
 }
 #activites h2
 {
-    font-size: 1.3em;
+    font-size: 120%;
     font-weight: bold;
-    margin: 10px 1050px 10px 30px ; 
+    margin: 10px 980px 10px 30px ; 
 }
 #activites h4
 {
-    font-size: 1.1em ;
+    font-size:  100%;
     font-weight: bold;
+    padding-top: 5px;
     margin: 5px 5px 10px 15px ; 
 }
 #activites img
@@ -782,7 +737,7 @@ main
 
 #vieux
 {
-    width: 370px;
+    width: 24%;
     height: 520px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
@@ -791,11 +746,11 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 20px 20px ;
+    margin: 25px 10px 20px 25px ;
 }
 #vieux img
 {
-    width: 370px;
+    width: 100%;
     height: 470px;
 }
 #vieux:hover
@@ -805,7 +760,7 @@ main
 
 #pomegues
 {
-    width: 370px;
+    width: 89%;
     height: 240px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
@@ -818,7 +773,7 @@ main
 }
 #pomegues img
 {
-    width: 370px;
+    width: 100%;
     height: 190px;
 }
 #pomegues:hover
@@ -827,7 +782,7 @@ main
 }
 #frioul
 {
-    width: 370px;
+    width: 89%;
     height: 240px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
@@ -840,7 +795,7 @@ main
 }
 #frioul img
 {
-    width: 370px;
+    width: 100%;
     height: 190px;
 }
 #frioul:hover
@@ -849,7 +804,7 @@ main
 }
 #calanques
 {
-    width: 370px;
+    width: 24%;
     height: 520px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
@@ -858,11 +813,11 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 20px 20px ;
+    margin: 25px 10px 20px 10px ;
 }
 #calanques img
 {
-    width: 370px;
+    width: 100%;
     height: 470px;
 }  
 #calanques:hover
@@ -871,7 +826,7 @@ main
 }
 #garde
 {
-    width: 370px;
+    width: 89%;
     height: 240px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
@@ -880,11 +835,11 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 40px 20px ;
+    margin: 25px 0px 40px 20px ;
 }
 #garde img
 {
-    width: 370px;
+    width: 100%;
     height: 190px;
 }
 #garde:hover
@@ -893,7 +848,7 @@ main
 }
 #longchamp
 {
-    width: 370px;
+    width: 89%;
     height: 240px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
@@ -902,21 +857,18 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 20px 20px ;
+    margin: 25px 0px 50px 20px ;
 }
 #longchamp img
 {
-    width: 370px;
+    width: 100%;
     height: 190px;
 }
 #longchamp:hover
 {
     color: #0065FC;
 }
-article
-{
-    flex-direction: column;
-}
+
 /* 7)Footer */
 
 footer

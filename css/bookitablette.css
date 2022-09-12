@@ -11,6 +11,12 @@ body
 
 /* 1)Eléments principaux de la page */
 
+main 
+{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
 /* 2)Navigation */
 
 nav
@@ -31,7 +37,6 @@ nav
 #hebergements 
 {
     width: 850px;  
-    justify-content: flex-start;
     align-items: center;
     justify-content: center;
     margin: 20px 0px 10px 0px ;  
@@ -43,27 +48,33 @@ nav
 }
 #cannebiere
 {
-    margin: 25px 20px 15px 20px ;
+    width: 43%;
+    margin: 25px 15px 15px 10px ;
 }
 #port
 {
-    margin: 25px 20px 20px 20px ;
+    width: 43%;
+    margin: 25px 10px 15px 15px ;
 }
 #mouettes
 {
-    margin: 25px 20px 15px 20px ;
+    width: 43%;
+    margin: 25px 15px 15px 10px ;
 }
 #mer
 {
-    margin: 25px 20px 20px 20px ;
+    width: 43%;
+    margin: 25px 10px 15px 15px ;
 }
 #panier
 {
-    margin: 25px 20px 15px 20px ;
+    width: 43%;
+    margin: 25px 15px 15px 10px ;
 }
 #amina
 {
-    margin: 25px 20px 20px 20px ;
+    width: 43%;
+    margin: 25px 10px 15px 15px ;
 }
 #hebergements h5
 {
@@ -164,6 +175,10 @@ nav
 {
     width: 350px;
     height: 190px;
+}
+article
+{
+    flex-direction: column;
 }
 /* 7)Footer */
 
