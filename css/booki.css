@@ -93,7 +93,7 @@ span i
 }
 span i:hover
 {
-    color:#FFAD05
+    color:#FFAD05;
 }
 span input 
 {
@@ -154,6 +154,14 @@ span div
     padding-top: 10px;
     margin: 10px 10px 10px 40px ;
 }
+#filtres :hover
+{
+    color: #FFAD05;
+}
+#filtres i :hover
+{
+    color: #FFAD05;
+}
 
 #economique 
 {
@@ -173,10 +181,6 @@ span div
     top: -9px;
     right: 17px;
 }
-#economique h3:hover
-{
-    color: #0065FC;
-}
 #economique i
 {
    font-size: 17px ;
@@ -187,6 +191,7 @@ span div
    top: -2px;
    background-color: #DEEBFF;
 }
+
 #famille 
 {
     height: 40px;
@@ -204,10 +209,6 @@ span div
     position: absolute;
     top: -9px;
     right: 25px;
-}
-#famille h3:hover
-{
-    color: #0065FC;
 }
 #famille i
 {
@@ -239,10 +240,6 @@ span div
     top: -9px;
     right: 20px;
 }
-#romantique h3:hover
-{
-    color: #0065FC;
-}
 #romantique i
 {
     font-size: 17px ;
@@ -270,10 +267,6 @@ span div
     position: absolute;
     top: -9px;
     right: 18px;
-}
-#animaux h3:hover
-{
-    color: #0065FC;
 }
 #animaux i
 {
