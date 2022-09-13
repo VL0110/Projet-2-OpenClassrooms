@@ -202,10 +202,7 @@ span div
     top: -10px;
     right: 20px;
 }
-#economique h3:hover
-{
-    color: #0065FC;
-}
+
 #economique i
 {
    font-size: 22px ;
@@ -234,10 +231,7 @@ span div
     top: -10px;
     right: 20px;
 }
-#famille h3:hover
-{
-    color: #0065FC;
-}
+
 #famille i
 {
    font-size: 24px ;
@@ -268,10 +262,7 @@ span div
     top: -10px;
     right: 25px;
 }
-#romantique h3:hover
-{
-    color: #0065FC;
-}
+
 #romantique i
 {
     font-size: 22px ;
@@ -300,10 +291,7 @@ span div
     top: -10px;
     right: 25px;
 }
-#animaux h3:hover
-{
-    color: #0065FC;
-}
+
 #animaux i
 {
     font-size: 22px ;

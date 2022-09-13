@@ -41,10 +41,12 @@ nav a:hover
 }
 #logobooki img
 {
-    width: 100px;
-    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    width: 10%;
+    height: 70px;
     object-fit: cover;
-    margin: 30px 0px 0px 20px ;
+    margin: 20px 0px 10px 12px ;
 }
 #logobooki img:hover
 {
@@ -308,7 +310,7 @@ main
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     margin: 10px 10px 10px 10px;
 }
 
@@ -316,7 +318,7 @@ main
 
 #hebergements 
 {
-    width: 920px;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -578,9 +580,9 @@ main
 
 #populaires
 {
+    width: 30%;
     display: flex;
     flex-direction: column;
-    width: 450px;
     position: relative;
     border: 10px solid #f2f2f2;
     border-radius: 30px;
@@ -601,22 +603,13 @@ main
     border-bottom-left-radius: 25px;
     object-fit: cover;
 }
-#populaires h4
-{
-    font-size: 100%;
-    font-weight: bold;
-    margin: 0px 50px 0px 10px ;
-    position: absolute;
-    left: 180px;
-    top: 25px;
-}
 
 #soleil
 {
     width: 90%;
     height: 160px;
-    position: relative;
     border: 3px solid #FFFFFF;
+    position: relative;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -625,12 +618,21 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 20px 10px 20px 15px ;
 }
+#soleil h4
+{
+    font-size: 100%;
+    font-weight: bold;
+    margin: 0px 50px 0px 10px ;
+    position: absolute;
+    left: 210px;
+    top: 25px;
+}
 #soleil p
 {
     font-size: 80%;
     position: absolute;
-    top: 60px;
-    left: 190px;
+    top: 70px;
+    left: 220px;
 }
 #soleil:hover
 {
@@ -650,12 +652,21 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 20px 10px 20px 15px ;
 }
+#eau h4
+{
+    font-size: 100%;
+    font-weight: bold;
+    margin: 0px 50px 0px 10px ;
+    position: absolute;
+    left: 210px;
+    top: 25px;
+}
 #eau p
 {
     font-size:  80%;
     position: absolute;
-    top: 60px;
-    left: 190px;
+    top: 70px;
+    left: 220px;
 }
 #eau:hover
 {
@@ -675,12 +686,21 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 20px 10px 40px 15px ;
 }
+#bleu h4
+{
+    font-size: 100%;
+    font-weight: bold;
+    margin: 0px 50px 0px 10px ;
+    position: absolute;
+    left: 210px;
+    top: 25px;
+}
 #bleu p
 {
     font-size:  80%;
     position: absolute;
-    top: 60px;
-    left: 190px;
+    top: 70px;
+    left: 220px;
 }
 #bleu:hover
 {
@@ -715,11 +735,11 @@ main
     flex-wrap: wrap;
     background-color:#FFFFFF; 
 }
-#activites h2
+section h2
 {
     font-size: 120%;
     font-weight: bold;
-    margin: 10px 980px 10px 30px ; 
+    margin: 10px 0px 10px 10px ; 
 }
 #activites h4
 {
@@ -875,7 +895,7 @@ footer
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #f2f2f2;
     margin: 20px 0px 50px 0px ;

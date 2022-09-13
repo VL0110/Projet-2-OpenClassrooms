@@ -15,7 +15,7 @@ main
 {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center;   
 }
 /* 2)Navigation */
 
@@ -25,14 +25,150 @@ nav
     flex-direction: row;
     flex-wrap: wrap;
 }
+nav a
+{
+    font-size: 105%;
+    padding-right: 30px;
+    padding-left: 0px;
+}
+#logobooki img
+{
+    display: flex;
+    justify-content: flex-start;
+    width: 15%;
+    height: 80px;
+    object-fit: cover;
+    margin: 20px 0px 10px 30px ;
+}
 
 /* 3)Header */
 
+header h1
+{
+    font-size: 150% ;
+    margin: 20px 5px 0px 35px ;
+}
+header h3
+{
+    color : #606060 ;
+    font-size: 120% ;
+    font-weight: normal ;
+    margin: 5px 5px 30px 40px ;
+}
+
 /* 4)Barre de recherche */
 
+span
+{
+    margin: 10px 10px 10px 40px ; 
+}
+span i
+{
+    font-size: 120%;
+    padding-top: 5px;
+    height: 26px;
+    width: 25px;
+}
+span input 
+{
+    height: 50px;
+}
+span div #search1 a
+{
+    width: 100px;
+    height: 22px;
+    font-size: 100%;
+    padding-top: 5px;
+}
 /* 5)Filtres */
 
+#filtres h2
+{
+    font-size: 140% ;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 10px 10px 10px 50px ;
+}
+#economique 
+{
+    height: 45px;
+    width: 205px ;
+}
+#economique h3
+{
+    font-size: 120% ;
+    position: absolute;
+    top: -8px;
+    right: 23px;
+}
+
+#economique i
+{
+   font-size: 20px ;
+}
+#famille 
+{
+    height: 45px;
+    width: 150px ;
+}
+#famille h3 
+{
+    font-size: 120% ;
+    position: absolute;
+    top: -8px;
+    right: 23px;
+}
+#famille i
+{
+   font-size: 20px ;
+}
+#romantique
+{
+    height: 45px;
+    width: 200px ;  
+}
+#romantique h3
+{
+    font-size: 120% ;
+    position: absolute;
+    top: -8px;
+    right: 23px;
+}
+#romantique i
+{
+    font-size: 20px ;
+}
+#animaux
+{
+    height: 45px;
+    width: 260px ;
+}
+#animaux h3
+{
+    font-size: 120% ;
+    position: absolute;
+    top: -8px;
+    right: 23px;
+}
+#animaux i
+{
+    font-size: 20px ;
+}
+
+aside 
+{
+    font-size: 75%;
+}
+aside i
+{
+    height: 20px;
+    width: 25px ;
+    font-size: 120%;
+    padding-top: 4px;
+}
+
 /* 6)Main */
+
 /* a)Hebergements */
 #hebergements 
 {
@@ -43,8 +179,9 @@ nav
 }
 #hebergements h2
 { 
-    padding-right: 100px;
-    margin: 35px 300px 10px 30px ;  
+    font-size: 150%;
+    padding-right: 15%;
+    margin: 35px 300px 10px 0px ;  
 }
 #cannebiere
 {
@@ -78,21 +215,98 @@ nav
 }
 #hebergements h5
 {
-    padding-right: 500px;
-    margin: 30px 10px 40px 60px ;  
+    padding-right: 73%;
+    margin: 20px 10px 50px 0px ;  
 }
 /* b)Populaires */
 #populaires
 {
-    justify-content: flex-start;
+    width: 810px;  
     align-items: center;
     justify-content: center;
     margin: 20px 0px 10px 0px ;  
 }
 #populaires h2 
 {
-    padding-right: 180px;
-    margin: 25px 50px 25px 30px ;  
+    font-size: 150%;
+    padding-right: 55%;
+    margin: 25px 40px 25px 30px ;  
+}
+
+#populaires img
+{
+    width: 45%;
+    height: 200px;
+}
+#soleil
+{
+    width: 85%;
+    height: 200px;
+}
+#soleil h4
+{
+    font-size: 130%;
+    font-weight: bold;
+    margin: 0px 50px 0px 10px ;
+    position: absolute;
+    left: 330px;
+    top: 25px;
+}
+#soleil p
+{
+    font-size:  80%;
+    position: absolute;
+    top: 100px;
+    left: 340px;
+}
+#eau
+{
+    width: 85%;
+    height: 200px;
+}
+#eau h4
+{
+    font-size: 130%;
+    font-weight: bold;
+    margin: 0px 50px 0px 10px ;
+    position: absolute;
+    left: 330px;
+    top: 25px;
+}
+#eau p
+{
+    font-size:  80%;
+    position: absolute;
+    top: 100px;
+    left: 340px;
+}
+#bleu
+{
+    width: 85%;
+    height: 200px;
+}
+#bleu h4
+{
+    font-size: 130%;
+    font-weight: bold;
+    margin: 0px 50px 0px 10px ;
+    position: absolute;
+    left: 330px;
+    top: 25px;
+}
+#bleu p
+{
+    font-size:  80%;
+    position: absolute;
+    top: 100px;
+    left: 340px;
+}
+#etoile i
+{
+    font-size: 130%;
+    position: absolute;
+    top: 30px;
+    left: 690px;
 }
 
 /* c)Activites */
@@ -107,24 +321,32 @@ nav
 }
 #activites h2
 {
+    font-size: 150%;
     padding-right: 300px;
-    margin: 25px 250px 10px 30px ; 
+    margin: 25px 230px 10px 40px ; 
+}
+#activites h4
+{
+    font-size:  130%;
+    font-weight: bold;
+    padding-top: 5px;
+    margin: 5px 5px 10px 15px ; 
 }
 #vieux
 {
-    width: 350px;
-    height: 520px;
-    margin: 25px 10px 20px 10px ;
+    width: 45%;
+    height: 530px;
+    margin: 25px 20px 20px 0px ;
 }
 #vieux img
 {
-    width: 350px;
+    width: 100%;
     height: 470px;
 }
 #pomegues
 {
-    width: 350px;
-    height: 240px;
+    width: 89%;
+    height: 250px;
     margin: 25px 20px 40px 20px ;
 }
 #pomegues img
@@ -134,8 +356,8 @@ nav
 }
 #frioul
 {
-    width: 350px;
-    height: 240px;
+    width: 89%;
+    height: 250px;
     margin: 25px 20px 20px 20px ;
 }
 #frioul img
@@ -146,8 +368,8 @@ nav
 #calanques
 {
     width: 350px;
-    height: 520px;
-    margin: 25px 10px 20px 10px ;
+    height: 530px;
+    margin: 25px 20px 20px 0px ;
 }
 #calanques img
 {
@@ -156,8 +378,8 @@ nav
 }  
 #garde
 {
-    width: 350px;
-    height: 240px;
+    width: 89%;
+    height: 250px;
     margin: 25px 20px 40px 20px ;
 }
 #garde img
@@ -167,8 +389,8 @@ nav
 } 
 #longchamp
 {
-    width: 350px;
-    height: 240px;
+    width: 89%;
+    height: 250px;
     margin: 25px 20px 20px 20px ;
 }
 #longchamp img
