@@ -6,8 +6,6 @@
     
 #content
 {
-    max-width: 768px;
-    width: 100%;
     font-family: 'Raleway', Arial, sans-serif;
     flex-direction: column;
     flex-wrap: wrap;
