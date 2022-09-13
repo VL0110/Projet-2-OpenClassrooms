@@ -42,10 +42,10 @@ nav a:hover
 {
     display: flex;
     justify-content: flex-start;
-    width: 8%;
-    height: 8%;
+    width: 100px;
+    height: 60px;
     object-fit: cover;
-    margin: 20px 0px 10px 12px ;
+    margin: 20px 0px 10px 20px ;
 }
 #logobooki img:hover
 {
@@ -168,7 +168,7 @@ span div
     border: 1px solid #DBDADA;
     border-radius: 100px;
     box-shadow: 0px 0px 1px #c4c4c4; 
-    margin: 10px 0px 10px 20px ;     
+    margin: 10px 0px 10px 10px ;     
 }
 #economique h3
 {
@@ -312,8 +312,7 @@ main
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
 }
 
 /* a)Hebergements */
@@ -325,14 +324,12 @@ main
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: flex-start;
-    border: 1px solid #f2f2f2;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     background-color:#F2F2F2;  
-    margin: 20px 20px 20px 20px ;  
+    margin: 20px 10px 20px 0px ;  
 }
 #hebergements h2
 {
@@ -341,12 +338,12 @@ main
     border: 3px solid #f2f2f2;
     border-radius: 20px;
     background-color:#F2F2F2;  
-    margin: 25px 600px 10px 45px ;  
+    margin: 30px 450px 30px 45px ;  
 }
 #cannebiere
 {
     width: 28%;
-    height: 220px;
+    height: 235px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -354,8 +351,9 @@ main
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
-    margin: 20px 10px 20px 30px ;
     box-shadow: 0px 0px 5px #c4c4c4;
+    margin-left: 3%;
+    margin-bottom: 6%;
 }
 #cannebiere :hover
 {
@@ -390,7 +388,7 @@ main
 #port
 {
     width: 28%;
-    height: 220px;
+    height: 235px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -398,8 +396,9 @@ main
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
-    margin: 20px 10px 20px 20px ;
     box-shadow: 0px 0px 5px #c4c4c4;
+    margin-left: 3%;
+    margin-bottom: 3%;
 }
 #port:hover
 {
@@ -428,7 +427,7 @@ main
 #mouettes
 {
     width: 28%;
-    height: 220px;
+    height: 235px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -436,8 +435,9 @@ main
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
-    margin: 20px 10px 20px 20px ;
     box-shadow: 0px 0px 5px #c4c4c4;
+    margin-left: 3%;
+    margin-bottom: 3%;
 }
 #mouettes:hover
 {
@@ -465,7 +465,7 @@ main
 #mer
 {
     width: 28%;
-    height: 220px;
+    height: 235px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -473,8 +473,9 @@ main
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
-    margin: 20px 10px 20px 30px; 
     box-shadow: 0px 0px 5px #c4c4c4;
+    margin-left: 3%;
+    margin-bottom: 3%;
 }
 #mer:hover
 {
@@ -502,7 +503,7 @@ main
 #panier
 {
     width: 28%;
-    height: 220px;
+    height: 235px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -510,8 +511,9 @@ main
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
-    margin: 20px 10px 20px 20px ;
     box-shadow: 0px 0px 5px #c4c4c4;
+    margin-left: 3%;
+    margin-bottom: 3%;
 }
 #panier:hover
 {
@@ -539,7 +541,7 @@ main
 #amina
 {
     width: 28%;
-    height: 220px;
+    height: 235px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -547,8 +549,9 @@ main
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
-    margin: 20px 10px 20px 20px ;
     box-shadow: 0px 0px 5px #c4c4c4;
+    margin-left: 3%;
+    margin-bottom: 3%;
 }
 #amina:hover
 {
@@ -583,7 +586,7 @@ main
 
 #populaires
 {
-    width: 30%;
+    width: 35%;
     height: 60%;
     display: flex;
     flex-direction: column;
@@ -591,7 +594,7 @@ main
     border: 10px solid #f2f2f2;
     border-radius: 30px;
     background-color:#F2F2F2;   
-    margin: 20px 20px 20px 20px ;  
+    margin: 20px 0px 20px 10px ;  
 }
 #populaires h2 
 {
@@ -687,7 +690,7 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 15px 10px 30px 15px ;
+    margin: 15px 10px 75px 15px ;
 }
 #bleu h4
 {
@@ -726,10 +729,9 @@ main
 #activites
 {
     width: 100%;
-    height: 100%;
+    height: 650px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     background-color:#fffbfb; 
 }
 #activites h2
@@ -737,7 +739,7 @@ main
     font-size:  1.3em;
     display: flex;
     font-weight: bold;
-    margin: 10px 1250px 10px 100px ; 
+    margin: 10px 1150px 10px 70px ; 
 }
 #activites h4
 {
@@ -755,8 +757,8 @@ main
 
 #vieux
 {
-    width: 20%;
-    height: 520px;
+    width: 22%;
+    height: 530px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -764,7 +766,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 20px 20px ;
+    margin: 25px 20px 20px 40px ;
 }
 #vieux img
 {
@@ -778,8 +780,8 @@ main
 
 #pomegues
 {
-    width: 95%;
-    height: 240px;
+    width: 100%;
+    height: 250px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -787,7 +789,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 40px 20px ;
+    margin: 25px 20px 40px 10px ;
 }
 #pomegues img
 {
@@ -800,8 +802,8 @@ main
 }
 #frioul
 {
-    width: 95%;
-    height: 240px;
+    width: 100%;
+    height: 250px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -809,7 +811,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 20px 20px ;
+    margin: 25px 20px 20px 10px ;
 }
 #frioul img
 {
@@ -822,8 +824,8 @@ main
 }
 #calanques
 {
-    width: 20%;
-    height: 520px;
+    width: 22%;
+    height: 530px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -844,8 +846,8 @@ main
 }
 #garde
 {
-    width: 95%;
-    height: 240px;
+    width: 100%;
+    height: 250px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -853,7 +855,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 40px 20px ;
+    margin: 25px 0px 40px 10px ;
 }
 #garde img
 {
@@ -866,8 +868,8 @@ main
 }
 #longchamp
 {
-    width: 95%;
-    height: 240px;
+    width: 100%;
+    height: 250px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -875,7 +877,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 50px 20px ;
+    margin: 25px 0px 50px 10px ;
 }
 #longchamp img
 {
@@ -893,12 +895,26 @@ footer
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #f2f2f2;
     margin: 20px 0px 50px 0px ;
 }
-
+#a_propos
+{
+    border: 10px solid #f2f2f2;
+    margin: 0px 0px 0px 70px ;
+}
+#nos_hebergements
+{
+    border: 10px solid #f2f2f2;
+    margin: 0px 0px 0px 0px ;
+}
+#assistance
+{
+    border: 10px solid #f2f2f2;
+    margin: 0px 100px 0px 0px ;
+}
 footer h1
 {
     font-weight: normal;
