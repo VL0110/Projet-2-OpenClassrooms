@@ -4,22 +4,13 @@
 
 @media screen and (max-width: 768px) {
     
-#content
-{
-    font-family: 'Raleway', Arial, sans-serif;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    border: 1px solid #ffffff;
-    border-radius: 0px;
-    background-color:#ffffff;
-}
-
 /* 1)Eléments principaux de la page */
 body
 {
-    align-items: flex-start ;
+    font-family: 'Raleway', Arial, sans-serif;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    background-color:#ffffff;
     margin: 0px 0px 0px 0px ;
 }
 header
@@ -48,30 +39,30 @@ header
 #logobooki img
 {
     display: flex;
-    justify-content: center;
     width: 30%;
     height: 70px;
     object-fit: cover;
-    margin: 20px 0px 10px 150px ;
+    margin: 20px 0px 50px 180px ;
 }
 
 nav a
 {
-    list-style: none;
+    font-size: 1.2em;
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
+    list-style: none;
     color: #181818;
     text-decoration: none;
-    margin: 30px 0px 30px 0px ; 
+    margin: 30px 90px 30px 0px ; 
+    padding-right: -30px;
+    padding-left: -30px;
 }
 
 nav a:hover
 {
     color: #0065FC;
-    border-bottom: 2px solid #0065FC;
-    padding-bottom: 20px;
-    border-top: 2px solid #FFFFFF;
 }
 
 /* 3)Header */
@@ -103,17 +94,18 @@ header h3
 
 span
 {
-    margin: 10px 10px 10px 40px ; 
+    margin: 10px 10px 10px 25px ; 
 }
 span i
 {
     height: 34px;
-    width: 40px;
+    width: 120%;
     font-size: 130%;
+    padding-top: 10px;
     text-align: center;
     border: 10px solid #F2F2F2;
-    border-bottom-left-radius: 20px ;
-    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 15px ;
+    border-top-left-radius: 15px ;
     background-color: #F2F2F2;
 
 }
@@ -172,7 +164,7 @@ span div
     border: 1px solid #ffffff;
     border-radius: 0px;
     background-color:#ffffff;
-    margin: 10px 10px 10px 30px ; 
+    margin: 10px 10px 10px 10px ; 
 }
 #filtres h2
 {    
@@ -304,7 +296,7 @@ span div
 aside h3
 {
     color : #181818;
-    font-size: 1.3em ;
+    font-size: 1em ;
     font-weight: normal ; 
     margin: 5px 5px 5px 5px ; 
 }
@@ -312,7 +304,7 @@ aside i
 {
     height: 20px;
     width: 20px ;
-    font-size: 1.3em ;
+    font-size: 1em ;
     padding-top: 2px;
     background-color: #ffffff;
     color: #0065FC;
@@ -352,6 +344,7 @@ main
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     position: relative;
     border: 10px solid #f2f2f2;
@@ -361,9 +354,9 @@ main
 }
 #populaires h2
 {
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: bold; 
-    padding-right: 300px;
+    padding-right: 200px;
     border: 10px solid #F2F2F2;  
     border-radius: 30px;
     background-color:#F2F2F2;  
@@ -475,7 +468,7 @@ main
 }
 #etoile i
 {
-    font-size: 1.6em ; 
+    font-size: 1.3em ; 
     color:#181818 ;
     border: 0px solid #F2F2F2;
     border-radius: 0px;
@@ -486,7 +479,7 @@ main
 
 #hebergements
 {
-    width: 700px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -499,7 +492,7 @@ main
 }
 #hebergements h2
 {
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: bold; 
     padding-right: 200px;
     border: 10px solid #ffffff;
@@ -509,7 +502,7 @@ main
 }
 #hebergements  h4
 {
-    font-size: 1.4em ;
+    font-size: 1.2em ;
     margin: 5px 25px 5px 25px;
 }
 #hebergements p
@@ -520,74 +513,74 @@ main
 
 #hebergements img
 {
-    width: 510px;
+    width: 100%;
     height: 170px;
     border-top-left-radius: 30px ;
     border-top-right-radius: 30px;
 }
 #cannebiere
 {
-    width: 510px;
+    width: 85%;
     height: 290px;
     position: relative;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 30px; 
 }    
 #port
 {
-    width: 510px;
+    width: 85%;
     height: 290px;
     position: relative;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 30px; 
 }
 #mouettes
 {
-    width: 510px;
+    width: 85%;
     height: 290px;
     position: relative;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 30px; 
 }
 #mer
 {
-    width: 510px;
+    width: 85%;
     height: 290px;
     position: relative;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 30px; 
 }
 #panier
 {
-    width: 510px;
+    width: 85%;
     height: 290px;
     position: relative;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 30px; 
 }
 #amina
 {
-    width: 510px;
+    width: 90%;
     height: 290px;
     position: relative;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 20px 30px; 
 }
 #hebergements h5
 {
-    font-size: 1.4em ;  
+    font-size: 1.2em ;  
     padding-right: 350px;
     margin: 20px 10px 20px 10px ;  
 }
@@ -595,7 +588,7 @@ main
 
 #activites
 {
-    width: 760px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -607,7 +600,7 @@ main
 }
 #activites h2
 {
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: bold; 
     padding-right: 250px;
     border: 10px solid #ffffff;
@@ -623,64 +616,64 @@ main
 }
 #activites img
 {
-    width: 520px;
+    width: 100%;
     height: 230px;
     border-top-left-radius: 30px ;
     border-top-right-radius: 30px;
 }
 #vieux
 {
-    width: 520px;
+    width: 85%;
     height: 290px;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 20px 30px; 
 }
 #pomegues
 {
-    width: 520px;
+    width: 115%;
     height: 290px;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 20px 30px; 
 }
 #frioul
 {
-    width: 520px;
+    width: 115%;
     height: 290px;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;  
-    margin: 10px 0px 20px 0px; 
+    margin: 10px 0px 20px 30px;  
 }
 #calanques
 {
-    width: 520px;
+    width: 85%;
     height: 290px;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 20px 30px; 
 }
 #garde
 {
-    width: 520px;
+    width: 110%;
     height: 290px;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 20px 30px; 
 }
 #longchamp
 {
-    width: 520px;
+    width: 110%;
     height: 290px;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;  
-    margin: 10px 0px 20px 0px; 
+    margin: 10px 0px 20px 30px; 
 }
 
 /* 7)Footer */
@@ -688,17 +681,18 @@ main
 footer
 {
     flex-direction: column;
+    justify-content: center;
     position: relative;
     border: 10px solid #f2f2f2;
     border-radius: 0px;
     background-color:#F2F2F2;    
 }
+
 footer h1
 {
     display: flex;
     font-size: 1.4em ;
     font-weight: bold;
-    margin: 20px 0px 10px 0px;
 }
 
 footer h3
@@ -706,7 +700,6 @@ footer h3
     display: flex;
     font-size: 1em ;
     font-weight: normal;
-    margin: 5px 0px 5px 0px;
 }
 
 footer h4
@@ -714,7 +707,6 @@ footer h4
     display: flex;
     font-size: 1em ;
     font-weight: normal;
-    margin: 5px 0px 20px 0px;
 }
 
 }
