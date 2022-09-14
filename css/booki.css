@@ -70,14 +70,13 @@ header h3
 
 /* 4)Barre de recherche */
 
-span
+#search
 {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    margin: 10px 0px 10px 30px ;  
+    margin: 10px 10px 10px 40px ; 
 }
-span i
+#search i
 {
     font-size: 100%;
     padding-top: 2px;
@@ -89,11 +88,11 @@ span i
     border-top-left-radius: 12px ;
     background-color: #F2F2F2;
 }
-span i:hover
+#search i:hover
 {
     color:#FFAD05;
 }
-span input 
+#search input 
 {
     width: 250px;
     height: 40px;
@@ -102,7 +101,7 @@ span input
     border-radius: 0px;
     padding-left: 10px;
 }
-span div #search1 a
+#search #search1 a
 {
     width: 90px;
     height: 15px;
@@ -117,11 +116,11 @@ span div #search1 a
     border-top-right-radius: 12px ;
     background-color: #0065FC;
 }
-span div #search1 a:hover
+#search #search1 a:hover
 {
     color: #FFAD05;
 }
-span div #search2 a
+#search #search2 a
 {
     text-align: center;
     border: 10px solid #ffffff;
@@ -129,12 +128,7 @@ span div #search2 a
     border-top-left-radius: 10px ;
     background-color: #ffffff;
 }
-span div 
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+
 /* 5)Filtres */
 
 #filtres 
@@ -173,10 +167,11 @@ span div
 #economique h3
 {
     font-size: 1.1em;
+    color: #181818;
     font-weight: bold;
     text-align: center;
     position: absolute;
-    bottom: -6px;
+    bottom: -20px;
     right: 20px;
 }
 #economique i
@@ -201,9 +196,10 @@ span div
 #famille h3 
 {
     font-size: 1.1em;
+    color: #181818;
     font-weight: bold;
     position: absolute;
-    bottom: -6px;
+    bottom: -20px;
     right: 20px;
 }
 #famille i
@@ -229,9 +225,10 @@ span div
 #romantique h3
 {
     font-size: 1.1em;
+    color: #181818;
     font-weight: bold;
     position: absolute;
-    bottom: -6px;
+    bottom: -20px;
     right: 25px;
 }
 #romantique i
@@ -255,9 +252,10 @@ span div
 #animaux h3
 {
     font-size: 1.1em;
+    color: #181818;
     font-weight: bold;
     position: absolute;
-    bottom: -6px;
+    bottom: -20px;
     right: 25px;
 }
 #animaux i
@@ -338,7 +336,7 @@ main
     border: 3px solid #f2f2f2;
     border-radius: 20px;
     background-color:#F2F2F2;  
-    margin: 30px 450px 30px 45px ;  
+    margin: 30px 470px 30px 45px ;  
 }
 #cannebiere
 {
@@ -353,7 +351,7 @@ main
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
     margin-left: 3%;
-    margin-bottom: 6%;
+    margin-bottom: 3%;
 }
 #cannebiere :hover
 {
@@ -729,7 +727,6 @@ main
 #activites
 {
     width: 100%;
-    height: 650px;
     display: flex;
     flex-wrap: wrap;
     background-color:#fffbfb; 
@@ -739,7 +736,7 @@ main
     font-size:  1.3em;
     display: flex;
     font-weight: bold;
-    margin: 10px 1150px 10px 70px ; 
+    margin: 10px 1250px 10px 40px ; 
 }
 #activites h4
 {
@@ -757,8 +754,8 @@ main
 
 #vieux
 {
-    width: 22%;
-    height: 530px;
+    width: 21%;
+    height: 540px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -780,7 +777,7 @@ main
 
 #pomegues
 {
-    width: 100%;
+    width: 110%;
     height: 250px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
@@ -802,7 +799,7 @@ main
 }
 #frioul
 {
-    width: 100%;
+    width: 110%;
     height: 250px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
@@ -824,8 +821,8 @@ main
 }
 #calanques
 {
-    width: 22%;
-    height: 530px;
+    width: 21%;
+    height: 540px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -833,7 +830,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 20px 40px ;
+    margin: 25px 20px 20px 70px ;
 }
 #calanques img
 {
@@ -846,7 +843,7 @@ main
 }
 #garde
 {
-    width: 100%;
+    width: 110%;
     height: 250px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
@@ -868,7 +865,7 @@ main
 }
 #longchamp
 {
-    width: 100%;
+    width: 110%;
     height: 250px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
@@ -945,4 +942,49 @@ footer h4
 footer h4:hover
 {
     color:#FFAD05;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1550px) {
+
+    #hebergements 
+    {
+        width: 100%; 
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 20px 10px 20px ;  
+    }
+    #hebergements h2
+    {
+        margin: 30px 670px 30px 45px ;  
+    }
+    #hebergements h5
+    {
+        margin: 20px 700px 40px 50px ;  
+    }
+
+    #populaires
+{
+    width: 650px;
+    align-items: center;
+    margin: 20px 20px 10px 20px ;  
+
+}
+    #populaires h2 
+    {
+        font-size: 1.3em;
+        font-weight: bold;
+        margin: 25px 50px 15px 30px ;  
+    }
+
+    #activites
+{
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 10px 0px ;  
+}
+
 }

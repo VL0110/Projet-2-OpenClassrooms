@@ -58,22 +58,22 @@ header h3
 
 /* 4)Barre de recherche */
 
-span
+#search
 {
     margin: 10px 10px 10px 40px ; 
 }
-span i
+#search i
 {
     font-size: 120%;
     padding-top: 5px;
     height: 26px;
     width: 25px;
 }
-span input 
+#search input 
 {
     height: 50px;
 }
-span div #search1 a
+#search #search1 a
 {
     width: 100px;
     height: 22px;

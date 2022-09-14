@@ -92,11 +92,11 @@ header h3
 
 /* 4)Barre de recherche */
 
-span
+#search
 {
     margin: 10px 10px 10px 25px ; 
 }
-span i
+#search i
 {
     height: 34px;
     width: 120%;
@@ -109,7 +109,7 @@ span i
     background-color: #F2F2F2;
 
 }
-span input 
+#search input 
 {
     height: 60px;
     width: 240px;
@@ -119,7 +119,7 @@ span input
     border-radius: 0px;
     background-color: #FFFFFF; 
 }
-span div #search1 a
+#search #search1 a
 {
     height: 35px;
     width: 135px;
@@ -133,11 +133,11 @@ span div #search1 a
     border-top-left-radius: 20px ;
     background-color: #ffffff;
 }
-span div #search1 a:hover
+#search #search1 a:hover
 {
     color: #ffffff;
 }
-span div #search2 a
+#search #search2 a
 {
     height: 33px;
     width: 45px;
@@ -149,7 +149,7 @@ span div #search2 a
     border-radius: 20px ;
     background-color: #0065FC;
 }
-span div
+#search
 {
     display: flex;
     flex-direction: row-reverse;
