@@ -17,6 +17,18 @@ main
         flex-wrap: wrap;
         justify-content: center;   
 }
+#hebergements
+{
+    order: -2;
+}
+#populaires
+{
+    order: -3;
+}
+#activites
+{
+    order: -1;
+}
 /* 2)Navigation */
 
 nav
@@ -98,7 +110,7 @@ header h3
 {
     font-size: 120% ;
     position: absolute;
-    top: -8px;
+    top: 5px;
     right: 23px;
 }
 
@@ -115,7 +127,7 @@ header h3
 {
     font-size: 120% ;
     position: absolute;
-    top: -8px;
+    top: 5px;
     right: 23px;
 }
 #famille i
@@ -131,7 +143,7 @@ header h3
 {
     font-size: 120% ;
     position: absolute;
-    top: -8px;
+    top: 5px;
     right: 23px;
 }
 #romantique i
@@ -147,7 +159,7 @@ header h3
 {
     font-size: 120% ;
     position: absolute;
-    top: -8px;
+    top: 5px;
     right: 23px;
 }
 #animaux i
@@ -172,7 +184,8 @@ aside i
 /* a)Hebergements */
 #hebergements 
 {
-    width: 850px;  
+    width: 100%; 
+    height: 100%; 
     align-items: center;
     justify-content: center;
     margin: 20px 0px 10px 0px ;  
@@ -183,38 +196,53 @@ aside i
     padding-right: 15%;
     margin: 35px 300px 10px 0px ;  
 }
+#hebergements h4
+{
+    font-size: 120%;
+}
+#hebergements p
+{
+    font-size: 80%;
+}
 #cannebiere
 {
     width: 43%;
+    height: 100%;
     margin: 25px 15px 15px 10px ;
 }
 #port
 {
     width: 43%;
+    height: 100%;
     margin: 25px 10px 15px 15px ;
 }
 #mouettes
 {
     width: 43%;
+    height: 100%;
     margin: 25px 15px 15px 10px ;
 }
 #mer
 {
     width: 43%;
+    height: 100%;
     margin: 25px 10px 15px 15px ;
 }
 #panier
 {
     width: 43%;
+    height: 100%;
     margin: 25px 15px 15px 10px ;
 }
 #amina
 {
     width: 43%;
+    height: 100%;
     margin: 25px 10px 15px 15px ;
 }
 #hebergements h5
 {
+    font-size: 120%;
     padding-right: 73%;
     margin: 20px 10px 50px 0px ;  
 }
@@ -254,7 +282,7 @@ aside i
 }
 #soleil p
 {
-    font-size:  80%;
+    font-size:  100%;
     position: absolute;
     top: 100px;
     left: 340px;
@@ -275,7 +303,7 @@ aside i
 }
 #eau p
 {
-    font-size:  80%;
+    font-size: 100%;
     position: absolute;
     top: 100px;
     left: 340px;
@@ -296,7 +324,7 @@ aside i
 }
 #bleu p
 {
-    font-size:  80%;
+    font-size:  100%;
     position: absolute;
     top: 100px;
     left: 340px;
@@ -313,7 +341,7 @@ aside i
 
 #activites
 {
-    width: 800px;
+    width: 100%;
     justify-content: flex-start;
     align-items: center;
     justify-content: center;
@@ -410,6 +438,6 @@ footer
     justify-content: space-around;
     align-items: center;
     background-color: #f2f2f2;
-    margin: 20px 0px 50px 0px ;
+    margin: 20px 0px 50px 20px ;
 }
 }

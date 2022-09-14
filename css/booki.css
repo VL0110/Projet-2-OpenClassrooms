@@ -8,6 +8,15 @@ body
     display: flex;
     flex-direction: column;
 }
+a 
+{
+    text-decoration: none;
+    color: #181818;
+}
+a:hover
+{
+    color: #0065FC;
+}
 
 /* 2)Navigation */
 
@@ -16,15 +25,15 @@ nav
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+
 }
 nav a
 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    list-style: none;
     color: #181818;
-    font-size: 1.1em;
+    font-size: 0.9em;
     padding-bottom: 3px;
     text-decoration: none;
     text-align: center;
@@ -37,6 +46,11 @@ nav a
 nav a:hover
 {
     color: #0065FC;
+}
+ul
+{
+    direction: row;
+    list-style: none;
 }
 #logobooki img
 {
@@ -57,12 +71,12 @@ nav a:hover
 
 header h1
 {
-    font-size: 1.4em ;
+    font-size: 1.2em ;
     margin: 20px 5px 0px 25px ;
 }
 header h3
 {
-    font-size: 1.2em ;
+    font-size: 1em ;
     color : #606060 ;
     font-weight: normal ;
     margin: 5px 5px 30px 30px ;
@@ -74,7 +88,7 @@ header h3
 {
     display: flex;
     justify-content: flex-start;
-    margin: 10px 10px 10px 40px ; 
+    margin: 10px 10px 15px 40px ; 
 }
 #search i
 {
@@ -95,20 +109,16 @@ header h3
 #search input 
 {
     width: 250px;
-    height: 40px;
-    font-size: 1em;
     border: 1px solid #F2F2F2;
     border-radius: 0px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 #search #search1 a
 {
-    width: 90px;
-    height: 15px;
     font-size: 90%;
     padding-bottom: 3px;
-    text-decoration: none;
-    text-align: center;
+    position: relative;
+    top:8px;
     font-weight: bold;
     color: #ffffff;
     border: 10px solid #0065FC;
@@ -116,10 +126,7 @@ header h3
     border-top-right-radius: 12px ;
     background-color: #0065FC;
 }
-#search #search1 a:hover
-{
-    color: #FFAD05;
-}
+
 #search #search2 a
 {
     text-align: center;
@@ -140,7 +147,7 @@ header h3
 
 #filtres h2
 {
-    font-size: 1.4em ;
+    font-size: 1.2em ;
     font-weight: bold;
     padding-top: 10px;
     margin: 10px 10px 10px 40px ;
@@ -156,8 +163,8 @@ header h3
 
 #economique 
 {
-    height: 40px;
-    width: 180px ;
+    height: 35px;
+    width: 170px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
@@ -166,27 +173,31 @@ header h3
 }
 #economique h3
 {
-    font-size: 1.1em;
+    font-size: 1em;
     color: #181818;
     font-weight: bold;
     text-align: center;
     position: absolute;
-    bottom: -20px;
+    bottom: -22px;
     right: 20px;
 }
 #economique i
 {
-   font-size: 100%;
+   font-size: 83%;
    color: #0065FC;
-   border: 13px solid #DEEBFF;
+   border: 12px solid #DEEBFF;
    border-radius: 100px;
    background-color: #DEEBFF;
+}
+#economique :hover
+{
+    color: #0065FC;
 }
 
 #famille 
 {
-    height: 40px;
-    width: 140px ;
+    height: 35px;
+    width: 130px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
@@ -195,18 +206,18 @@ header h3
 }
 #famille h3 
 {
-    font-size: 1.1em;
+    font-size: 1em;
     color: #181818;
     font-weight: bold;
     position: absolute;
-    bottom: -20px;
+    bottom: -22px;
     right: 20px;
 }
 #famille i
 {
-   font-size: 100%;
+    font-size: 83%;
    color: #0065FC;
-   border: 13px solid #DEEBFF;
+   border: 12px solid #DEEBFF;
    border-radius: 100px;
    padding-right: 3px;
    padding-left: 2px;
@@ -214,8 +225,8 @@ header h3
 }
 #romantique
 {
-    height: 40px;
-    width: 180px ;
+    height: 35px;
+    width: 170px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px;
@@ -224,25 +235,25 @@ header h3
 }
 #romantique h3
 {
-    font-size: 1.1em;
+    font-size: 1em;
     color: #181818;
     font-weight: bold;
     position: absolute;
-    bottom: -20px;
+    bottom: -22px;
     right: 25px;
 }
 #romantique i
 {
-    font-size: 100%;
+    font-size: 83%;
     color: #0065FC;
-    border: 13px solid #DEEBFF;
+    border: 12px solid #DEEBFF;
     border-radius: 100px;
     background-color: #DEEBFF;
 }
 #animaux
 {
-    height: 40px;
-    width: 230px ;
+    height: 35px;
+    width: 220px ;
     position: relative;
     border: 1px solid #DBDADA;
     border-radius: 100px; 
@@ -251,16 +262,16 @@ header h3
 }
 #animaux h3
 {
-    font-size: 1.1em;
+    font-size: 1em;
     color: #181818;
     font-weight: bold;
     position: absolute;
-    bottom: -20px;
+    bottom: -22px;
     right: 25px;
 }
 #animaux i
 {
-    font-size: 100%;
+    font-size: 83%;
     color: #0065FC;
     border: 13px solid #DEEBFF;
     border-radius: 100px;
@@ -272,19 +283,20 @@ header h3
 aside
 {
     display: flex;
+    justify-content: flex-start;
     color : #707070;
-    margin: 5px 0px 0px 30px ; 
+    margin: 5px 0px 20px 30px ; 
 }
 aside h3
 {
     color : #707070;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 aside i
 {
     height: 15px;
     width: 15px ;
-    font-size: 80%;
+    font-size: 70%;
     text-align: center;
     padding-top: 2px;
     background-color: #ffffff;
@@ -292,7 +304,7 @@ aside i
     border: 1px solid #F2F2F2;
     border-radius: 100px;
     line-height: 20px;
-    margin: 10px 10px 13px 10px ; 
+    margin: 0px -15px 5px 10px ; 
     box-shadow: 0px 0px 2px #c4c4c4;
 }
 aside :hover
@@ -318,7 +330,6 @@ main
 #hebergements 
 {
     width: 60%;
-    height: 40%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -327,21 +338,21 @@ main
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     background-color:#F2F2F2;  
-    margin: 20px 10px 20px 0px ;  
+    margin: 0px 10px 20px 20px ;  
 }
 #hebergements h2
 {
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: bold;
     border: 3px solid #f2f2f2;
     border-radius: 20px;
     background-color:#F2F2F2;  
-    margin: 30px 470px 30px 45px ;  
+    margin: 30px 550px 0px 45px ;  
 }
 #cannebiere
 {
     width: 28%;
-    height: 235px;
+    height: 215px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -350,10 +361,9 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin-left: 3%;
-    margin-bottom: 3%;
+    margin: 10px 10px 10px 30px ;
 }
-#cannebiere :hover
+#cannebiere h4:hover
 {
     color: #0065FC;
 }
@@ -368,7 +378,7 @@ main
 }
 #cannebiere h4
 {
-    font-size: 1.1em;
+    font-size: 0.9em;
     list-style: none;
     color: #181818;
     text-decoration: none;
@@ -376,7 +386,7 @@ main
 }
 #cannebiere p
 {
-    font-size: 0.8em;
+    font-size: 0.7em;
     list-style: none;
     color: #181818;
     text-decoration: none;
@@ -385,8 +395,8 @@ main
 
 #port
 {
-    width: 28%;
-    height: 235px;
+    width:28%;
+    height: 215px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -395,13 +405,11 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin-left: 3%;
-    margin-bottom: 3%;
+    margin: 10px 10px 10px 20px ;
 }
-#port:hover
+#port h4:hover
 {
     color: #0065FC;
-    background-color: #DEEBFF;
 }
 #port img
 {
@@ -413,19 +421,19 @@ main
 }
 #port h4
 {
-    font-size: 1.1em;
+    font-size: 0.9em;
     margin: 5px 5px 5px 15px ;
 }
 #port p
 {
-    font-size: 0.8em;
+    font-size: 0.7em;
     margin: 5px 5px 0px 15px ;
 }
 
 #mouettes
 {
     width: 28%;
-    height: 235px;
+    height: 215px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -434,10 +442,9 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin-left: 3%;
-    margin-bottom: 3%;
+    margin: 10px 10px 10px 20px ;
 }
-#mouettes:hover
+#mouettes h4:hover
 {
     color: #0065FC;
 }
@@ -451,19 +458,19 @@ main
 }
 #mouettes h4
 {
-    font-size: 1.1em;
+    font-size: 0.9em;
     margin: 5px 5px 5px 15px ;
 }
 #mouettes p
 {
-    font-size: 0.8em;
+    font-size: 0.7em;
     margin: 5px 5px 0px 15px ;
 }
 
 #mer
 {
     width: 28%;
-    height: 235px;
+    height: 215px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -472,10 +479,9 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin-left: 3%;
-    margin-bottom: 3%;
+    margin: 10px 10px 10px 30px ;
 }
-#mer:hover
+#mer h4:hover
 {
     color: #0065FC;
 }
@@ -489,19 +495,19 @@ main
 }
 #mer h4
 {
-    font-size: 1.1em;
+    font-size: 0.9em;
     margin: 5px 5px 5px 15px ;
 }
 #mer p
 {
-    font-size: 0.8em;
+    font-size: 0.7em;
     margin: 5px 5px 0px 15px ;
 }
 
 #panier
 {
     width: 28%;
-    height: 235px;
+    height: 215px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -510,10 +516,9 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin-left: 3%;
-    margin-bottom: 3%;
+    margin: 10px 10px 10px 20px ;
 }
-#panier:hover
+#panier h4:hover
 {
     color: #0065FC;
 }
@@ -527,19 +532,19 @@ main
 }
 #panier h4
 {
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 5px 5px 5px 15px ;
 }
 #panier p
 {
-    font-size: 0.8em;
+    font-size: 0.7em;
     margin: 5px 5px 0px 15px ;
 }
 
 #amina
 {
-    width: 28%;
-    height: 235px;
+    width:28%;
+    height: 215px;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -548,10 +553,9 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin-left: 3%;
-    margin-bottom: 3%;
+    margin: 10px 20px 10px 20px ;
 }
-#amina:hover
+#amina h4:hover
 {
     color: #0065FC;
 }
@@ -565,19 +569,19 @@ main
 }
 #amina h4
 {
-    font-size: 1.1em;
+    font-size: 0.9em;
     margin: 5px 5px 5px 15px ;
 }
 #amina p
 {
-    font-size: 0.8em;
+    font-size: 0.7em;
     margin: 5px 5px 0px 15px ;
 }
 
 #hebergements h5
 {
     font-size: 110%; 
-    margin: 20px 700px 40px 50px ;  
+    margin: 10px 700px 10px 50px ;  
 }
 
 /* b)Populaires */
@@ -592,11 +596,11 @@ main
     border: 10px solid #f2f2f2;
     border-radius: 30px;
     background-color:#F2F2F2;   
-    margin: 20px 0px 20px 10px ;  
+    margin: 0px 10px 20px 10px ;  
 }
 #populaires h2 
 {
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: bold;
     margin: 25px 50px 15px 30px ;  
 }
@@ -625,7 +629,7 @@ main
 }
 #soleil h4
 {
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-weight: bold;
     position: absolute;
     margin-right: 10px;
@@ -634,12 +638,12 @@ main
 }
 #soleil p
 {
-    font-size: 80%;
+    font-size: 0.7em;
     position: absolute;
     top: 50%;
     left: 45%;
 }
-#soleil:hover
+#soleil h4:hover
 {
     color: #0065FC;
 }
@@ -659,7 +663,7 @@ main
 }
 #eau h4
 {
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-weight: bold;
     position: absolute;
     left: 45%;
@@ -667,12 +671,12 @@ main
 }
 #eau p
 {
-    font-size:  80%;
+    font-size: 0.7em;
     position: absolute;
     top: 50%;
     left: 45%;
 }
-#eau:hover
+#eau h4:hover
 {
     color: #0065FC;
 }
@@ -692,7 +696,7 @@ main
 }
 #bleu h4
 {
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-weight: bold;
     position: absolute;
     left: 45%;
@@ -700,19 +704,19 @@ main
 }
 #bleu p
 {
-    font-size:  80%;
+    font-size:  0.7em;
     position: absolute;
     top: 50%;
     left: 45%;
 }
-#bleu:hover
+#bleu h4:hover
 {
     color: #0065FC;
 }
 
 #etoile i
 {
-    font-size: 120%;
+    font-size: 110%;
     color:#181818 ;
     border: 0px solid #F2F2F2;
     border-radius: 0px;
@@ -729,18 +733,19 @@ main
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background-color:#fffbfb; 
 }
 #activites h2
 {
-    font-size:  1.3em;
+    font-size:  1.1em;
     display: flex;
     font-weight: bold;
-    margin: 10px 1250px 10px 40px ; 
+    margin: 10px 1250px 10px 70px ; 
 }
 #activites h4
 {
-    font-size:  1.1em;
+    font-size: 0.9em;
     font-weight: bold;
     padding-top: 5px;
     margin: 5px 5px 10px 15px ; 
@@ -754,8 +759,8 @@ main
 
 #vieux
 {
-    width: 21%;
-    height: 540px;
+    width: 22%;
+    height: 530px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -763,21 +768,21 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 20px 40px ;
+    margin: 25px 20px 20px 10px ;
 }
 #vieux img
 {
     width: 100%;
     height: 470px;
 }
-#vieux:hover
+#vieux h4:hover
 {
     color: #0065FC;
 }
 
 #pomegues
 {
-    width: 110%;
+    width: 100%;
     height: 250px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
@@ -793,13 +798,13 @@ main
     width: 100%;
     height: 190px;
 }
-#pomegues:hover
+#pomegues h4:hover
 {
     color: #0065FC;
 }
 #frioul
 {
-    width: 110%;
+    width: 100%;
     height: 250px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
@@ -815,14 +820,14 @@ main
     width: 100%;
     height: 190px;
 }
-#frioul:hover
+#frioul h4:hover
 {
     color: #0065FC;
 }
 #calanques
 {
-    width: 21%;
-    height: 540px;
+    width: 22%;
+    height: 530px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -830,20 +835,20 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 20px 70px ;
+    margin: 25px 20px 20px 40px ;
 }
 #calanques img
 {
     width: 100%;
     height: 470px;
 }  
-#calanques:hover
+#calanques h4:hover
 {
     color: #0065FC;
 }
 #garde
 {
-    width: 110%;
+    width: 100%;
     height: 250px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
@@ -859,13 +864,13 @@ main
     width: 100%;
     height: 190px;
 }
-#garde:hover
+#garde h4:hover
 {
     color: #0065FC;
 }
 #longchamp
 {
-    width: 110%;
+    width: 100%;
     height: 250px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
@@ -874,7 +879,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 0px 50px 10px ;
+    margin: 25px 10px 50px 10px ;
 }
 #longchamp img
 {
@@ -915,7 +920,7 @@ footer
 footer h1
 {
     font-weight: normal;
-    font-size: 1.1em ;
+    font-size: 1em ;
     font-weight: bold;
     margin: 25px 0px 15px 0px ;
 }
@@ -926,7 +931,7 @@ footer h1:hover
 footer h3
 {
     font-weight: normal;
-    font-size: 0.9em ;
+    font-size: 0.8em ;
     margin: 10px 0px 10px 0px ;
 }
 footer h3:hover
@@ -936,7 +941,7 @@ footer h3:hover
 footer h4
 {
     font-weight: normal;
-    font-size: 0.9em ;
+    font-size: 0.8em ;
     margin: 10px 0px 30px 0px ;
 }
 footer h4:hover
@@ -944,47 +949,138 @@ footer h4:hover
     color:#FFAD05;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1550px) {
+@media screen and (min-width: 992px) and (max-width: 1500px) {
 
-    #hebergements 
+    main 
     {
-        width: 100%; 
+            display: flex;
+    }
+    #hebergements
+    {
+        order: -2;
+    }
+    #populaires
+    {
+        order: -3;
+    }
+    #activites
+    {
+        order: -1;
+    }
+    #populaires
+    {
+        width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
+        flex-direction: row;
         justify-content: center;
-        margin: 20px 20px 10px 20px ;  
+        align-items: center;
+        border: 10px solid #f2f2f2;
+        border-radius: 20px;
+        background-color:#F2F2F2;    
+    }
+    #populaires h2
+    {
+        margin: 15px 20px 15px 20px ; 
+    }
+   #soleil
+   {
+        height: 180px;
+   }
+   #soleil img
+   {
+        height: 100%;
+   }
+   #soleil p
+   {    
+        position: absolute;
+        top: 60%;
+   }
+   #eau
+   {
+        height: 180px;
+   }
+   #eau img
+   {
+        height: 100%;
+   }
+   #eau p
+   {    
+        position: absolute;
+        top: 60%;
+   }
+    #bleu
+    {
+        height: 180px;
+        margin: 15px 10px 20px 15px ;
+    }
+    #bleu img
+    {
+         height: 100%;
+    }
+    #bleu p
+    {    
+         position: absolute;
+         top: 60%;
+    }
+    #etoile i
+    {
+         color: #FFFFFF;
+    }
+    #hebergements
+    {
+        width: 100%;
     }
     #hebergements h2
     {
-        margin: 30px 670px 30px 45px ;  
+        margin: 30px 750px 10px 45px ;  
     }
-    #hebergements h5
-    {
-        margin: 20px 700px 40px 50px ;  
-    }
-
-    #populaires
-{
-    width: 650px;
-    align-items: center;
-    margin: 20px 20px 10px 20px ;  
-
-}
-    #populaires h2 
-    {
-        font-size: 1.3em;
-        font-weight: bold;
-        margin: 25px 50px 15px 30px ;  
-    }
-
     #activites
-{
-    width: 100%;
-    justify-content: flex-start;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0px 10px 0px ;  
-}
+    {
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 20px 0px 10px 0px ;  
+    }
+    #activites h2
+    {
+        margin: 10px 700px 10px 70px ; 
+    }
+    #vieux
+    {
+        width: 45%;
+        height: 530px;
+        margin: 25px 20px 20px 40px ;
+    }
+    #pomegues
+    {
+        width: 150%;
+        height: 250px;
+        margin: 25px 30px 40px 20px ;
+    }
+    #frioul
+    {
+        width: 150%;
+        height: 250px;
+        margin: 25px 30px 20px 20px ;
+    }
+    #calanques
+    {
+        width: 45%;
+        height: 530px;
+        margin: 25px 20px 20px 40px ;
+    }
+    #garde
+    {
+        width: 150%;
+        height: 250px;
+        margin: 25px 20px 40px 20px ;
+    }
+    #longchamp
+    {
+        width: 150%;
+        height: 250px;
+        margin: 25px 20px 20px 20px ;
+    }
 
 }
