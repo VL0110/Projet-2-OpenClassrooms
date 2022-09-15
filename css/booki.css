@@ -8,6 +8,11 @@ body
     display: flex;
     flex-direction: column;
 }
+header
+{
+    width: auto;
+    height: auto;
+}
 a 
 {
     text-decoration: none;
@@ -33,25 +38,22 @@ nav a
     justify-content: flex-end;
     align-items: flex-start;
     color: #181818;
-    font-size: 0.9em;
-    padding-bottom: 3px;
+    font-size: 100%;
     text-decoration: none;
     text-align: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-right: 25px;
     padding-left: 15px;
     margin: -60px 0px 0px 40px ;
 }
-nav a:hover
+nav a :hover
 {
     color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 40px;
 }
-ul
-{
-    direction: row;
-    list-style: none;
-}
+
 #logobooki img
 {
     display: flex;
@@ -72,6 +74,7 @@ ul
 header h1
 {
     font-size: 1.2em ;
+    font-weight: bold;
     margin: 20px 5px 0px 25px ;
 }
 header h3
@@ -90,30 +93,31 @@ header h3
     justify-content: flex-start;
     margin: 10px 10px 15px 40px ; 
 }
-#search i
+#search1 i
 {
     font-size: 100%;
     padding-top: 2px;
     text-align: center;
     height: 18px;
-    width: 15px;
+    width: 18px;
     border: 10px solid #F2F2F2;
-    border-bottom-left-radius: 12px ;
-    border-top-left-radius: 12px ;
+    border-bottom-left-radius: 10px ;
+    border-top-left-radius: 10px ;
     background-color: #F2F2F2;
 }
-#search i:hover
+#search1 i:hover
 {
     color:#FFAD05;
 }
-#search input 
+#search2 input 
 {
     width: 250px;
+    height: 40px;
     border: 1px solid #F2F2F2;
     border-radius: 0px;
     padding-left: 5px;
 }
-#search #search1 a
+#search #search3 a
 {
     font-size: 90%;
     padding-bottom: 3px;
@@ -122,12 +126,12 @@ header h3
     font-weight: bold;
     color: #ffffff;
     border: 10px solid #0065FC;
-    border-bottom-right-radius: 12px ;
-    border-top-right-radius: 12px ;
+    border-bottom-right-radius: 13px ;
+    border-top-right-radius: 13px ;
     background-color: #0065FC;
 }
 
-#search #search2 a
+#search #search4 a
 {
     text-align: center;
     border: 10px solid #ffffff;
@@ -144,7 +148,6 @@ header h3
     flex-wrap: wrap;
     align-content: flex-start;
 }
-
 #filtres h2
 {
     font-size: 1.2em ;
@@ -152,15 +155,6 @@ header h3
     padding-top: 10px;
     margin: 10px 10px 10px 40px ;
 }
-#filtres :hover
-{
-    color: #0065FC;
-}
-#filtres i :hover
-{
-    color: #FFAD05;
-}
-
 #economique 
 {
     height: 35px;
@@ -169,6 +163,7 @@ header h3
     border: 1px solid #DBDADA;
     border-radius: 100px;
     box-shadow: 0px 0px 1px #c4c4c4; 
+    background-color: #ffffff;
     margin: 10px 0px 10px 10px ;     
 }
 #economique h3
@@ -189,9 +184,9 @@ header h3
    border-radius: 100px;
    background-color: #DEEBFF;
 }
-#economique :hover
+#economique i:hover
 {
-    color: #0065FC;
+    background-color:  #ffffff;
 }
 
 #famille 
@@ -330,6 +325,7 @@ main
 #hebergements 
 {
     width: 60%;
+    height: 700px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -342,7 +338,7 @@ main
 }
 #hebergements h2
 {
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: bold;
     border: 3px solid #f2f2f2;
     border-radius: 20px;
@@ -361,7 +357,7 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 10px 10px 10px 30px ;
+    margin: 0px 10px 10px 30px ;
 }
 #cannebiere h4:hover
 {
@@ -378,7 +374,7 @@ main
 }
 #cannebiere h4
 {
-    font-size: 0.9em;
+    font-size: 1em;
     list-style: none;
     color: #181818;
     text-decoration: none;
@@ -405,7 +401,7 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 10px 10px 10px 20px ;
+    margin: 0px 10px 10px 20px ;
 }
 #port h4:hover
 {
@@ -421,7 +417,7 @@ main
 }
 #port h4
 {
-    font-size: 0.9em;
+    font-size: 1em;
     margin: 5px 5px 5px 15px ;
 }
 #port p
@@ -442,7 +438,7 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 10px 10px 10px 20px ;
+    margin: 0px 10px 10px 20px ;
 }
 #mouettes h4:hover
 {
@@ -458,7 +454,7 @@ main
 }
 #mouettes h4
 {
-    font-size: 0.9em;
+    font-size: 1em;
     margin: 5px 5px 5px 15px ;
 }
 #mouettes p
@@ -479,7 +475,7 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 10px 10px 10px 30px ;
+    margin: 0px 10px 10px 30px ;
 }
 #mer h4:hover
 {
@@ -495,7 +491,7 @@ main
 }
 #mer h4
 {
-    font-size: 0.9em;
+    font-size: 1em;
     margin: 5px 5px 5px 15px ;
 }
 #mer p
@@ -516,7 +512,7 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 10px 10px 10px 20px ;
+    margin: 0px 10px 10px 20px ;
 }
 #panier h4:hover
 {
@@ -553,7 +549,7 @@ main
     border-top-right-radius: 25px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 10px 20px 10px 20px ;
+    margin: 0px 20px 10px 20px ;
 }
 #amina h4:hover
 {
@@ -569,7 +565,7 @@ main
 }
 #amina h4
 {
-    font-size: 0.9em;
+    font-size: 1em;
     margin: 5px 5px 5px 15px ;
 }
 #amina p
@@ -580,8 +576,8 @@ main
 
 #hebergements h5
 {
-    font-size: 110%; 
-    margin: 10px 700px 10px 50px ;  
+    font-size: 1.1em;
+    margin: 10px 600px 10px 50px ;  
 }
 
 /* b)Populaires */
@@ -589,7 +585,7 @@ main
 #populaires
 {
     width: 35%;
-    height: 60%;
+    height: 680px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -600,7 +596,7 @@ main
 }
 #populaires h2 
 {
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: bold;
     margin: 25px 50px 15px 30px ;  
 }
@@ -629,7 +625,7 @@ main
 }
 #soleil h4
 {
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: bold;
     position: absolute;
     margin-right: 10px;
@@ -640,7 +636,7 @@ main
 {
     font-size: 0.7em;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 45%;
 }
 #soleil h4:hover
@@ -663,7 +659,7 @@ main
 }
 #eau h4
 {
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: bold;
     position: absolute;
     left: 45%;
@@ -673,7 +669,7 @@ main
 {
     font-size: 0.7em;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 45%;
 }
 #eau h4:hover
@@ -696,7 +692,7 @@ main
 }
 #bleu h4
 {
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: bold;
     position: absolute;
     left: 45%;
@@ -706,7 +702,7 @@ main
 {
     font-size:  0.7em;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 45%;
 }
 #bleu h4:hover
@@ -716,13 +712,13 @@ main
 
 #etoile i
 {
-    font-size: 110%;
+    font-size: 120%;
     color:#181818 ;
     border: 0px solid #F2F2F2;
     border-radius: 0px;
     background-color: #F2F2F2;  
     position: absolute;
-    top: 3%;
+    top: 4%;
     left: 85%;
 }
 
@@ -738,10 +734,10 @@ main
 }
 #activites h2
 {
-    font-size:  1.1em;
+    font-size:  1.2em;
     display: flex;
     font-weight: bold;
-    margin: 10px 1250px 10px 70px ; 
+    margin: 10px 1150px 10px 70px ; 
 }
 #activites h4
 {
@@ -760,7 +756,7 @@ main
 #vieux
 {
     width: 22%;
-    height: 530px;
+    height: 520px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -768,7 +764,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 20px 10px ;
+    margin: 25px 30px 20px 0px ;
 }
 #vieux img
 {
@@ -783,7 +779,7 @@ main
 #pomegues
 {
     width: 100%;
-    height: 250px;
+    height: 240px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -791,7 +787,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 40px 10px ;
+    margin: 25px 30px 40px 10px ;
 }
 #pomegues img
 {
@@ -805,7 +801,7 @@ main
 #frioul
 {
     width: 100%;
-    height: 250px;
+    height: 240px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -813,7 +809,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 20px 10px ;
+    margin: 25px 30px 20px 10px ;
 }
 #frioul img
 {
@@ -827,7 +823,7 @@ main
 #calanques
 {
     width: 22%;
-    height: 530px;
+    height: 520px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -835,7 +831,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 20px 20px 40px ;
+    margin: 25px 30px 20px 40px ;
 }
 #calanques img
 {
@@ -849,7 +845,7 @@ main
 #garde
 {
     width: 100%;
-    height: 250px;
+    height: 240px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -857,7 +853,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 0px 40px 10px ;
+    margin: 25px 30px 40px 10px ;
 }
 #garde img
 {
@@ -871,7 +867,7 @@ main
 #longchamp
 {
     width: 100%;
-    height: 250px;
+    height: 240px;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -879,7 +875,7 @@ main
     border-top-right-radius: 20px;
     background-color:#FFFFFF; 
     box-shadow: 0px 0px 5px #c4c4c4;
-    margin: 25px 10px 50px 10px ;
+    margin: 25px 30px 50px 10px ;
 }
 #longchamp img
 {
@@ -897,7 +893,7 @@ footer
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     background-color: #f2f2f2;
     margin: 20px 0px 50px 0px ;
@@ -905,17 +901,17 @@ footer
 #a_propos
 {
     border: 10px solid #f2f2f2;
-    margin: 0px 0px 0px 70px ;
+    margin-left: 5% ;
 }
 #nos_hebergements
 {
     border: 10px solid #f2f2f2;
-    margin: 0px 0px 0px 0px ;
+    margin-left: 20% ;
 }
 #assistance
 {
     border: 10px solid #f2f2f2;
-    margin: 0px 100px 0px 0px ;
+    margin-left: 20% ;
 }
 footer h1
 {
@@ -949,7 +945,7 @@ footer h4:hover
     color:#FFAD05;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1500px) {
+@media screen and (min-width: 992px) and (max-width: 1450px) {
 
     main 
     {
@@ -970,6 +966,7 @@ footer h4:hover
     #populaires
     {
         width: 100%;
+        height: 300px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1024,7 +1021,7 @@ footer h4:hover
     }
     #etoile i
     {
-         color: #FFFFFF;
+         color: #f2f2f2;
     }
     #hebergements
     {
