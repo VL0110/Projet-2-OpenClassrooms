@@ -18,10 +18,6 @@ a
     text-decoration: none;
     color: #181818;
 }
-a:hover
-{
-    color: #0065FC;
-}
 
 /* 2)Navigation */
 
@@ -30,7 +26,7 @@ nav
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-
+    margin-bottom: 2%;
 }
 nav a
 {
@@ -41,18 +37,21 @@ nav a
     font-size: 100%;
     text-decoration: none;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 40px;
     padding-bottom: 10px;
     padding-right: 25px;
-    padding-left: 15px;
-    margin: -60px 0px 0px 40px ;
+    padding-left: 25px;
+    border-top: 3px solid transparent;
+    margin: -97px 0px 0px 0px ;
 }
-nav a :hover
+
+nav :hover
 {
     color: #0065FC;
-    border-top: 2px solid #0065FC;
+    border-top: 3px solid #0065FC;
     padding-top: 40px;
 }
+
 
 #logobooki img
 {
@@ -179,6 +178,10 @@ header h3
    border-radius: 100px;
    background-color: #DEEBFF;
 }
+#economique :hover 
+{
+    color: #0065FC;
+} 
 #famille 
 {
     height: 35px;
@@ -208,6 +211,10 @@ header h3
    padding-left: 2px;
    background-color: #DEEBFF;
 }
+#famille :hover 
+{
+    color: #0065FC;
+} 
 #romantique
 {
     height: 35px;
@@ -235,6 +242,10 @@ header h3
     border-radius: 100px;
     background-color: #DEEBFF;
 }
+#romantique :hover 
+{
+    color: #0065FC;
+} 
 #animaux
 {
     height: 35px;
@@ -264,7 +275,10 @@ header h3
     top: -2px;
     background-color: #DEEBFF;
 }
-
+#animaux :hover 
+{
+    color: #0065FC;
+} 
 aside
 {
     display: flex;
