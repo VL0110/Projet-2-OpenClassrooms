@@ -123,7 +123,10 @@ header h3
     border-top-right-radius: 13px ;
     background-color: #0065FC;
 }
-
+#search #search3 a:hover
+{
+    color: #181818;
+}
 #search #search4 a
 {
     text-align: center;
@@ -180,10 +183,16 @@ header h3
    border-radius: 100px;
    background-color: #DEEBFF;
 }
-#economique h3:hover 
+#economique:hover
+{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px #c4c4c4;
+}
+#economique h3:hover
 {
     color: #0065FC;
 } 
+
 #famille 
 {
     height: 35px;
@@ -205,7 +214,7 @@ header h3
 }
 #famille i
 {
-    font-size: 83%;
+    font-size: 81%;
    color: #0065FC;
    border: 12px solid #DEEBFF;
    border-radius: 100px;
@@ -213,10 +222,16 @@ header h3
    padding-left: 2px;
    background-color: #DEEBFF;
 }
-#famille :hover 
+#famille:hover
+{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px #c4c4c4;
+}
+#famille h3:hover 
 {
     color: #0065FC;
 } 
+
 #romantique
 {
     height: 35px;
@@ -238,16 +253,22 @@ header h3
 }
 #romantique i
 {
-    font-size: 83%;
+    font-size: 84%;
     color: #0065FC;
     border: 12px solid #DEEBFF;
     border-radius: 100px;
     background-color: #DEEBFF;
 }
-#romantique :hover 
+#romantique:hover
+{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px #c4c4c4;
+}
+#romantique h3:hover 
 {
     color: #0065FC;
 } 
+
 #animaux
 {
     height: 35px;
@@ -277,10 +298,17 @@ header h3
     top: -2px;
     background-color: #DEEBFF;
 }
-#animaux :hover 
+#animaux:hover 
+{
+    color: #0065FC;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px #c4c4c4;
+}
+#animaux h3:hover 
 {
     color: #0065FC;
 } 
+
 aside
 {
     display: flex;
@@ -355,6 +383,7 @@ main
     background-color:#F2F2F2;  
     margin: 30px 550px 0px 45px ;  
 }
+
 #cannebiere
 {
     width: 28%;
@@ -370,12 +399,15 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 0px 10px 10px 30px ;
 }
-#cannebiere :hover a
+#cannebiere:hover
 {
-    cursor: pointer;
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
+}
+#cannebiere:hover a
+{
     color: #0065FC;
 }
-
 #cannebiere img
 {
     width: 100%;
@@ -416,7 +448,12 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 0px 10px 10px 20px ;
 }
-#port :hover a
+#port:hover
+{
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
+}
+#port:hover a
 {
     color: #0065FC;
 }
@@ -454,7 +491,12 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 0px 10px 10px 20px ;
 }
-#mouettes :hover a
+#mouettes:hover
+{
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
+}
+#mouettes:hover a
 {
     color: #0065FC;
 }
@@ -492,7 +534,12 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 0px 10px 10px 30px ;
 }
-#mer :hover a
+#mer:hover
+{
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
+}
+#mer:hover a
 {
     color: #0065FC;
 }
@@ -530,7 +577,12 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 0px 10px 10px 20px ;
 }
-#panier :hover a
+#panier:hover
+{
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
+}
+#panier:hover a
 {
     color: #0065FC;
 }
@@ -568,7 +620,12 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 0px 20px 10px 20px ;
 }
-#amina :hover a
+#amina:hover
+{
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
+}
+#amina:hover a
 {
     color: #0065FC;
 }
@@ -657,10 +714,16 @@ main
     top: 25%;
     left: 45%;
 }
-#soleil :hover a
+#soleil:hover
+{
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
+}
+#soleil:hover a
 {
     color: #0065FC;
 }
+
 #eau
 {
     width: 90%;
@@ -691,10 +754,16 @@ main
     top: 35%;
     left: 45%;
 }
-#eau :hover a
+#eau:hover
+{
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
+}
+#eau:hover a
 {
     color: #0065FC;
 }
+
 #bleu
 {
     width: 90%;
@@ -725,7 +794,12 @@ main
     top: 35%;
     left: 45%;
 }
-#bleu :hover a
+#bleu:hover
+{
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
+}
+#bleu:hover a
 {
     color: #0065FC;
 }
@@ -795,7 +869,12 @@ main
     width: 100%;
     height: 470px;
 }
-#vieux :hover a
+#vieux:hover
+{
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
+}
+#vieux:hover a
 {
     color: #0065FC;
 }
@@ -819,10 +898,16 @@ main
     width: 100%;
     height: 190px;
 }
-#pomegues :hover a
+#pomegues:hover
+{
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
+}
+#pomegues:hover a
 {
     color: #0065FC;
 }
+
 #frioul
 {
     width: 100%;
@@ -842,10 +927,16 @@ main
     width: 100%;
     height: 190px;
 }
-#frioul :hover a
+#frioul:hover
+{
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
+}
+#frioul:hover a
 {
     color: #0065FC;
 }
+
 #calanques
 {
     width: 22%;
@@ -865,10 +956,16 @@ main
     width: 100%;
     height: 470px;
 }  
-#calanques :hover a
+#calanques:hover
+{
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
+}
+#calanques:hover a
 {
     color: #0065FC;
 }
+
 #garde
 {
     width: 100%;
@@ -888,10 +985,16 @@ main
     width: 100%;
     height: 190px;
 }
-#garde :hover a
+#garde:hover
+{
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
+}
+#garde:hover a
 {
     color: #0065FC;
 }
+
 #longchamp
 {
     width: 100%;
@@ -910,6 +1013,11 @@ main
 {
     width: 100%;
     height: 190px;
+}
+#longchamp:hover
+{
+    background-color:#FFFFFF; 
+    box-shadow: 2px 2px 5px #c4c4c4;
 }
 #longchamp:hover a
 {

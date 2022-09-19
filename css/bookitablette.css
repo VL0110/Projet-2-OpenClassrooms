@@ -87,10 +87,7 @@ header h3
 }
 #search #search3 a
 {
-
     font-size: 100%;
-    position: relative;
-    top: 15px;
     padding-bottom: 5px;
     padding-top: 5PX;
 }
@@ -118,7 +115,9 @@ header h3
 
 #economique i
 {
-   font-size: 20px ;
+   font-size: 22px ;
+   position: absolute;
+   top: 0px;
 }
 #famille 
 {
@@ -134,7 +133,7 @@ header h3
 }
 #famille i
 {
-   font-size: 20px ;
+   font-size: 22px ;
 }
 #romantique
 {
@@ -150,7 +149,7 @@ header h3
 }
 #romantique i
 {
-    font-size: 20px ;
+    font-size: 22px ;
 }
 #animaux
 {
@@ -168,7 +167,7 @@ header h3
 }
 #animaux i
 {
-    font-size: 20px ;
+    font-size: 22px ;
 }
 
 aside 
