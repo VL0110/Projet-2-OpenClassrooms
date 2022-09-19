@@ -59,16 +59,19 @@ nav a
     font-size: 120%;
     flex-direction: row;
     padding-top: 7%;
-    padding-bottom: 6%;
+    padding-bottom: 3%;
     padding-right: 17%;
     padding-left: 19%;
+    color: #000000;
+    border-bottom: 3px solid #F2F2F2;
+    border-top: #FFFFFF;
 }
 
 nav :hover
 {
     color: #0065FC;
     border-bottom: 3px solid #0065FC;
-    padding-bottom: 6%;
+    padding-bottom: 3%;
     border-top: #FFFFFF;
 }
 
@@ -392,7 +395,7 @@ main
     border: 10px solid #F2F2F2;  
     border-radius: 30px;
     background-color:#F2F2F2;  
-    margin: 15px 15px 15px 40px;
+    margin: 15px 15px 15px 0px;
 }
 #populaires img
 {
@@ -514,7 +517,7 @@ main
     border: 10px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 20px 10px 10px 0px;
+    margin: 20px 10px 10px -70px ;
 }
 #hebergements  h4
 {
@@ -618,7 +621,7 @@ article
     border: 10px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 10px 0px 10px -70px ;
+    margin: 10px 0px 10px -150px ;
 }
 #activites h4
 {
@@ -713,14 +716,14 @@ footer h1
 footer h3
 {
     display: flex;
-    font-size: 1em ;
+    font-size: 1.1em ;
     font-weight: normal;
 }
 
 footer h4
 {
     display: flex;
-    font-size: 1em ;
+    font-size: 1.1em ;
     font-weight: normal;
 }
 #a_propos
@@ -744,9 +747,13 @@ footer h4
 {
     nav a
     {
-    font-size: 105%;
-    padding-left: 5%;
-    padding-right: 12%;
+    font-size: 110%;
+    padding-left: 16%;
+    padding-right: 15%;
+    color: #000000;
+    border-bottom: 3px solid #F2F2F2;
+    padding-bottom: 3%;
+    border-top: #FFFFFF;
     }
      #search1 i
     {
