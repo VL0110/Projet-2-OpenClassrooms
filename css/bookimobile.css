@@ -7,12 +7,15 @@
 /* 1)Eléments principaux de la page */
 body
 {
+    width: 100%;
+    overflow-x: hidden;
     font-family: 'Raleway', Arial, sans-serif;
     border: 1px solid #ffffff;
     border-radius: 0px;
     background-color:#ffffff;
-    margin: 0px 0px 0px 0px ;
+    margin: 5px 5px 5px 5px;
 }
+
 header
 {
     align-items: flex-start ;
@@ -35,44 +38,41 @@ header
     order: 3 ;
 }
 /* 2)Navigation */
-nav
+#logobooki img
 {
-    margin: 0% 3% 0% 0%;
+    display: flex;
+    width: 30%;
+    height: 10%;
+    object-fit: cover;
+    margin: 5% 10% 5% 35% ;
+}
+nav 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 10px;
 }
 nav a
 {
-    font-size: 140%;
-    display: flex;
+    font-size: 120%;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    list-style: none;
-    color: #181818;
-    text-decoration: none;
-    border-bottom: 3px solid transparent;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    padding-right: 16%;
-    padding-left: 18%;
-    margin: 1% 0% 3% 0%; 
+    padding-top: 7%;
+    padding-bottom: 6%;
+    padding-right: 17%;
+    padding-left: 19%;
 }
 
 nav :hover
 {
     color: #0065FC;
     border-bottom: 3px solid #0065FC;
-    padding-bottom: 40px;
+    padding-bottom: 6%;
     border-top: #FFFFFF;
 }
 
-#logobooki img
-{
-    display: flex;
-    width: 30%;
-    height: 80px;
-    object-fit: cover;
-    margin: 10% 10% 5% 35% ;
-}
+
 /* 3)Header */
 
 header
@@ -90,12 +90,14 @@ header h1
     border: 1px solid #ffffff;
     border-radius: 0px;
     background-color:#ffffff;
+    margin-left: 25px;
 }
 header h3
 {
     color: #181818;
     font-size: 130% ;
     font-weight: normal ;
+    margin-left: 30px;
 }
 
 /* 4)Barre de recherche */
@@ -122,7 +124,8 @@ header h3
 #search2 input 
 {
     height: 62px;
-    width: 240px;
+    width: 100%;
+    min-width: 150px;
     font-size: 1.2em;
     padding-right: 0px;
     border: 1px solid #F2F2F2;
@@ -322,21 +325,21 @@ header h3
 aside h3
 {
     color : #000000;
-    font-size: 1.3em ;
+    font-size: 110% ;
     font-weight: normal ; 
-    margin: 5px 5px 15px 5px ; 
+    margin-left: 4%;
 }
 aside i
 {
     height: 25px;
-    width: 35px ;
+    width: 30px ;
     font-size: 1.2em ;
     padding-top: 2px;
     background-color: #ffffff;
     color: #0065FC;
     border: 1px solid #F2F2F2;
     border-radius: 100px;
-    margin: 5px 5px 5px 5px ; 
+    margin: 5px 0px 5px 5px ; 
     box-shadow: 0px 0px 2px #545454;
 }
 aside :hover
@@ -511,7 +514,7 @@ main
     border: 10px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 10px 10px 10px 10px;
+    margin: 20px 10px 10px 0px;
 }
 #hebergements  h4
 {
@@ -538,7 +541,7 @@ main
     border:4px solid #ffffff;
     border-radius: 25px;
     background-color:#FFFFFF;   
-    margin: 20px 0px 0px 0px; 
+    margin: 20px 0px 0px -25px; 
 }    
 #port
 {
@@ -547,7 +550,7 @@ main
     border: 4px solid #ffffff;
     border-radius: 25px;
     background-color:#FFFFFF;   
-    margin: 20px 0px 0px 0px; 
+    margin: 20px 0px 0px -25px; 
 }
 #mouettes
 {
@@ -556,7 +559,7 @@ main
     border: 4px solid #ffffff;
     border-radius: 25px;
     background-color:#FFFFFF;   
-    margin: 20px 0px 0px 0px; 
+    margin: 20px 0px 0px -25px; 
 }
 #mer
 {
@@ -565,7 +568,7 @@ main
     border: 4px solid #ffffff;
     border-radius: 25px;
     background-color:#FFFFFF;   
-    margin: 20px 0px 0px 0px; 
+    margin: 20px 0px 0px -25px; 
 }
 #panier
 {
@@ -574,7 +577,7 @@ main
     border: 4px solid #ffffff;
     border-radius: 25px;
     background-color:#FFFFFF;   
-    margin: 20px 0px 0px 0px; 
+    margin: 20px 0px 0px -25px; 
 }
 #amina
 {
@@ -583,11 +586,12 @@ main
     border: 4px solid #ffffff;
     border-radius: 25px;
     background-color:#FFFFFF;   
-    margin: 20px 0px 0px 0px; 
+    margin: 20px 0px 0px -25px; 
 }
 #hebergements h5
 {
     font-size: 1.2em ;  
+    color: #FFFFFF;
     margin: 20px 10px 20px 10px ;  
 }
 /* c)Activites */
@@ -610,11 +614,11 @@ article
 {
     font-size: 160%;
     font-weight: bold; 
-    padding-right: 150px;
+    justify-content: center;
     border: 10px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
-    margin: 5% 5% 10% 5% ;
+    margin: 10px 0px 10px -70px ;
 }
 #activites h4
 {
@@ -625,14 +629,14 @@ article
 #activites img
 {
     width: 100%;
-    height: 190px;
+    height: 200px;
     border-top-left-radius: 25px ;
     border-top-right-radius: 25px;
 }
 #vieux
 {
     width: 85%;
-    height: 260px;
+    height: 270px;
     border: 0px solid #ffffff;
     border-radius: 30px;
     background-color:#FFFFFF;   
@@ -641,7 +645,7 @@ article
 #pomegues
 {
     width: 85%;
-    height: 260px;
+    height: 270px;
     border: 0px solid #ffffff;
     border-radius: 25px;
     background-color:#FFFFFF;   
@@ -650,16 +654,16 @@ article
 #frioul
 {
     width: 85%;
-    height: 260px;
+    height: 270px;
     border: 0px solid #ffffff;
     border-radius: 25px;
     background-color:#FFFFFF;  
-    margin: 5% 5% 1% 5% ;
+    margin: 5% 5% 10% 5% ;
 }
 #calanques
 {
     width: 85%;
-    height: 260px;
+    height: 270px;
     border: 0px solid #ffffff;
     border-radius: 25px;
     background-color:#FFFFFF;   
@@ -668,7 +672,7 @@ article
 #garde
 {
     width: 85%;
-    height: 260px;
+    height: 270px;
     border: 0px solid #ffffff;
     border-radius: 25px;
     background-color:#FFFFFF;   
@@ -677,7 +681,7 @@ article
 #longchamp
 {
     width: 85%;
-    height: 260px;
+    height: 270px;
     border: 0px solid #ffffff;
     border-radius: 25px;
     background-color:#FFFFFF;  
@@ -691,12 +695,12 @@ footer
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     position: relative;
     border: 10px solid #f2f2f2;
     border-radius: 0px;
     background-color:#F2F2F2;    
-    margin: 10px 0px 10px 0px ;
+    margin: 10px -20px 10px 0px ;
 }
 
 footer h1
@@ -721,18 +725,57 @@ footer h4
 }
 #a_propos
 {
+    justify-content: left;
     border: 10px solid #f2f2f2;
-    margin-left: 5% ;
+    margin-left: 10% ;
 }
 #nos_hebergements
 {
     border: 10px solid #f2f2f2;
-    margin-left: 2% ;
+    margin-left:  10% ;
 }
 #assistance
 {
     border: 10px solid #f2f2f2;
-    margin-left: 2% ;
+    margin-left:  10% ;
     padding-right: 11%;
+}
+@media screen and (max-width: 500px)
+{
+    nav a
+    {
+    font-size: 105%;
+    padding-left: 5%;
+    padding-right: 12%;
+    }
+     #search1 i
+    {
+    height: 34px;
+    width: 25px;
+    font-size: 120%;
+    padding-top: 10px;
+    text-align: center;
+    border: 10px solid #F2F2F2;
+    border-bottom-left-radius: 15px ;
+    border-top-left-radius: 15px ;
+    background-color: #F2F2F2;
+    }
+    #search2 input 
+    {
+    margin-left: 0px;
+    min-width: 170px;
+    }
+    #search #search4 a
+    {
+    height: 33px;
+    width: 35px;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding-top: 10px;
+    color: #FFFFFF;
+    border: 10px solid #0065FC;
+    border-radius: 20px ;
+    background-color: #0065FC;
+    }
 }
 }

@@ -15,6 +15,7 @@ header
 }
 a 
 {
+    display: flex;
     text-decoration: none;
     color: #181818;
 }
@@ -60,7 +61,7 @@ nav :hover
     width: 100px;
     height: 60px;
     object-fit: cover;
-    margin: 20px 0px 10px 20px ;
+    margin: 20px 0px 10px 35px ;
 }
 
 /* 3)Header */
@@ -69,14 +70,14 @@ header h1
 {
     font-size: 1.2em ;
     font-weight: bold;
-    margin: 20px 5px 0px 25px ;
+    margin: 20px 5px 0px 40px ;
 }
 header h3
 {
     font-size: 1em ;
     color : #606060 ;
     font-weight: normal ;
-    margin: 5px 5px 30px 30px ;
+    margin: 5px 5px 30px 40px ;
 }
 
 /* 4)Barre de recherche */
@@ -114,9 +115,7 @@ header h3
 #search #search3 a
 {
     font-size: 90%;
-    padding-bottom: 3px;
-    position: relative;
-    top:8px;
+    padding-bottom: 2px;
     font-weight: bold;
     color: #ffffff;
     border: 10px solid #0065FC;
@@ -172,13 +171,16 @@ header h3
 }
 #economique i
 {
-   font-size: 83%;
+   font-size: 92%;
    color: #0065FC;
    border: 12px solid #DEEBFF;
+   position: absolute;
+   top: -1.5px;
+   left: -1px;
    border-radius: 100px;
    background-color: #DEEBFF;
 }
-#economique :hover 
+#economique h3:hover 
 {
     color: #0065FC;
 } 
@@ -306,6 +308,10 @@ aside i
     margin: 0px -15px 5px 10px ; 
     box-shadow: 0px 0px 2px #c4c4c4;
 }
+aside i:hover
+{
+    color: #FFAD05;
+}
 aside :hover
 {
     color: #0065FC;
@@ -353,6 +359,7 @@ main
 {
     width: 28%;
     height: 215px;
+    cursor: pointer;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -363,8 +370,9 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 0px 10px 10px 30px ;
 }
-#cannebiere h4:hover
+#cannebiere :hover a
 {
+    cursor: pointer;
     color: #0065FC;
 }
 
@@ -397,6 +405,7 @@ main
 {
     width:28%;
     height: 215px;
+    cursor: pointer;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -407,7 +416,7 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 0px 10px 10px 20px ;
 }
-#port h4:hover
+#port :hover a
 {
     color: #0065FC;
 }
@@ -434,6 +443,7 @@ main
 {
     width: 28%;
     height: 215px;
+    cursor: pointer;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -444,7 +454,7 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 0px 10px 10px 20px ;
 }
-#mouettes h4:hover
+#mouettes :hover a
 {
     color: #0065FC;
 }
@@ -471,6 +481,7 @@ main
 {
     width: 28%;
     height: 215px;
+    cursor: pointer;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -481,7 +492,7 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 0px 10px 10px 30px ;
 }
-#mer h4:hover
+#mer :hover a
 {
     color: #0065FC;
 }
@@ -508,6 +519,7 @@ main
 {
     width: 28%;
     height: 215px;
+    cursor: pointer;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -518,7 +530,7 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 0px 10px 10px 20px ;
 }
-#panier h4:hover
+#panier :hover a
 {
     color: #0065FC;
 }
@@ -545,6 +557,7 @@ main
 {
     width:28%;
     height: 215px;
+    cursor: pointer;
     position: relative;
     border: 4px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -555,7 +568,7 @@ main
     box-shadow: 0px 0px 5px #c4c4c4;
     margin: 0px 20px 10px 20px ;
 }
-#amina h4:hover
+#amina :hover a
 {
     color: #0065FC;
 }
@@ -617,6 +630,7 @@ main
 {
     width: 90%;
     height: 160px;
+    cursor: pointer;
     border: 3px solid #FFFFFF;
     position: relative;
     border-bottom-left-radius: 25px;
@@ -643,7 +657,7 @@ main
     top: 25%;
     left: 45%;
 }
-#soleil h4:hover
+#soleil :hover a
 {
     color: #0065FC;
 }
@@ -651,6 +665,7 @@ main
 {
     width: 90%;
     height: 160px;
+    cursor: pointer;
     position: relative;
     border: 3px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -676,7 +691,7 @@ main
     top: 35%;
     left: 45%;
 }
-#eau h4:hover
+#eau :hover a
 {
     color: #0065FC;
 }
@@ -684,6 +699,7 @@ main
 {
     width: 90%;
     height: 160px;
+    cursor: pointer;
     position: relative;
     border: 3px solid #FFFFFF;
     border-bottom-left-radius: 25px;
@@ -709,7 +725,7 @@ main
     top: 35%;
     left: 45%;
 }
-#bleu h4:hover
+#bleu :hover a
 {
     color: #0065FC;
 }
@@ -725,7 +741,10 @@ main
     top: 4%;
     left: 85%;
 }
-
+#etoile i:hover
+{
+    color:#FFAD05;
+}
 /* c)Activites */
 
 #activites
@@ -761,6 +780,7 @@ main
 {
     width: 22%;
     height: 520px;
+    cursor: pointer;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -775,7 +795,7 @@ main
     width: 100%;
     height: 470px;
 }
-#vieux h4:hover
+#vieux :hover a
 {
     color: #0065FC;
 }
@@ -784,6 +804,7 @@ main
 {
     width: 100%;
     height: 240px;
+    cursor: pointer;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -798,7 +819,7 @@ main
     width: 100%;
     height: 190px;
 }
-#pomegues h4:hover
+#pomegues :hover a
 {
     color: #0065FC;
 }
@@ -806,6 +827,7 @@ main
 {
     width: 100%;
     height: 240px;
+    cursor: pointer;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -820,7 +842,7 @@ main
     width: 100%;
     height: 190px;
 }
-#frioul h4:hover
+#frioul :hover a
 {
     color: #0065FC;
 }
@@ -828,6 +850,7 @@ main
 {
     width: 22%;
     height: 520px;
+    cursor: pointer;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -842,7 +865,7 @@ main
     width: 100%;
     height: 470px;
 }  
-#calanques h4:hover
+#calanques :hover a
 {
     color: #0065FC;
 }
@@ -850,6 +873,7 @@ main
 {
     width: 100%;
     height: 240px;
+    cursor: pointer;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -864,7 +888,7 @@ main
     width: 100%;
     height: 190px;
 }
-#garde h4:hover
+#garde :hover a
 {
     color: #0065FC;
 }
@@ -872,6 +896,7 @@ main
 {
     width: 100%;
     height: 240px;
+    cursor: pointer;
     border: 0px solid #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -886,7 +911,7 @@ main
     width: 100%;
     height: 190px;
 }
-#longchamp:hover
+#longchamp:hover a
 {
     color: #0065FC;
 }
@@ -898,7 +923,6 @@ footer
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
     background-color: #f2f2f2;
     margin: 20px 0px 50px 0px ;
 }
@@ -924,7 +948,7 @@ footer h1
     font-weight: bold;
     margin: 25px 0px 15px 0px ;
 }
-footer h1:hover
+footer h1:hover a
 {
     color: #0065FC;
 }
@@ -934,9 +958,9 @@ footer h3
     font-size: 0.8em ;
     margin: 10px 0px 10px 0px ;
 }
-footer h3:hover
+footer h3:hover a
 {
-    color:#FFAD05;
+    color:#0065FC;
 }
 footer h4
 {
@@ -944,9 +968,9 @@ footer h4
     font-size: 0.8em ;
     margin: 10px 0px 30px 0px ;
 }
-footer h4:hover
+footer h4:hover a
 {
-    color:#FFAD05;
+    color:#0065FC;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1450px) {
